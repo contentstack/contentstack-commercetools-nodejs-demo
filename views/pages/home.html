@@ -1,0 +1,622 @@
+{% extends "index.html" %}
+{% block content %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{trackingId}}"></script>
+<script src="https://js.pusher.com/4.3/pusher.min.js"></script>
+<script type="text/javascript" src="/js/simpleCart.min.js"></script>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', "{{trackingId}}");
+
+    $(document).ready(function () {
+        simpleCart({
+            cartStyle: "div",
+            cartColumns: [
+                { view: "image", attr: "thumb", label: false },
+                { attr: "name", label: "Name" },
+                { attr: "price", label: "Price", view: "currency" },
+                { view: "decrement", label: false, text: " - " },
+                { attr: "quantity", label: "Qty" },
+                { view: "increment", label: false, text: " +" },
+                { view: "remove", text: "Remove", label: false }
+            ]
+        });
+
+        window.monetateQ = window.monetateQ || [];
+        window.monetateQ.push(["setPageType", "HomePage"]);
+        window.monetateQ.push(["trackData"]);
+
+    });
+
+</script>
+<script type="text/javascript">
+    Pusher.logToConsole = true;
+    var pusher = new Pusher("{{realtime.key}}", {
+        cluster: "{{realtime.cluster}}",
+        forceTLS: true
+    });
+    var channel = pusher.subscribe("{{realtime.channel}}");
+    channel.bind("{{realtime.event}}", function (data) {
+        location.reload();
+    });
+</script>
+<!-- linkedin tags-->
+<meta property='og:title' content='Sales demo app' />
+<meta property='og:image' content='{{first_banner.image.url}}' />
+<meta property='og:description' content='Demo app built using contentstack' />
+<meta property='og:url' content='{{url}}' />
+<!-- fb tags-->
+<meta property="og:title" content="Sales demo app" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="{{first_banner.image.url}}" />
+<meta property="og:url" content="{{url}}" />
+<meta property="og:description" content="Demo app built using contentstack" />
+<!-- For Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Sales demo app" />
+<meta name="twitter:description" content="Demo app built using contentstack" />
+<meta name="twitter:image" content="{{first_banner.image.url}}" />
+
+<body data-pageref="{{data.uid}}" data-contenttype="{{contentType}}">
+
+    <div class="main">
+        <div id="main-banner" class="clearfix">
+            <div class="bnr-left" style="background:url('{{first_banner.image.url}}')">
+                <div id="main-banner-first-section">
+                    {% for tag in first_banner.hashtags %}
+                    <span class="hastags">{{tag}}</span>
+                    {% endfor %}
+                    <span class="main-banner-section-text">{{first_banner.text}}</span>
+                    <a href="{{first_banner.button.href}}"><button type="button"
+                            class="btn btn-outline-primary main-banner-btn">{{first_banner.button.title}}</button></a>
+                </div>
+            </div>
+            <div class="bnr-right" style="background:url('{{data.main_banner.second_section.image.url}}')">
+                <div id="main-banner-second-section">
+                    {% for tag in data.main_banner.second_section.hashtags %}
+                    <span class="hastags">{{tag}}</span>
+                    {% endfor %}
+                    <span class="main-banner-section-text">{{data.main_banner.second_section.text}}</span>
+                    <a href="{{data.main_banner.second_section.button.href}}"><button type="button"
+                            class="btn btn-outline-primary main-banner-btn">{{data.main_banner.second_section.button.title}}</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="essential-section">
+            <div id="essential-right" class="col-sm">
+                <div class="float-left" id="essential-right-text-container">
+                    <span class="essential-title"> {{data.card.essentials.title}}</span>
+                    <span class="essential-text">{{data.card.essentials.text}}</span>
+                    <a href="{{data.card.essentials.button.href}}"><button type="button"
+                            class="btn btn-outline-primary main-banner-btn">{{data.card.essentials.button.title}}</button></a>
+                </div>
+                <div class="essntial-image  float-right">
+                    <img src="{{data.card.essentials.image.url}}" alt="{{data.card.essentials.image.title}}">
+                </div>
+            </div>
+            <div id="essential-left" class="col-sm">
+                <div class="essntial-image float-left">
+                    <img src="{{gift.image.url}}" alt="{{gift.image.title}}">
+                </div>
+                <div class="float-left" id="essential-left-text-container">
+                    <span class="essential-title"> {{gift.title}}</span>
+                    <span class="essential-text">{{gift.text}}</span>
+                    <a href="{{gift.button.href}}"><button type="button"
+                            class="btn btn-outline-primary main-banner-btn">{{gift.button.title}}</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="get-inspired">
+            <div id="get-inspired-text-section">
+                <div class="get-inspired-wrap">
+                    <span class="get-inspired-title"> {{data.get_inspired.title}}</span>
+                    <span class="get-inspired-text">{{data.get_inspired.text}}</span>
+                    <div id="get-inspired-carousel-nav">
+                          <a href="#" id="flex-prev-get-inspired" class="flex-prev"><i class="fa fa-arrow-left"
+                                aria-hidden="true"></i></a>
+                          <a href="#" id="flex-next-get-inspired" class="flex-next"><i class="fa fa-arrow-right"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="get-inspired-carousel" id="get-inspired-carousel">
+                {% for slide in data.get_inspired.carousel %}
+                <div>
+                    <div class="get-inspired-image">
+                        <img alt="{{slide.image.title}}" src="{{slide.image.url}}" />
+                    </div>
+                    <div class="get-inspired-slide-text-section">
+                        <span class="get-inspired-slide-title"> {{slide.title}}</span>
+                        <a class="get-inspired-slide-title" href="{{slide.link.href}}">{{slide.link.title}}</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="new-arrivals" id="new-arrivals">
+            {% for arrival in data.new_arrivals %}
+            <div class="arrival-container">
+                <span class="new-arrival-title"> {{arrival.title}}</span>
+                <div class="rowf" id="arrival">
+                    <div class="arrival-carousel-{{loop.index0}}" id="arrival-carousel-{{loop.index0}}">
+                        {% for slide in arrival.products %}
+                        <div>
+                            <div class="arrival-image">
+                                <a href="{{slide.url}}"> <img alt="{{slide.image.title}}"
+                                        src="{{slide.featured_image[0].url}}&height=225&width=225" /></a>
+                            </div>
+                            <div class="arrival-slide-text-section">
+                                <a href="{{slide.url}}"> <span class="arrival-slide-title">
+                                        {{slide.title}}</span></a><br>
+                                <a href="{{slide.link.url}}">{{slide.link.text}}</a>
+                                <span class="arrival-slide-title">$
+                                    {{(slide.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100)}}</span><br>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div id="arrival-custom-navigation-{{loop.index0}}">
+                      <a href="#" id="flex-prev-new-arrival-{{loop.index0}}" class="flex-prev"><i
+                            class="fa fa-arrow-left" aria-hidden="true"></i></a>
+                      <a href="#" id="flex-next-new-arrival-{{loop.index0}}" class="flex-next"><i
+                            class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <!-- shop instagram -->
+        <div style="text-align: center;" class="shop-instagram">
+            <span class="new-arrival-title"> Shop Instagram</span><br>
+            <ul class="slides" style="overflow:hidden ; white-space:nowrap;">
+                {% for slide in shop_instagram %}
+                <a href="{{slide.link.href}}">
+                    <li style="display:inline-block;">
+                            <div class="instagram-image">
+                                <img alt="{{slide.image.title}}" src="{{slide.image.url}}&height=175&width=229" />
+                            </div>
+                    </li>
+                </a>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</div>
+<style type="text/css">
+    @import url("https://use.typekit.net/bek0yja.css");
+
+    .flex-direction-nav {
+        display: none;
+    }
+
+    #main-banner {
+        position: relative;
+        text-align: center;
+        color: white;
+        width: 100%;
+        max-width: 1140px;
+        margin: 35px auto 0;
+    }
+
+    #main-banner .bnr-left,
+    #main-banner .bnr-right {
+        min-height: 402px;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+
+    #main-banner .bnr-left {
+        width: 63%;
+        float: left;
+        position: relative;
+    }
+
+    #main-banner .bnr-right {
+        width: 37%;
+        float: right;
+        position: relative;
+    }
+
+    /* Bottom left text */
+    #main-banner-first-section {
+        text-align: left;
+        position: absolute;
+        bottom: 50px;
+        left: 393px;
+    }
+
+    /* Bottom right text */
+    #main-banner-second-section {
+        text-align: left;
+        position: absolute;
+        bottom: 50px;
+        right: 20px;
+    }
+
+    .main-banner-section-text {
+        /* width: 256.6px; */
+        /* height: 75.3px; */
+        font-family: futura-pt, sans-serif;
+        font-size: 32px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #ffffff;
+        display: block;
+        margin-bottom: 18px;
+    }
+
+    #main-banner .main-banner-btn {
+        /* width: 106.7px; */
+        height: 34px;
+        object-fit: contain;
+        border-radius: 16px;
+        margin-top: 10px;
+        padding: 0 15px;
+        color: #c3c1c1;
+        border-color: #c3c1c1;
+    }
+
+    #main-banner .main-banner-btn:hover {
+        background: #c3c1c1;
+        color: #212529;
+    }
+
+    #main-banner .main-banner-btn:focus {
+        box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, .3);
+    }
+
+    .hastags {
+        /* width: 33px; */
+        /* height: 18px; */
+        display: inline-block;
+        font-family: futura-pt, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+    .hastags+.hastags {
+        display: inline-block;
+        margin-left: 18px;
+    }
+
+    #essential-left .main-banner-btn,
+    #essential-right .main-banner-btn {
+        /* width: 106.7px; */
+        height: 33px;
+        object-fit: contain;
+        border-radius: 16px;
+        margin-top: 20px;
+        padding: 0 15px;
+        color: #212529;
+        border-color: #212529;
+    }
+
+    #essential-left .main-banner-btn:hover,
+    #essential-right .main-banner-btn:hover {
+        background: #212529;
+        color: #ffffff;
+    }
+
+    #essential-right-text-container,
+    #essential-left-text-container {
+        display: inline-block;
+        text-align: center;
+        width: 37%;
+    }
+
+    #essential-section {
+        width: 100%;
+        max-width: 1140px;
+        margin: 40px auto 0;
+    }
+
+    #essential-left {
+        box-shadow: rgba(0, 0, 0, 0.1) 12px 2px 25px 0px;
+    }
+
+    #essential-right {
+        box-shadow: rgba(0, 0, 0, 0.1) -12px 2px 25px 0px;
+    }
+
+    #essential-section #essential-left-text-container,
+    #essential-section #essential-right-text-container {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0 5px;
+    }
+
+    #essential-section .essential-title {
+        display: block;
+        position: relative;
+        margin-bottom: 18px;
+        font-family: futura-pt, sans-serif;
+        font-size: 32px;
+        font-weight: 300;
+    }
+
+    #essential-section .essential-title::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        background: #b1b110;
+    }
+
+    #essential-section .essential-text {
+        display: block;
+        position: relative;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    #get-inspired {
+        width: 100%;
+        max-width: 1140px;
+        margin: 40px auto 0;
+    }
+
+    #get-inspired .get-inspired-wrap {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0 5px;
+    }
+
+    #get-inspired .get-inspired-title {
+        display: block;
+        position: relative;
+        margin-bottom: 18px;
+        font-family: futura-pt, sans-serif;
+        font-size: 32px;
+        font-weight: 300;
+        color: #181818;
+    }
+
+    #get-inspired .get-inspired-title::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        background: #b1b110;
+    }
+
+    #get-inspired .get-inspired-text {
+        font-size: 12px;
+        line-height: 1.67;
+        margin-bottom: 20px;
+        display: block;
+        color: #181818;
+    }
+
+    #get-inspired .flex-prev,
+    #get-inspired .flex-next,
+    #new-arrivals .flex-prev,
+    #new-arrivals .flex-next {
+        width: 34px;
+        height: 34px;
+        font-size: 12px;
+        background-color: #fff;
+        color: #737373;
+        border: 1px solid #afabab;
+        border-radius: 26px;
+        transition: 0.3s;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    #get-inspired .flex-prev:hover,
+    #get-inspired .flex-next:hover,
+    #new-arrivals .flex-prev:hover,
+    #new-arrivals .flex-next:hover {
+        background-color: #181818;
+        color: #ffffff;
+        border-color: #181818;
+    }
+
+    #get-inspired .get-inspired-slide-text-section .get-inspired-slide-title {
+        font-size: 14px;
+        text-align: center;
+        color: #181818;
+        margin-top: 10px;
+        display: block;
+    }
+
+    #get-inspired .get-inspired-slide-text-section a {
+        font-size: 12px;
+        color: #737373;
+        text-decoration: underline;
+    }
+
+    #get-inspired .get-inspired-slide-text-section a:hover {
+        text-decoration: none;
+    }
+
+    #new-arrivals {
+        text-align: center;
+        border-top: 1px solid #a59f9f;
+        margin-top: 80px;
+    }
+
+    #new-arrivals .arrival-container {
+        margin-top: 50px;
+        position: relative;
+    }
+
+    #new-arrivals .flex-prev,
+    #new-arrivals .flex-next {
+        position: absolute;
+        left: 125px;
+        top: 52%;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .3);
+    }
+
+    #new-arrivals .flex-next {
+        left: auto;
+        right: 125px;
+    }
+
+    #new-arrivals #arrival {
+        margin-top: 60px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .new-arrival-title {
+        display: block;
+        font-size: 32px;
+        font-weight: 300;
+        color: #181818;
+        position: relative;
+        text-align: center;
+    }
+
+    .new-arrival-title::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        background: #b1b110;
+    }
+
+    .womens-carousel {
+        padding: 40px 0 50px;
+    }
+
+    .womens-carousel .shop-instagram #arrival {
+        margin: 0;
+    }
+
+    #womens-arrival-carousel {
+        width: 100%;
+        max-width: 1140px;
+        margin: 40px auto 0;
+    }
+
+    #womens-arrival-carousel .slides {
+        margin: 0;
+        padding: 0;
+    }
+
+    #womens-arrival-carousel .slides li {
+        margin-left: -6px;
+    }
+
+    .arrival-slide-text-section .arrival-slide-title {
+        font-size: 12px;
+        text-align: center;
+        color: #181818;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .arrival-slide-text-section a {
+        font-size: 12px;
+        color: #181818;
+    }
+
+    div#get-inspired-text-section {
+        width: 18.64%;
+        text-align: center;
+    }
+
+    #get-inspired-carousel {
+        width: 72%;
+        margin-left: 3%;
+    }
+
+    li.get-inspired-slide-container {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    div#arrival-text-section {
+        width: 18.64%;
+        text-align: center;
+    }
+
+    #arrival-carousel {
+        width: 72%;
+        margin-left: 3%;
+    }
+
+    li.arrival-slide-container {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .slick-slide img {
+        display: inline;
+    }
+</style>
+<script type="text/javascript">
+    $(window).load(function () {
+        $('.get-inspired-carousel').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            nextArrow: $('#flex-next-get-inspired'),
+            prevArrow: $('#flex-prev-get-inspired')
+        });
+
+        {% for arrival in data.new_arrivals %}
+        $('.arrival-carousel-{{loop.index0}}').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 4,
+            prevArrow: $('#flex-prev-new-arrival-{{loop.index0}}'),
+            nextArrow: $('#flex-next-new-arrival-{{loop.index0}}'),
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: true,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: true,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+        {% endfor %}
+    });
+
+
+    console.log("giftVairant", {{ giftVairant }}+1);
+    console.log("bannerVariant", {{ bannerVariant }}+1);
+</script>
+{% endblock %}

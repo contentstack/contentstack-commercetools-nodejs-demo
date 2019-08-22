@@ -1,0 +1,482 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>e-commerce site | {{product.seo.title}}</title>
+	<!-- Begin Monetate ExpressTag Sync v8.1. Place at start of document head. DO NOT ALTER. -->
+	<script type="text/javascript">var monetateT = new Date().getTime();</script>
+	<script type="text/javascript" src="{{monetate}}"></script>
+	<!-- End Monetate tag. -->
+	<!-- linkedin tags-->
+	<meta property='og:title' content='{{product.title}}' />
+	<meta property='og:image' content='{{product.featured_image[0].url}}' />
+	<meta property='og:description' content='{{product.seo.description}}' />
+	<meta property='og:url' content='{{url}}{{product.url}}' />
+	<!-- fb tags-->
+	<meta property="og:title" content="{{product.title}}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:image" content="{{product.featured_image[0].url}}" />
+	<meta property="og:url" content="{{url}}{{product.url}}" />
+	<meta property="og:description" content="{{product.seo.description}}" />
+	<!-- For Twitter -->
+	<meta name="twitter:card" content="{{product.seo.description}}" />
+	<meta name="twitter:title" content="{{product.title}}" />
+	<meta name="twitter:description" content="{{product.seo.description}}" />
+	<meta name="twitter:image" content="{{product.featured_image[0].url}}" />
+
+	{% if landing.seo.block_indexing %}
+	<meta name="robots" content="noindex">
+	{% endif %}
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- css -->
+	<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="all" />
+	<!--// css -->
+	<!-- font -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link
+		href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
+		rel='stylesheet' type='text/css'>
+	<!-- //font -->
+	<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+	<script src="https://js.pusher.com/4.3/pusher.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="/js/script.js"></script>
+	<script type="text/javascript" src="/js/simpleCart.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+</head>
+{% block content %}
+
+<body data-pageref="{{product.uid}}" data-contenttype="{{contentType}}">
+
+	{% include "partials/header.html" %}
+	<script type="text/javascript">
+		Pusher.logToConsole = true;
+		var pusher = new Pusher("{{realtime.key}}", {
+			cluster: "{{realtime.cluster}}",
+			forceTLS: true
+		});
+		var channel = pusher.subscribe("{{realtime.channel}}");
+		channel.bind("{{realtime.event}}", function (data) {
+			location.reload();
+		});
+
+		$('.input-number-increment').click(function () {
+			var $input = $(this).parents('.input-number-group').find('.input-number');
+			var val = parseInt($input.val(), 10);
+			$input.val(val + 1);
+		});
+		$('.input-number-decrement').click(function () {
+			var $input = $(this).parents('.input-number-group').find('.input-number');
+			var val = parseInt($input.val(), 10);
+			if (val != 0) {
+				$input.val(val - 1);
+			}
+		})
+	</script>
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{trackingId}}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', "{{trackingId}}");
+	</script>
+
+
+	<section class="main-content">
+		<div class="products">
+			<div class="container">
+				<div class="row">
+					<div class="single-page">
+						<div class="single-page-row" id="detail-21">
+							<ol class="arrows">
+								<li><a href="{{url}}{{product.categories[0].url}}">{{product.categories[0].title}}</a>
+								</li>
+								<li style="color:#d4c694">Featured</li>
+							</ol>
+							<div class="col-md-6 single-top-left vcenter col-md-push-1">
+
+								<div class="thumb-image detail_images flexslider">
+
+									<ul class="slides">
+										{% for image in product.featured_image %}
+										<li data-thumb="{{ image.url }}" stype="margin-top: 40px; margin-left: 40px;">
+											<img src="{{ image.url }}" style="object-fit:contain; height: 372px;"
+												data-imagezoom="true" alt="Image" draggable="false">
+										</li>
+										{% endfor %}
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-6 single-top-right vcenter">
+								<!-- card detail start here -->
+								<div class="start-icon" style="display:inline">
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star "></span>
+									<span class="fa fa-star "></span>
+								</div>
+								<div class="reviews" style="display:inline">2 (reviews)</div>
+								<h3 class="item_name">{{ product.title }}</h3>
+								<div class="single-price">
+									<ul>
+
+										<li class="offer-price-text">$
+											{{ product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100 }}
+										</li>
+									</ul>
+								</div>
+
+								<p class="single-price-text">{{ product.description | safe }}</p>
+								<div class="input-group input-number-group">
+									<div class="input-group-button">
+										<span class="input-number-decrement">-</span>
+									</div>
+									<input class="input-number" type="number" value="1" min="0" max="1000">
+									<div class="input-group-button">
+										<span class="input-number-increment">+</span>
+									</div>
+								</div>
+								<div class="simpleCart_shelfItem">
+									<h2 style="display:none" class="item_name">{{ product.title }}</h2>
+									<img style="display:none" class="item_thumb"
+										src="{{product.featured_image[0].url}}?width=70&height=70" alt="Item Alt">
+									<span style="display:none"
+										class="item_price">{{ product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100 }}</span>
+									<a href="javascript:;" class="item_add_simplecart item_add">Add to Cart</a>
+								</div>
+								<div class="itemDetails">
+									<ul>
+										<li><strong>Categories:</strong>Lorem ipsum lorem ipsum</li>
+										<li><strong>Tags:</strong>Lorem ipsum lorem ipsum</li>
+									</ul>
+								</div>
+								<div class="item-socialLinks">
+									<ul>
+										<span>Share on</span>
+										<li>
+											<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+										</li>
+									</ul>
+								</div>
+
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<!-- //collapse -->
+			</div>
+		</div>
+		{% if product.related_products.length != 0 %}
+		<div class="recommendation">
+			<h4>Related Products</h4>
+			<div class="recommended-carousel" id="recommended-carousel">
+				{% for related in product.related_products %}
+				<div>
+					<div class="recommended-image product-img">
+						<a href="{{related.url}}"> <img alt="{{related.image.title}}"
+								src="{{related.featured_image[0].url }}&height=225&width=225" /> </a>
+
+					</div>
+					<div class="recommended-slide-text-section">
+						<a href="{{related.url}}" class="recommended-title recommended-slide-title">
+							{{related.title}}</a> </br>
+						<span class="recommended-text recommended-slide-title">$
+							{{related.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100}}</span>
+
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+			{% if product.related_products.length > 4 %}
+			<div id="recommended-carousel-nav">
+				<a href="#" id="flex-prev-recommended" class="flex-prev slick-arrow"><i class="fa fa-arrow-left"
+						aria-hidden="true"></i></a>
+				<a href="#" id="flex-next-recommended" class="flex-next slick-arrow"><i class="fa fa-arrow-right"
+						aria-hidden="true"></i></a>
+			</div>
+			{% endif %}
+		</div>
+		{% endif %}
+	</section>
+	{% endblock %}
+</body>
+
+</html>
+<style>
+	@import url("https://use.typekit.net/bek0yja.css");
+
+	.recommendation {
+		position: relative;
+	}
+
+	.recommendation .recommended-carousel {
+		margin-top: 60px;
+	}
+
+	#recommended .recommended-slide-text-section .slick-slide {
+		width: 285px;
+	}
+
+	.recommendation .slick-initialized .slick-slide {
+		padding: 0 5px;
+	}
+
+	.recommendation .recommended-slide-text-section .recommended-slide-title {
+		font-family: futura-pt, sans-serif;
+		font-size: 12px;
+		text-align: center;
+		color: #181818;
+		margin-top: 10px;
+		display: block;
+	}
+
+	.recommendation .recommended-slide-text-section a {
+		font-size: 12px;
+		color: #737373;
+		text-decoration: none;
+	}
+
+	.recommendation .recommended-slide-text-section a:hover {
+		text-decoration: underline;
+	}
+
+	div#recommended-text-section {
+		width: 18.64%;
+		text-align: center;
+	}
+
+	li.recommended-slide-container {
+		margin-left: 20px;
+		text-align: center;
+	}
+
+	#recommended-carousel-nav .flex-next,
+	#recommended-carousel-nav .flex-prev {
+		width: 34px;
+		height: 34px;
+		font-size: 12px;
+		font-family: futura-pt, sans-serif;
+		background-color: #fff;
+		color: #737373;
+		border: 1px solid #afabab;
+		border-radius: 26px;
+		transition: 0.3s;
+		display: inline-block;
+		text-align: center;
+		line-height: 30px;
+	}
+
+	#recommended-carousel-nav .flex-next:hover,
+	#recommended-carousel-nav .flex-prev:hover {
+		background-color: #181818;
+		color: #ffffff;
+		border-color: #181818;
+	}
+
+	#recommended-carousel {
+		width: 100%;
+		padding: 0 60px;
+	}
+
+	#recommended-carousel-nav .flex-prev,
+	#recommended-carousel-nav .flex-next {
+		position: absolute;
+		left: 125px;
+		top: 52%;
+		box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .3);
+	}
+
+	#recommended-carousel-nav .flex-next {
+		left: auto;
+		right: 125px;
+	}
+
+
+	.flex-direction-nav {
+		position: relative;
+		top: 15px;
+		left: -66px;
+		width: 24px;
+	}
+
+	.flex-direction-nav li {
+		display: inline-block;
+	}
+
+	.flex-nav-next {
+		float: right;
+		margin-top: -2px;
+	}
+
+	.flex-direction-nav li a {
+		border: solid black;
+		border-width: 0 1px 1px 0;
+		display: inline-block;
+		padding: 3px;
+	}
+
+
+	.up {
+		transform: rotate(-135deg);
+		-webkit-transform: rotate(-135deg);
+	}
+
+	.down {
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+	}
+
+	/*breadcrumb*/
+	.arrows {
+		white-space: nowrap;
+		margin-left: -40px;
+		margin-bottom: 0px;
+	}
+
+	.arrows li {
+		display: inline-block;
+		line-height: 1px;
+		margin: 0 0px 0 0px;
+		padding: 0 15px;
+		position: relative;
+	}
+
+	.arrows li::before,
+	.arrows li::after {
+		border-right: 1px solid #666666;
+		content: '';
+		display: block;
+		height: 50%;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: -1;
+		transform: skewX(45deg);
+	}
+
+	.arrows li::after {
+		bottom: 0;
+		top: auto;
+		transform: skewX(-45deg);
+	}
+
+	.arrows li:last-of-type::before,
+	.arrows li:last-of-type::after {
+		display: none;
+	}
+
+	.arrows li a {
+		font: bold 12px Sans-Serif;
+		letter-spacing: -1px;
+		text-decoration: none;
+	}
+
+	.arrows li:nth-of-type(1) a {
+		color: hsl(0, 0%, 70%);
+	}
+
+	.arrows li:nth-of-type(2) a {
+		color: hsl(0, 0%, 65%);
+	}
+
+	.arrows li:nth-of-type(3) a {
+		color: hsl(0, 0%, 50%);
+	}
+
+	.arrows li:nth-of-type(4) a {
+		color: hsl(0, 0%, 45%);
+	}
+
+	@media screen and (max-width: 991px) {
+		.single-top-right {
+			padding-left: 5em;
+		}
+
+		.flex-direction-nav {
+			top: 16px !important;
+			left: 1px !important;
+		}
+
+		.flex-viewport .slides img {
+			margin-left: 80px !important;
+			width: 81% !important;
+			height: 369px !important;
+		}
+
+	}
+
+	@media screen and (max-width: 890px) {
+		.flex-viewport .fiexslider img {
+			margin-right: -47px;
+		}
+
+		.flex-viewport .flexslider {
+			margin: 50px;
+		}
+
+		.flex-viewport .flex-control-nav {
+			left: -3% !important;
+		}
+	}
+</style>
+
+
+<script>
+	$(window).load(function () {
+		$('.recommended-carousel').slick({
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			nextArrow: $('#flex-next-recommended'),
+			prevArrow: $('#flex-prev-recommended')
+		});
+
+		window.monetateQ = window.monetateQ || [];
+		window.monetateQ.push(["setPageType", "ProductPage"]);
+		window.monetateQ.push(["trackData"]);
+
+		$(".flex-next").text("");
+		$(".flex-prev").text("");
+		$(".flex-prev").addClass("up");
+		$(".flex-next").addClass("down");
+
+		simpleCart({
+			cartStyle: "div",
+			cartColumns: [
+				{ view: "image", attr: "thumb", label: false },
+				{ attr: "name", label: "Name" },
+				{ attr: "price", label: "Price", view: "currency" },
+				{ view: "decrement", label: false, text: " - " },
+				{ attr: "quantity", label: "Qty" },
+				{ view: "increment", label: false, text: " +" },
+				{ view: "remove", text: "Remove", label: false }
+			]
+		});
+	});
+</script>
