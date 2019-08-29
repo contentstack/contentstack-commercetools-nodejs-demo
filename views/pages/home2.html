@@ -9,27 +9,6 @@
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', "{{trackingId}}");
-
-    $(document).ready(function () {
-        simpleCart({
-            cartStyle: "div",
-            cartColumns: [
-                { view: "image", attr: "thumb", label: false },
-                { attr: "name", label: "Name" },
-                { attr: "price", label: "Price", view: "currency" },
-                { view: "decrement", label: false, text: " - " },
-                { attr: "quantity", label: "Qty" },
-                { view: "increment", label: false, text: " +" },
-                { view: "remove", text: "Remove", label: false }
-            ]
-        });
-
-        window.monetateQ = window.monetateQ || [];
-        window.monetateQ.push(["setPageType", "HomePage"]);
-        window.monetateQ.push(["trackData"]);
-
-    });
-
 </script>
 <script type="text/javascript">
     Pusher.logToConsole = true;
@@ -63,61 +42,46 @@
 
     <div class="main home-main">
         <div id="main-banner" class="clearfix">
-            <div class="home-bnr" style="background:url('/images/FotTheWin.jpg')">
+            <div class="home-bnr" style="background:url('{{data.primary_banner_section.banner_image.url}}')">
                 <div class="home-banner-first-section">
-                    <h2>Essentials</h2>
-                    <p>Find the latest trends and looks for every occation and every location</p>
-                    <a href="#" class="btn main-banner-btn">Shop now</a>
+                    <h2>{{data.primary_banner_section.title}}</h2>
+                    <p>{{data.primary_banner_section.description}}</p>
+                    <a href="{{data.primary_banner_section.cta.link}}" class="btn main-banner-btn">{{data.primary_banner_section.cta.title}}</a>
                 </div>
             </div>
         </div>
         <div id="essential-section" class="row">
             <div id="essential-right" class="col-sm">
-                <img src="/images/The Great Outdoor.jpg" alt="{{data.card.essentials.image.title}}">
+                <img src="{{data.first_card_column.image.url}}" alt="{{data.first_card_column.title}}">
             </div>
             <div id="essential-left" class="col-sm">
                 <div class="essntial-desc">
-                    <h3>Essentials</h3>
-                    <p>Find the latest trends and looks for every occation and every location</p>
-                    <a href="#" class="btn main-banner-btn">Shop now</a>
+                    <h3>{{data.first_card_column.title}}</h3>
+                    <p>{{data.first_card_column.description}}</p>
+                    <a href="{{data.first_card_column.cta.link}}" class="btn main-banner-btn">{{data.first_card_column.cta.title}}</a>
                 </div>
             </div>
         </div>
         <div id="second-banner" class="clearfix">
-            <div class="second-bnr" style="background:url('/images/tech-banner.jpg')">
+            <div class="second-bnr" style="background:url('{{data.secondary_banner_section.banner_image.url}}')">
                 <div class="banner-second-section">
-                    <h2>Essentials</h2>
-                    <p>Find the latest trends and looks for every occation and every location</p>
-                    <a href="#" class="btn main-banner-btn">Shop now</a>
+                    <h2>{{data.secondary_banner_section.title}}</h2>
+                    <p>{{data.secondary_banner_section.description}}</p>
+                    <a href="{{data.primary_banner_section.cta.link}}" class="btn main-banner-btn">{{data.primary_banner_section.cta.title}}</a>
                 </div>
             </div>
         </div>
         <div id="gift-section" class="row">
             <div id="gift-left" class="col-sm">
                 <div class="gift-desc">
-                    <h3>Gifts for Him</h3>
-                    <p>Hand-selected selection of gifts for the special woman curated by our brand ambassador.</p>
-                    <a href="#" class="btn main-banner-btn">Shop for him</a>
+                    <h3>{{data.secondary_card_column.title}}</h3>
+                    <p>{{data.secondary_card_column.description}}</p>
+                    <a href="{{data.secondary_card_column.cta.link}}" class="btn main-banner-btn">{{data.secondary_card_column.cta.title}}</a>
                 </div>
             </div>
             <div id="gift-right" class="col-sm">
-                <img src="/images/Travel by Train.jpg" alt="Travel by Train.jpg">
+                <img src="{{data.secondary_card_column.image.url}}" alt="{{data.secondary_card_column.title}}">
             </div>
-        </div>
-        <!-- shop instagram -->
-        <div style="text-align: center;" class="shop-instagram">
-            <span class="new-arrival-title"> Shop Instagram</span><br>
-            <ul class="slides" style="overflow:hidden ; white-space:nowrap;">
-                {% for slide in shop_instagram %}
-                <a href="{{slide.link.href}}">
-                    <li style="display:inline-block;">
-                            <div class="instagram-image">
-                                <img alt="{{slide.image.title}}" src="{{slide.image.url}}&height=175&width=229" />
-                            </div>
-                    </li>
-                </a>
-                {% endfor %}
-            </ul>
         </div>
     </div>
 </body>

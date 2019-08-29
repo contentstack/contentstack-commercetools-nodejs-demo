@@ -7,8 +7,8 @@ module.exports = (app) => {
 	app.use('/:locale/category', require('./category'));
 	app.use('/:locale/product', require('./product'));
 	app.use('/product', require('./product'));
-	app.use('/home2', (req,res)=>{
-		console.log("+++++++");
-		res.render('pages/home2');
-	});
+	// app.use('/home2', (req,res)=>{
+	// 	console.log("+++++++");
+	// 	res.render('pages/home2');
+	// });
 };

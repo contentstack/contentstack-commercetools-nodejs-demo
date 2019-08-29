@@ -1,9 +1,9 @@
 module.exports = exports = {
-	port: 7000,
+	port: 9000,
 	// Contentstack Config
 	contentstack: {
-		api_key: 'blt05adc96b4913bf57',
-		access_token: 'blt8b902fe85a3ee887'
+		api_key: 'blt46b41fcb2281c147',
+		access_token: 'blt000be04d0eeb18ee'
 	},
 	analytics: {
 		trackingId: "UA-127193780-3"
