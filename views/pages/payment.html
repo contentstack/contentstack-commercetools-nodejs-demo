@@ -4,88 +4,34 @@
   <script type="text/javascript">
 
 
-  // function getRequestBody(cartObj){
-  //   let obj= JSON.parse(cartObj);
-
-  //   let bodyArray=[];
-
-  //   Object.keys(obj).map((key)=>{
-  //     bodyArray.push({obj[key].product, obj[key].quantity})
-  //   })
-
-  // }
-
-  let data ={
-    id:`{{cartId}}`
-  }
-
-  console.log(data);
 
 
-
-  async function getRequestBody(cartObj){
-     let obj= JSON.parse(cartObj);
-    let bodyArray=[];
-
-    Object.keys(obj).map((key)=>{
-      bodyArray.push({productId:obj[key].product, quantity:obj[key].quantity})
-    })
-
-    console.log(cartObj,"cartobject");
-
-    console.log("bodyArray",JSON.stringify(bodyArray));
-
-
-    let response =  await fetch(`/createOrder`,{
-      method:"POST",
-      headers: {
-            'Content-Type': 'application/json',
-      },
-      body:JSON.stringify(bodyArray)
-    })
-    let responseResolved = await response.json();
-    
-    console.log(responseResolved);
-    if(responseResolved.status == 200){
-      window.localStorage.clear();
-      alert('your order has been create with order Id='+responseResolved.orderId);
-      window.open('/','_self');
-    }
-
-  }
-
-async function dinesh(){
-
-
+async function createOrder(){
   if(!$('#fname').val() && !$('#email').val() && !$('#cname').val() && !$('#adr').val()){
     return alert("please enter valid details first");
   }
 
-  let orderResponse = await fetch('/createOrder',{
-    method:"POST",
-    headers: {
+  try {
+    let orderResponse = await fetch('/createOrder',{
+      method:"POST",
+      headers: {
             'Content-Type': 'application/json',
-    },
-    body:JSON.stringify({id:`{{cartId}}`})
-  })
+      },
+      body:JSON.stringify({id:`{{cartId}}`})
+    })
 
-  let orderResponseResolved = await orderResponse.json();
+    let orderResponseResolved = await orderResponse.json();
 
-  console.log("----- dineesh cllaed",orderResponseResolved);
-
-  if(orderResponseResolved.status ==200){
-    alert("your order has been created with order Id="+orderResponseResolved.orderId)
-    window.localStorage.clear();
-    window.open('/','_self');
-  }
-
-  // if(window.localStorage.simpleCart_items){
-  //   getRequestBody(window.localStorage.simpleCart_items);
-
-  //   console.log(window.localStorage)
-
-  //   console.log(window.localStorage.simpleCart_items,"----");
-  // }
+    if(orderResponseResolved.status ==200){
+      alert("your order has been created with order Id="+orderResponseResolved.orderId)
+      window.localStorage.clear();
+      window.open('/','_self');
+    }else {
+      alert("Could not create order. Please try again later");
+    }
+  }catch(err){
+    alert("Could not create order. Please try again later Error"+err);
+  }  
 }
 
 
@@ -271,7 +217,7 @@ span.price {
         <label>
           <input type="checkbox" checked="checked" name="sameadr" required> Shipping address same as billing
         </label>
-        <input id="submit" onclick="dinesh()" type="button" value="Continue to checkout" class="btn">
+        <input id="submit" onclick="createOrder()" type="button" value="Continue to checkout" class="btn">
       </form>
     </div>
   </div>

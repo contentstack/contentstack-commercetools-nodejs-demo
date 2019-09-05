@@ -53,7 +53,7 @@
 
 <script type="text/javascript">
 
-async function getRequestBody(cartObj){
+async function createCartFn(cartObj){
      let obj= JSON.parse(cartObj);
     let bodyArray=[];
 
@@ -61,52 +61,34 @@ async function getRequestBody(cartObj){
       bodyArray.push({productId:obj[key].product, quantity:obj[key].quantity})
     })
 
-    console.log(cartObj,"cartobject");
 
-    console.log("bodyArray",JSON.stringify(bodyArray));
+    try {
+        let cartResponse =  await fetch(`/createCart`,{
+        method:"POST",
+        headers: {
+                'Content-Type': 'application/json',
+        },
+        body:JSON.stringify(bodyArray)
+        })
+        let cartResponseResolved = await cartResponse.json();
 
-
-    let response =  await fetch(`/createCart`,{
-      method:"POST",
-      headers: {
-            'Content-Type': 'application/json',
-      },
-      body:JSON.stringify(bodyArray)
-    })
-    let responseResolved = await response.json();
-    
-    console.log(responseResolved,"----");
-
-
-    if(responseResolved.status == 200){
-        window.open(`/cart/${responseResolved.cartId}/pay`,'_self');
-    }
-
-    // console.log(responseResolved);
-    // if(responseResolved.status == 200){
-    //   window.localStorage.clear();
-    //   alert('your order has been create with order Id='+responseResolved.orderId);
-    //   window.open('/','_self');
-    // }
+        if(cartResponseResolved.status == 200){
+            window.open(`/cart/${cartResponseResolved.cartId}/pay`,'_self');
+        }
+        else {
+            alert("Sorry problem checking out, cart creation Error");
+        }
+     } catch(err){
+        alert("Sorry problem checking out, cart creation Error"+err);
+     }   
 
   }
 
 
-
-    $('.simpleCart_checkout_button').click( async function(event) {
-        
+    $('.simpleCart_checkout_button').click( async function(event) {     
         console.log("----"+simpleCart.items().length);
         if(simpleCart.items().length > 0){
-            //window.open('/payment','_self');
-            getRequestBody(window.localStorage.simpleCart_items);
-            // let cartResponse =  await fetch('/createCart',{
-            //     "method":"POST",
-            //     ""
-            // })
-
-            // let cartResolvedResponse = await cartResponse.json();
-
-            // console.log()
+            createCartFn(window.localStorage.simpleCart_items);  
         }
 
     });

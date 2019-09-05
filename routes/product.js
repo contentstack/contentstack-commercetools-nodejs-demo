@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const { getAllProducts } = require('../cmtest')
+const { getAllProducts } = require('../lib/commercetool')
 
 router.get('/:id', (req, res, next) => {
 	var url = req.path.split("/");
