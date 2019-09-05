@@ -1,0 +1,358 @@
+
+#content-wrap{
+    max-width: 990px;
+    min-width: 990px;
+
+}
+
+@media (min-width: 768px){
+   #layout h1 {
+       font-size: 31px;
+       padding: 20px 0 0px 0;
+       display: block !important;
+       box-sizing: border-box;
+       margin-left: 10px !important;
+    }
+}
+
+@media (min-width: 1180px){
+    .show-only-scr4, .only-scr4 {
+        display: block;
+    }
+}
+
+.quote-list{
+    min-height: 155px;
+}
+
+.dfEvent .df-gradient {
+    height: 240px
+}
+.dfEvent .orange-grad {
+    background: #e98300;
+    height: 240px
+}
+
+.mainEvent .front, .mainEvent .back {
+    height: 238px
+}
+
+.closedEvent .back {
+    display: none
+}
+
+.closedEvent:hover .back {
+    display: block
+}
+
+.closedEvent:hover .front {
+    display: none
+}
+
+.back {
+    color: #FFF;
+    background-color: #69aae2;
+    text-align: center;
+    height: 238px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+.back span {
+    display: block;
+    padding: 0px 12px 15px;
+    line-height: 1.5em
+}
+
+.followLinks {
+    width: 65px;
+    margin: 0px auto 0
+}
+
+.followLinks a {
+    background: url('/static/images/events_socialLinks.png') no-repeat;
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left
+}
+
+.followLinks .facebook {
+    background-position: 9px 4px;
+    margin-right: 5px
+}
+
+.followLinks .twitter {
+    background-position: -28px 4px
+}
+
+.green-flat {
+    background-color: #a1c348
+}
+
+.front .location {
+    height: 90px
+}
+
+.registrationOpen {
+    bottom: 10px;
+    left: 10px
+}
+
+.registrationOpen a {
+    border-radius: 5px;
+    color: #FFF
+}
+
+.quotation {
+    text-indent: -0.3em
+}
+
+.df-gradient {
+    background: #109ddb;
+    background: -moz-radial-gradient(center, ellipse cover, #57bcec 2%, #109ddb 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(2%, #57bcec), color-stop(100%, #109ddb));
+    background: -webkit-radial-gradient(center, ellipse cover, #57bcec 2%, #109ddb 100%);
+    background: -o-radial-gradient(center, ellipse cover, #57bcec 2%, #109ddb 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #57bcec 2%, #109ddb 100%);
+    background: radial-gradient(ellipse at center, #57bcec 2%, #109ddb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#57bcec', endColorstr='#109ddb', GradientType=1)
+}
+
+#flickr_badge_uber_wrapper {
+    text-align: center;
+    padding: 15px
+}
+
+.flickr_badge_image {
+    display: block;
+    float: left;
+    margin-left: 21px;
+    margin-bottom: 10px
+}
+
+@media all and (max-width: 479px) {
+    .dfEvent .df-gradient {
+        height: 240px
+    }
+    .dfEvent .orange-grad {
+        background: #e98300;
+        height: 240px
+    }
+
+    .mainEvent .front, .mainEvent .back {
+        height: 282px
+    }
+
+    .back .text {
+        font-size: 16px
+    }
+
+    .flickr_badge_image {
+        float: left
+    }
+}
+
+@media all and (min-width: 479px) and (max-width: 768px) {
+    .back .text {
+        font-size: 14px
+    }
+
+    .mainEvent .front, .mainEvent .back {
+        height: 233px
+    }
+
+    .flickr_badge_image {
+        float: left
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 989px) {
+    .front .location {
+        height: 123px
+    }
+
+    .dfEvent .df-gradient {
+        height: 238px
+    }
+    .dfEvent .orange-grad {
+        background: #e98300;
+        height: 238px
+    }
+
+    .back .text {
+        font-size: 14px
+    }
+}
+
+#moreEvents {
+    border: 1px solid #CCC;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+#moreEvents a {
+    font-family: SalesforceSansRegular, Arial, sans-serif;
+    font-size: 13px;
+    color: #333;
+    padding: 7px 0
+}
+
+#moreEvents a:hover {
+    background-color: #cfeff8
+}
+
+#moreEvents a .eventInner {
+    padding: 0 25px
+}
+
+#moreEvents .date {
+    width: 15%;
+    vertical-align: top
+}
+
+#moreEvents .titleLocal {
+    width: 85%
+}
+
+#moreEvents .title, #moreEvents .location {
+    display: inline-block;
+    float: left
+}
+
+#moreEvents .title {
+    width: 70%
+}
+
+#moreEvents .location {
+    width: 30%
+}
+
+#moreEvents .title span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #a3be2f;
+    text-transform: uppercase;
+    padding-left: 5px
+}
+
+#moreEvents .notOpen {
+    color: #909090
+}
+
+#moreEvents .notOpen .title span {
+    color: #69aae2
+}
+
+#eventsLocal {
+    margin-bottom: 5px
+}
+
+#eventsLocal li {
+    display: inline-block;
+    zoom: 1;
+    *display: inline
+}
+
+#eventsLocal span {
+    float: left
+}
+
+#eventsLocal ul {
+    margin-top: 2px
+}
+
+#eventsLocal a {
+    padding: 6px 9px;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 14px;
+    display: block;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    -webkit-transition-property: color, background-color;
+    -webkit-transition-duration: .15s, .15s;
+    -webkit-transition-timing-function: linear, ease-in
+}
+
+#eventsLocal a:hover, #eventsLocal .selected {
+    background: #486b91;
+    color: #FFF
+}
+
+.eventsNav {
+    text-align: left;
+    margin-left: 140px
+}
+
+#eventsLocal a {
+    display: inline-block
+}
+
+@media all and (max-width: 767px) {
+    #moreEvents .date {
+        width: 25%
+    }
+
+    #moreEvents .titleLocal {
+        width: 75%
+    }
+
+    #moreEvents .title, #moreEvents .location {
+        width: 100%;
+        display: block;
+        float: none;
+        margin-bottom: 5px
+    }
+}
+
+@media all and (max-width: 479px) {
+    #moreEvents .notOpen .openReg {
+        display: none
+    }
+
+    .openReg {
+        margin-top: 5px
+    }
+
+    #moreEvents {
+        border-width: 1px 0 1px;
+        height: auto;
+        overflow-y: visible
+    }
+
+    #moreEvents .openReg {
+        width: 100%;
+        display: block
+    }
+
+    #moreEvents a .eventInner {
+        padding: 0 5px
+    }
+
+    #moreEvents .date {
+        width: 30%
+    }
+
+    #moreEvents .titleLocal {
+        width: 70%
+    }
+
+    #eventsLocal span {
+        float: none;
+        display: block
+    }
+
+    .eventsNav {
+        margin-left: 0;
+        text-align: center
+    }
+
+    .eventsNav a {
+        margin-bottom: 10px
+    }
+}

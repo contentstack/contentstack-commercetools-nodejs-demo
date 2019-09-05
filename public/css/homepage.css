@@ -1,0 +1,1445 @@
+@font-face {
+    font-family: 'Salesforce Icons';
+    src: url('/cdn/fonts/symbols/symbols.eot');
+    src: url('/cdn/fonts/symbols/symbols.eot#iefix') format('embedded-opentype'), url('/cdn/fonts/symbols/symbols.woff') format('woff'), url('/cdn/fonts/symbols/symbols.ttf') format('truetype'), url('/cdn/fonts/symbols/symbols.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'Open Sans', sans-serif;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-x:before {
+    content: "\e00e"}
+.icon-chevron-chev:before {
+    content: "\e600"}
+h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+    font-weight: 300;
+}
+h1.subheader, h2.subheader, h3.subheader {
+    font-family: 'Open Sans', sans-serif;
+    color: #4d4d4d;
+    font-weight: 300;
+}
+h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 21px;
+    margin-bottom: 5px;
+    line-height: 95%}
+h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.benefit-content h3 a {
+    font-size: 20px;
+}
+.resources-container h3 a, .resources-container h3 a:hover {
+    color: #212121;
+    font-size: 18px;
+}
+h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300;
+}
+.font-24 {
+    font-size: 24px;
+}
+.tcat-inner h2.sub {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 0 25px;
+}
+.top-4 {
+    padding-top: 4px;
+}
+#header {
+    margin-bottom: 0!important;
+}
+@media all and (max-width:767px) {
+    #footer {
+    margin-top: 0!important;
+}
+#ProspectHero {
+    background-image: url('/common/assets/images/home/hp-ban-accenture-daugherty-lo.jpg');
+    background-size: cover;
+}
+.hero-left {
+    padding: 15px 50% 50px 25px;
+}
+.hero-left .btn {
+    letter-spacing: 0;
+}
+.header-top-padding {
+    padding-top: 50px;
+}
+.cta_container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.cta_list {
+    padding: 60px;
+    width: 360px;
+    margin: 0;
+    background-color: rgba(225, 225, 225, 0.53);
+    text-align: center;
+}
+.cta_list_item {
+    padding: 0;
+    margin: 0 0 30px;
+}
+#layout .cta_list_item .btn {
+    width: 100%;
+    padding: 0;
+    line-height: 50px!important;
+}
+.right-padding {
+    padding-right: 25px!important;
+}
+.left-padding {
+    padding-left: 25px!important;
+}
+.container-hp {
+    position: relative;
+    z-index: 1;
+}
+h2 {
+    font-size: 35px;
+    color: #000;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+.height-370 {
+    height: 370px;
+}
+.click-span {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90%}
+}@media all and (max-width:479px) {
+    .header-top-padding {
+    padding-top: 30px;
+}
+.hero-left {
+    padding: 25px 30% 50px 18px;
+}
+.hero-left-cust {
+    padding: 15px 30% 50px 25px!important;
+}
+a.btn.cta-blue.flex {
+    padding: 0 20px!important;
+}
+}@media all and (max-width:1179px) {
+    .left-20-max-scr4 {
+    padding-left: 20px;
+}
+}.click-span {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90%}
+.bg-gray-a1 {
+    padding: 40px 0;
+    background: #ededed;
+}
+.bg-gray-a1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #002121;
+}
+.bg-gray-a1 a:hover {
+    color: #16325c;
+}
+.bg-gray-a1 a.cta-blue:hover {
+    color: #fff;
+}
+.bg-blue-prod {
+    background-color: #2f8ec6;
+}
+.border-width-4 {
+    border-width: 4px!important;
+}
+.prod-icon {
+    width: 118px;
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+    top: -63px;
+}
+.sales-border-top {
+    border-top: solid #418fde;
+}
+.service-border-top {
+    border-top: solid #8b2ecd;
+}
+.marketing-border-top {
+    border-top: solid #e98300;
+}
+.community-border-top {
+    border-top: solid #f5c400;
+}
+.analytics-border-top {
+    border-top: solid #00b1a9;
+}
+.platform-border-top {
+    border-top: solid #00267f;
+}
+.commerce-border-top {
+    border-top: solid #84bd00;
+}
+.industries-border-top {
+    border-top: solid #009cdb;
+}
+.smb-border-top {
+    border-top: solid #00c2df;
+}
+@media all and (min-width:990px) {
+    .bg-gray-a1 {
+    padding: 40px 0;
+    background: #ededed;
+}
+.top-5-min-scr4 {
+    padding-top: 5px;
+}
+.tcat-cust-line {
+    padding-top: 40%!important;
+}
+.tcat-cust-line-intl {
+    padding-top: 32%!important;
+}
+.width-100-min-scr4 {
+    width: 100%}
+.ft {
+    padding: 30px 75px!important;
+}
+}.left-nav {
+    width: 210px;
+    padding: 30px 0 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.ie8 .left-nav {
+    width: 210px;
+    padding: 30px 0 30px;
+    background-color: #fff;
+}
+.left-column {
+    width: 17.797%}
+.power-footer-column {
+    width: 20.551%}
+.tcat-inner h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0 0 10px 20px;
+    color: #222;
+}
+.tcat-banner {
+    background: url('/common/assets/images/home/hp-ban-accenture-daugherty-hi.jpg') no-repeat 50% 0;
+    background-size: cover;
+    color: #FFF;
+}
+.cust-banner {
+    background: url('/common/assets/images/home/hp-ban-df15-crowd-man-hi.jpg') no-repeat 50% 25%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-iot-cloud-hi {
+    background: url('/common/assets/images/home/hp-ban-iot-cloud-hi.jpg') no-repeat 50% 25%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-iot-cloud-gamer-hi {
+    background: url('/common/assets/images/home/hp-ban-iot-cloud-gamer-hi.jpg') no-repeat 60% 25%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-app-cloud-hi {
+    background: url('/common/assets/images/home/hp-ban-app-cloud-hi.jpg') no-repeat 35% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-lightning-hi {
+    background: url('/common/assets/images/home/hp-ban-lightning-hi.jpg') no-repeat 55% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-salesforceiq-hi {
+    background: url('/common/assets/images/home/hp-ban-salesforce-iq-hi.jpg') no-repeat 50% 25%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-sales-wave-hi {
+    background: url('/common/assets/images/home/hp-ban-sales-wave-hi.jpg') no-repeat 35% 35%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-smb-hi {
+    background: url('/common/assets/images/home/hp-ban-smb-pipe-hi.jpg') no-repeat 50% 35%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-wave-reports-hi {
+    background: url('/common/assets/images/home/hp-ban-wave-reports-hi.jpg') no-repeat 40% 35%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-service-cloud-hi {
+    background: url('/common/assets/images/home/hp-ban-service-cloud-hi.jpg') no-repeat 50% 35%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-service-cloud-demo-hi {
+    background: url('/common/assets/images/home/hp-ban-service-demo-hi.jpg') no-repeat 37% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-research-hi {
+    background: url('/common/assets/images/home/hp-ban-research-hi.jpg') no-repeat 45% 35%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-smb-sales-hi {
+    background: url('/common/assets/images/home/hp-ban-smb-sales-hi.jpg') no-repeat 45% 35%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-office-woman-hi {
+    background: url('/common/assets/images/home/hp-ban-office-woman-mobile-hi.jpg') no-repeat 60% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-office-woman-service-hi {
+    background: url('/common/assets/images/home/hp-ban-office-woman-service-center-hi.jpg') no-repeat 50% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-office-man-office-phone-hi {
+    background: url('/common/assets/images/home/hp-ban-office-man-office-phone-hi.jpg') no-repeat 45% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-trailhead-hi {
+    background: url('/common/assets/images/home/hp-ban-trailhead-hi.jpg') no-repeat 58% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-lightning-announcement-hi {
+    background: url('/common/assets/images/home/hp-ban-lightning-event-hi.jpg') no-repeat 45% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-app-cio-hi {
+    background: url('/common/assets/images/home/hp-ban-app-cio-hi.jpg') no-repeat 45% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-man-woman-office-hi {
+    background: url('/common/assets/images/home/hp-ban-office-man-woman-office-hi.jpg') no-repeat 45% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-man-office-tablet-hi {
+    background: url('/common/assets/images/home/hp-ban-office-man-office-tablet-hi.jpg') no-repeat 35% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-man-conference-blue-hi {
+    background: url('/common/assets/images/home/hp-ban-man-conference-blue.jpg') no-repeat 35% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-woman-mobile-outside-hi {
+    background: url('/common/assets/images/home/hp-ban-woman-mobile-outside-hi.jpg') no-repeat 45% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-team-notebook-hi {
+    background: url('/common/assets/images/home/hp-ban-team-notebook-hi.jpg') no-repeat 40% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-man-desktop-hi {
+    background: url('/common/assets/images/home/hp-ban-man-desktop-hi.jpg') no-repeat 35% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-woman-doctor-hi {
+    background: url('/common/assets/images/home/hp-ban-woman-doctor-hi.jpg') no-repeat 35% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-man-suit-tablet-hi {
+    background: url('/common/assets/images/home/hp-ban-man-suit-tablet-hi.jpg') no-repeat 45% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-worker-solar-hi {
+    background: url('/common/assets/images/home/hp-ban-worker-solar-hi.jpg') no-repeat 45% 90%;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-man-suit-mobile-hi {
+    background: url('/common/assets/images/home/hp-ban-man-suit-mobile-hi.jpg') no-repeat 35% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-keith-block-hi {
+    background: url('/common/assets/images/home/hp-ban-keith-block-hi.jpg') no-repeat 35% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-lightning-sales-hi {
+    background: url('/common/assets/images/home/hp-ban-lightning-sales-hi.jpg') no-repeat 30% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-lightning-service-hi {
+    background: url('/common/assets/images/home/hp-ban-lightning-service-hi.jpg') no-repeat 55% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-lightning-apps-hi {
+    background: url('/common/assets/images/home/hp-ban-lightning-apps-hi.jpg') no-repeat 45% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.hero-service-gartner-8-hi {
+    background: url('/common/assets/images/home/hp-ban-service-gartner-8-hi.jpg') no-repeat 5% 0;
+    background-size: cover;
+    color: #FFF;
+    height: 685px;
+}
+.ft {
+    padding: 30px 35px!important;
+}
+.tcat-banner ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+.tcat-banner ul.last {
+    margin: 0;
+}
+.tcat-banner span.icon {
+    background-image: url('/common/assets/images/home/hp-prospect-prod-icons-sm.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+}
+.tcat-banner .left-nav a {
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    position: relative;
+    display: block;
+    color: #222;
+    width: 100%;
+    padding: 5px 0;
+    z-index: 1;
+}
+.tcat-banner .left-nav a:hover {
+    color: #00a1e0;
+}
+.tcat-banner .left-nav a .inner {
+    padding-left: 20px;
+    display: table;
+    position: relative;
+    z-index: 3;
+}
+.ie9 .tcat-banner .left-nav a:hover, .oldie .tcat-banner .left-nav a:hover {
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.25) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0.1)), color-stop(100%, rgba(255, 255, 255, 0.25)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.25) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.25) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.25) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.25) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ccffffff', GradientType=1);
+}
+.tcat-banner .left-nav a:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.25) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0.1)), color-stop(100%, rgba(255, 255, 255, 0.25)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.25) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.25) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.25) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.25) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ccffffff', GradientType=1);
+    transition: opacity .5s ease-out;
+    z-index: 2;
+    opacity: 0;
+}
+.tcat-banner .left-nav a:hover:after {
+    opacity: 1;
+}
+.tcat-banner a span.title {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 8px 0;
+    width: 100%}
+.tcat-ctas {
+    margin-top: 90px;
+}
+.tcat-cust-line {
+    padding-top: 30%}
+.tcat-cust-line-intl {
+    padding-top: 20%}
+.left-nav span.title span {
+    display: block;
+    font-size: 14px;
+    color: #222;
+}
+.sales-cloud span.icon {
+    background-position: }
+.service-cloud span.icon {
+    background-position: -33px 0;
+}
+.marketing-cloud span.icon {
+    background-position: -66px 0;
+}
+.community-cloud span.icon {
+    background-position: -99px 0;
+}
+.analytics-cloud span.icon {
+    background-position: -132px 0;
+}
+.platform-cloud span.icon {
+    background-position: -165px 0;
+}
+.iot-cloud span.icon {
+    background-position: -198px 0;
+}
+.smb-cloud span.icon {
+    background-position: -231px 0;
+}
+.industry-cloud span.icon {
+    background-position: -264px 0;
+}
+.product-lrg {
+    background-image: url('/common/assets/images/home/hp-prod-icons.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 87px;
+    height: 87px;
+    display: inline-block;
+}
+.product-lrg.sales-icon {
+    background-position: }
+.product-lrg.service-icon {
+    background-position: -87px 0;
+}
+.product-lrg.marketing-cloud-icon {
+    background-position: -174px 0;
+}
+.product-lrg.community-cloud-icon {
+    background-position: -261px 0;
+}
+.product-lrg.analytics-cloud-icon {
+    background-position: -348px 0;
+}
+.product-lrg.platform-cloud-icon {
+    background-position: -435px 0;
+}
+.product-lrg.iot-cloud-icon {
+    background-position: -522px 0;
+}
+.product-lrg.commerce-cloud-icon {
+    background-position: -609px 0;
+}
+.product-lrg.industries-icon {
+    background-position: -696px 0;
+}
+.product-lrg.smb-icon {
+    background-position: -783px 0;
+}
+.resource-links .tcat-inner {
+    padding: 60px 0 30px;
+    border-top: 1px solid #979d9e;
+    border-bottom: 1px solid #979d9e;
+}
+.resource-links {
+    background-color: #d9e1e2;
+}
+.resource-links h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #222;
+}
+.resource-links ul {
+    margin: 0;
+    padding: 0;
+}
+.resource-links li {
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+.resource-links a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #07b;
+}
+.resource-links a:hover {
+    color: #16325c;
+}
+.announce-banner {
+    background: url('/common/assets/images/home/sfdc_home_announce_banner.jpg') repeat;
+    background-size: cover;
+    padding: 15px 0;
+}
+.announce-banner a:hover {
+    color: #ccc!important;
+}
+#layout .btn {
+    border-radius: 3px;
+    padding: 0 30px;
+    line-height: 40px!important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+body.US #layout .btn {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 11px!important;
+    border-radius: 50px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0 30px;
+    line-height: 4.1;
+    border-radius: 50px;
+    height: 45px;
+    letter-spacing: .13em;
+}
+.cta-white {
+    background-color: #fff;
+    color: #009ddc;
+}
+.cta-white:visited {
+    color: #009ddc;
+}
+.cta-white:hover {
+    color: #009ddc;
+    background-color: #EEE;
+    -webkit-box-shadow: 0 0 2px 1px rgba(100, 100, 100, 0.5);
+    box-shadow: 0 0 2px 1px rgba(100, 100, 100, 0.5);
+}
+.cta-blue {
+    background-color: #16325c;
+    color: #fff;
+}
+.cta-blue:visited {
+    color: #fff;
+}
+.cta-blue:hover {
+    background-color: #1d4076;
+    color: #FFF;
+    -webkit-box-shadow: 0 0 2px 1px rgba(100, 100, 100, 0.5);
+    box-shadow: 0 0 2px 1px rgba(100, 100, 100, 0.5);
+}
+@media all and (min-width:1180px) {
+    .row-wrap {
+    max-width: 1180px;
+    min-width: 1180px;
+    _width: 1180px;
+}
+#content-wrap {
+    max-width: 1180px;
+    min-width: 1180px;
+    _width: 1180px;
+}
+.width-55-only-scr5 {
+    width: 55%}
+.width-45-only-scr5 {
+    width: 45%}
+.show-only-scr4, .only-scr4 {
+    display: none;
+}
+.show-only-scr5 {
+    display: block;
+}
+.show-max-scr4 {
+    display: none;
+}
+.only-scr5 {
+    display: inline;
+}
+.top-event {
+    padding-left: 295px;
+}
+}@media all and (min-width:2070px) {
+    .cust-banner {
+    background-position: 100% 0;
+}
+.tcat-banner {
+    background-position: 55% 50%}
+}.right-nav {
+    width: 320px;
+    padding: 20px 0 30px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+}
+.right-nav h2 {
+    margin: 0 30px;
+    line-height: 30px;
+    text-transform: inherit;
+    font-size: 20px;
+}
+.right-nav h3 {
+    color: #07b;
+    padding: 5px 30px 0 30px;
+    margin-left: 10px;
+    background: url('/common/assets/img/customerHomePage/icons.png') no-repeat 0 -140px;
+}
+.right-nav div {
+    margin: 20px;
+    background: #f4f4f4;
+    padding: 10px;
+    position: relative;
+}
+.right-nav div img {
+    top: -10px;
+    left: -10px;
+    position: relative;
+}
+.right-nav div h2 {
+    margin: 15px 0;
+    line-height: 30px;
+    text-transform: inherit;
+    font-size: 20px;
+}
+.right-nav div span {
+    color: #222;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+}.right-nav div a {
+    color: #00a1e0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.right-nav div.borderUp {
+    border-top: 2px solid #07b;
+}
+.right-nav div a.btn {
+    color: #fff;
+}
+.mainText {
+    padding: 55px 5px 45px 0;
+}
+.left-content .cell-content h2 {
+    color: #07b;
+    padding: 20px 30px 20px 30px;
+    margin: 0;
+    background: url('/common/assets/img/customerHomePage/icons.png') no-repeat 0 10px;
+}
+.left-content .cell-content h2.second {
+    background-position: 0 -30px;
+}
+.left-content .cell-content h2.third {
+    background-position: 0 -76px;
+}
+.left-content .grid-cell.grid-30.cell-first {
+    width: 31.311%;
+    margin: 0 12.5px 0 0;
+}
+.left-content .grid-cell.grid-30 {
+    width: 31.311%;
+    margin: 0 12.5px;
+    overflow: hidden;
+}
+.left-content .grid-cell.grid-30.cell-last {
+    width: 31.311%;
+    margin: 0 0 0 12.5px;
+}
+.left-content .grid-cell.grid-45 {
+    overflow: hidden;
+}
+.left-content .grid-cell.grid-45.cell-first {
+    width: 48.488%;
+    margin-right: 12.5px;
+}
+.left-content .grid-cell.grid-45.cell-last {
+    width: 48.488%;
+    margin-left: 12.5px;
+}
+.left-content .grid-cell.box div {
+    background-color: #f4f4f4;
+    padding: 0 14px 20px;
+    min-height: 260px;
+    position: relative;
+}
+.left-content .grid-cell.grid-30.box div {
+    min-height: 410px;
+}
+.left-content .grid-cell.box div img {
+    position: relative;
+    left: -13px;
+    top: 0;
+}
+.left-content .grid-cell.box div h3 {
+    line-height: 30px;
+    color: #222;
+}
+.left-content .grid-cell.box div p {
+    margin: 0 0 40px;
+    font-size: 15px;
+    line-height: 160%;
+    color: #666;
+}
+.left-content .grid-cell.box div a {
+    color: #00a1e0;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+}
+.left-content .grid-cell.box div a:hover {
+    color: #16325c;
+}
+.rail h2 {
+    background: #07b url('/common/assets/img/customerHomePage/mobile_icons.png') no-repeat 16px 4px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 0 5px 50px;
+    margin: 0;
+}
+.rail h2.second {
+    background-position: 16px -53px;
+}
+.rail h2.third {
+    background-position: 16px -108px;
+}
+.rail img {
+    width: 100%}
+.rail div {
+    border-bottom: 2px solid #07b;
+    padding: 20px 25px;
+}
+.rail div span, .rail div a {
+    text-transform: uppercase;
+}
+.rail div p {
+    color: #222;
+    margin: 10px 0;
+}
+.rail div.last {
+    border: 0 none;
+}
+.rail div.rail_columns, .rail div.rail_columns div {
+    border: 0 none;
+    padding: 0;
+    overflow: hidden;
+}
+.rail div.rail_columns .left {
+    padding: 20px 3px;
+    width: 32%}
+.rail div.rail_columns .right {
+    border: 0 none;
+    width: 60%;
+    padding: 0 5px;
+}
+.rail div.rail_columns .right p {
+    margin: 15px 0;
+}
+.rail div.rail_columns .right span {
+    text-transform: none;
+    display: block;
+    margin: 15px 0;
+}
+.bigPromo.rail {
+    border-top: 2px solid #07b;
+}
+.bigPromo.rail p {
+    padding: 46px 25px 0;
+    text-align: center;
+}
+.bigPromo h3 {
+    padding: 0 100px 0;
+}
+.products-desktop .grid-25 p {
+    margin: 0 auto 10px;
+    font-size: 15px;
+    line-height: 160%;
+    width: 70%}
+.products-desktop .grid-25 .seeAll {
+    background-color: #fff;
+    margin: 0 45px;
+    padding: 90px 0 36px;
+    height: 155px;
+}
+@media all and (max-width:990px) {
+    #ProspectHero {
+    display: block;
+}
+#ProspectHero {
+    background: url('/common/assets/images/home/hp-ban-accenture-daugherty-lo.jpg') no-repeat 80% 20%;
+    background-size: cover;
+}
+}@media(min-width:768px) {
+    h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    line-height: 100%}
+h2 {
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    line-height: 110%}
+.lightning-icon {
+    vertical-align: -130%}
+}p {
+    font-size: 15px;
+    color: #212121;
+    margin-bottom: 12px;
+}
+li {
+    font-size: 14px;
+    color: #212121;
+}
+a {
+    font-size: 14px;
+}
+.side-drawers #left-drawer a {
+    font-size: inherit;
+}
+a:hover {
+    color: #16325c;
+}
+a.link-arrow {
+    text-transform: uppercase;
+}
+a.link-arrow span {
+    background: url('/assets/images/salescloud/14/link-arrow.png') right 1px no-repeat;
+    width: 17px;
+    height: 16px;
+    padding-left: 10px;
+    display: none;
+}
+a.link-arrow:hover span {
+    background-position: right -15px;
+}
+.link-arrow.white {
+    color: #FFF;
+}
+.link-arrow.white span, .link-arrow.white:hover span {
+    background-position: right -30px;
+}
+a.link-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: url('about:blank');
+    text-align: -999px;
+}
+.cta-white, .cta-blue {
+    font-size: 14px;
+}
+a.link-out span, .cta-white.link-out span {
+    background: url('/common/assets/img/cta-sprite.png');
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background-position: left -25px;
+    margin-left: 10px;
+}
+.cta-blue.link-out span {
+    background: url('/common/assets/img/cta-sprite.png');
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background-position: left -13px;
+    margin-left: 10px;
+}
+.bg-blue {
+    background-color: #00a1e0!important;
+}
+.bg-platform {
+    background-color: #171c8f!important;
+}
+.bg-sales-cloud {
+    background-color: #5eb4ff!important;
+}
+.bg-service {
+    background-color: #8b2ecd!important;
+}
+.bg-marketing {
+    background-color: #f4650a!important;
+}
+.bg-analytics {
+    background-color: #009a7e!important;
+}
+.bg-community {
+    background-color: #f5c400!important;
+}
+.bg-smb {
+    background-color: #00c2df!important;
+}
+.closer h2, .closer p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.closer p {
+    font-size: 15px;
+}
+.closer p.questions {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+q {
+    quotes: "“" "”" "‘" "’"}
+q:before {
+    content: open-quote;
+    font-size: 1.4em;
+}
+q:after {
+    content: close-quote;
+    font-size: 1.4em;
+}
+.small-quote .quote {
+    padding: 20px;
+    text-align: center;
+}
+.small-quote .quote p {
+    line-height: 125%}
+.small-quote .quote-line {
+    text-indent: -.5em;
+    padding-top: 15px;
+}
+.equalize-group-rep {
+    min-height: 320px;
+}
+@media(min-width:480px) {
+    .small-quote .quote {
+    padding: 20px;
+    text-align: left;
+}
+.small-quote .quote>div {
+    padding-left: 170px;
+}
+.small-quote .quote img {
+    float: left;
+}
+}@media(min-width:768px) {
+    .small-quote .quote {
+    padding: 70px 10px 70px 65px;
+}
+.small-quote .quote-right {
+    padding: 70px 10px 70px 0;
+}
+.ipad .closer img.abs {
+    position: absolute!important;
+}
+.ipad .closer img.flex {
+    bottom: 0;
+    right: 0;
+}
+}.cta-blue {
+    background-color: #16325c;
+    border-radius: 3px;
+    color: #FFF;
+    display: block;
+    width: 130px;
+    margin: 0 auto 20px;
+}
+.cta-blue:hover {
+    background-color: #1d4076;
+    color: #FFF;
+    -webkit-box-shadow: 0 0 2px 1px rgba(100, 100, 100, 0.5);
+    box-shadow: 0 0 2px 1px rgba(100, 100, 100, 0.5);
+}
+.cta-blue:visited {
+    color: #FFF;
+}
+.btn-resources a.btn {
+    margin: 0 15px;
+}
+.play-btn {
+    background: url('/assets/images/salescloud/14/play-btn.png') no-repeat center center;
+    display: block;
+    width: 86px;
+    height: 84px;
+    margin: 0 auto 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -43px;
+    margin-top: -42px;
+}
+.play-btn.play-inline {
+    margin: 0;
+    position: static;
+    left: inherit;
+    top: inherit;
+    margin-left: 0;
+    margin-top: 0;
+}
+@media(max-width:990px) {
+    .btn {
+    margin-bottom: 10px;
+}
+}.collapsibleContainer {
+    background-color: #92ab28;
+    height: 35px;
+    display: none;
+}
+.collapsibleContainer a.closeBtn {
+    float: right;
+    top: 10px;
+    margin: 10px 20px 5px 5px;
+    color: #fff;
+}
+.reel-banner {
+    width: 100%}
+.sizzle-text {
+    width: 40%}
+.news-and-knowledge {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    float: left;
+    color: white;
+    margin-top: 18px;
+    line-height: 0;
+}
+.updates {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    float: right;
+    color: white;
+    margin-top: 4px;
+    display: block;
+    width: 50%}
+span.prompt {
+    display: inline-block;
+    position: relative;
+    margin-top: 2px;
+    width: 27px;
+    float: left;
+}
+span.prompt-count {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #92ab28;
+    position: absolute;
+    left: 8px;
+    top: 2px;
+}
+span.messg {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    color: #fff;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+span.icon-chevron-chev {
+    display: inline-block;
+    margin-left: 4px;
+    color: #fff;
+}
+@media(max-width:989px) {
+    .hero-left-cust {
+    padding: 15px 50% 50px 25px;
+}
+#CustomerHero {
+    background: url('/common/assets/images/home/hp-ban-df15-crowd-man-lo.jpg') 0 40%;
+    background-size: cover;
+}
+.hero-iot-cloud-lo {
+    background: url('/common/assets/images/home/hp-ban-iot-cloud-lo.jpg') 0 40%;
+    background-size: cover;
+}
+.hero-iot-cloud-gamer-lo {
+    background: url('/common/assets/images/home/hp-ban-iot-cloud-gamer-lo.jpg') 0 60%;
+    background-size: cover;
+}
+.hero-app-cloud-lo {
+    background: url('/common/assets/images/home/hp-ban-app-cloud-lo.jpg') 0 45%;
+    background-size: cover;
+}
+.hero-lightning-lo {
+    background: url('/common/assets/images/home/hp-ban-lightning-lo.jpg') 100% 20%;
+    background-size: cover;
+}
+.hero-lightning-service-lo {
+    background: url('/common/assets/images/home/hp-ban-lightning-service-lo.jpg') 100% 20%;
+    background-size: cover;
+}
+.hero-salesforceiq-lo {
+    background: url('/common/assets/images/home/hp-ban-salesforce-iq-lo.jpg') 0 40%;
+    background-size: cover;
+}
+.hero-sales-wave-lo {
+    background: url('/common/assets/images/home/hp-ban-sales-wave-lo.jpg') 95% 0;
+    background-size: cover;
+}
+.hero-smb-lo {
+    background: url('/common/assets/images/home/hp-ban-smb-pipe-lo.jpg') 40% 50%;
+    background-size: cover;
+}
+.hero-service-cloud-lo {
+    background: url('/common/assets/images/home/hp-ban-service-cloud-lo.jpg') 95% 0;
+    background-size: cover;
+}
+.hero-service-cloud-demo-lo {
+    background: url('/common/assets/images/home/hp-ban-service-demo-lo.jpg') 80% 30%;
+    background-size: cover;
+}
+.hero-office-woman-service-lo {
+    background: url('/common/assets/images/home/hp-ban-office-woman-service-center-lo.jpg') 90% 0;
+    background-size: cover;
+}
+.hero-office-man-office-phone-lo {
+    background: url('/common/assets/images/home/hp-ban-office-man-office-phone-lo.jpg') 90% 0;
+    background-size: cover;
+}
+.hero-trailhead-lo {
+    background: url('/common/assets/images/home/hp-ban-trailhead-lo.jpg') 90% 0;
+    background-size: cover;
+}
+.hero-lightning-announcement-lo {
+    background: url('/common/assets/images/home/hp-ban-lightning-event-lo.jpg') 0 30%;
+    background-size: cover;
+}
+.hero-woman-conference-dark-lo {
+    background: url('/common/assets/images/home/hp-ban-woman-conference-dark-lo.jpg') 85% 70%;
+    background-size: cover;
+}
+.hero-service-gartner-8-lo {
+    background: url('/common/assets/images/home/hp-ban-service-gartner-8-lo.jpg') 85% 70%;
+    background-size: cover;
+}
+.sizzle-text {
+    display: none;
+}
+.updates {
+    width: 90%}
+}@media(min-width:990px) {
+    .sizzle-text {
+    display: block;
+}
+.updates {
+    width: 50%}
+.right-nav {
+    padding-bottom: 18px!important;
+}
+}@media(min-width:568px) {
+    .updates {
+    width: 89%}
+}@media(max-width:567px) {
+    .updates {
+    width: 80%}
+}@media(min-width:767px) {
+    .updates {
+    width: 92%}
+}@media(min-width:990px) and (max-width:1023px) {
+    .updates {
+    width: 49%}
+}@media(min-width:1023px) {
+    .updates {
+    width: 50%}
+}@media(min-width:768px) and (max-width:989px) {
+    span#recommended {
+    display: block;
+    height: 0;
+}
+.show-only-scr5 {
+    display: none;
+}
+.left-40-only-scr3 {
+    padding-left: 40px;
+}
+.top-event {
+    padding-left: 230px;
+}
+}@media(max-width:768px) {
+    span#recommended {
+    display: block;
+    height: 48px;
+    margin-top: -48px;
+    visibility: hidden;
+}
+}@media(min-width:1180px) {
+    .reel-banner {
+    max-width: 1170px;
+    min-width: 1170px;
+    margin: 0 auto;
+}
+.collapsibleContainer a.closeBtn {
+    margin-right: 35px;
+}
+}@media(min-width:990px) and (max-width:1179px) {
+    .reel-banner {
+    max-width: 980px;
+    min-width: 980px;
+    margin: 0 auto;
+}
+.collapsibleContainer a.closeBtn {
+    margin-right: -20px;
+}
+
+.left-content .cell-content h2 {
+    margin: 0 53px 0 0;
+}
+.left-content .grid-cell.grid-30.cell-first {
+    width: 28.379%;
+    margin: 0 12.5px 0 0;
+}
+.left-content .grid-cell.grid-30 {
+    width: 28.379%;
+    margin: 0 12.5px;
+    overflow: hidden;
+}
+.left-content .grid-cell.grid-30.cell-last {
+    width: 28.379%;
+    margin: 0 0 0 12.5px;
+}
+.left-content .grid-cell.grid-45 {
+    overflow: hidden;
+}
+.left-content .grid-cell.grid-45.cell-first {
+    width: 44.374%;
+    margin-right: 12.5px;
+}
+.left-content .grid-cell.grid-45.cell-last {
+    width: 44.374%;
+    margin-left: 12.5px;
+}
+.left-content .grid-cell.box div img {
+    left: -45px;
+}
+.show-only-scr5, .only-scr5 {
+    display: none;
+}
+.show-max-scr4 {
+    display: block;
+}
+.right-nav {
+    padding-bottom: 127px!important;
+}
+.top-event {
+    padding-left: 247px;
+}
+}
+
+
+.cta-green{background-color:#96b432;border-radius:3px;color:#FFF;padding:10px 30px;text-transform:uppercase;display:inline-block}
+
+.cta-green:hover, .cta-green:visited{background-color:#8db12b;color:#FFF;-webkit-box-shadow:0 0 2px 1px rgba(100,100,100,0.5);box-shadow:0 0 2px 1px rgba(100,100,100,0.5)}
+
+.tcat-banner.au-banner {
+  background:#000 url('../images/ban_in_hp_prospect_asian_face.jpg') no-repeat 50% 0;
+  color: #FFF;
+  height: 361px;    
+}
+
+.left-nav {padding:20px 0 10px;}
+.tcat-banner ul {margin: 0 0 10px}
+.hero-left {
+    padding: 12px 18px 50px 30%;
+}
+@media (min-width: 990px){
+.bg-gray-a1.what-is-sf {
+    padding: 20px 0;
+
+}}
+.event-title{
+    width: 212px;
+}
+.event-desc{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 194px;
+    display: inline-block;
+}
+.event-link{
+    margin-top: 15px;
+    margin-left: 0;
+}
+
