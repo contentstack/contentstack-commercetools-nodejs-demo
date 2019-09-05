@@ -13,10 +13,10 @@
             {% endif %}
             {% for nav in header.navigation %}
             {% if nav.category[0].url===active %}
-            <li class="active"><a href="{{ url }}{{ nav.category[0].url }}"
+            <li class="active"><a href="{{ nav.category[0].url }}"
                     class="hyper"><span>{{ nav.title }}</span></a></li>
             {% else %}
-            <li><a href="{{ url }}{{ nav.category[0].url }}" class="hyper"><span>{{ nav.title }}</span></a></li>
+            <li><a href="{{ nav.category[0].url }}" class="hyper"><span>{{ nav.title }}</span></a></li>
             {% endif %}
             {% endfor %}
         </ul>
