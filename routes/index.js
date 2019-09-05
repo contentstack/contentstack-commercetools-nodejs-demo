@@ -12,7 +12,5 @@ module.exports = (app) => {
 	app.use('/cart/:cartId/pay',getCartDetails);
 	app.use('/', require('./home2'));
 	app.use('/category', require('./category'));
-	app.use('/:locale/category', require('./category'));
-	app.use('/:locale/product', require('./product'));
 	app.use('/product', require('./product'));
 };

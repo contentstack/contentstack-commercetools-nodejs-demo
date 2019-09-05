@@ -5,21 +5,9 @@ const { getAllProducts } = require('../lib/commercetool')
 router.get('/:id', (req, res, next) => {
 	var url = req.path.split("/");
 	var locale;
-	if (req.originalUrl.includes("/en")) {
-		url = url[2];
-		locale = 'en-us';
-		res.cookie('locale', locale, "/");
-	} else if (req.originalUrl.includes("/fr")) {
-		url = url[2];
-		res.cookie('locale', 'fr-fr', "/");
-		locale = 'fr-fr';
-	}
-	else {
-		res.cookie('locale', 'en-us', "/");
-		locale = 'en-us';
-		url = url[1];
-	}
-
+	res.cookie('locale', 'en-us', "/");
+	locale = 'en-us';
+	url = url[1];
 	locale = locale ? locale : 'en-us';
 	var Query = Stack.ContentType('product').Query()
 		.language(`${locale}`)
