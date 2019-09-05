@@ -17,5 +17,4 @@ module.exports = exports = {
 	},
 	url:"http://localhost:4000",
 	//url: "https://peaceful-thicket-75002.herokuapp.com/",
-	monetate: "//se.monetate.net/js/2/a-4868e4ef/d/salesdemo-contentstack.herokuapp.com/entry.js"
 };
