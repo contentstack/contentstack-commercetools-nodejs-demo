@@ -1,3 +1,6 @@
 # Ignore the following
 node_modules/
 _log/
+
+# IDEA config files
+.idea/
