@@ -4,23 +4,6 @@
 <script src="https://js.pusher.com/4.3/pusher.min.js"></script>
 <script type="text/javascript" src="/js/simpleCart.min.js"></script>
 
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', "{{trackingId}}");
-</script>
-<script type="text/javascript">
-    Pusher.logToConsole = true;
-    var pusher = new Pusher("{{realtime.key}}", {
-        cluster: "{{realtime.cluster}}",
-        forceTLS: true
-    });
-    var channel = pusher.subscribe("{{realtime.channel}}");
-    channel.bind("{{realtime.event}}", function (data) {
-        location.reload();
-    });
-</script>
 <!-- linkedin tags-->
 <meta property='og:title' content='Sales demo app' />
 <meta property='og:image' content='{{first_banner.image.url}}' />
