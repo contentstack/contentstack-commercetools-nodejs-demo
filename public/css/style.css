@@ -588,6 +588,10 @@ button.w3view-cart:focus{
 }
 /*--//banner bottom--*/
 
+
+.simpleCart_shelfItem h2.item_name { display: none;}
+
+
 /*--top products--*/
 /*--SAP--*/
 .sap_tabs{
@@ -4141,9 +4145,6 @@ contact-us-form .mktoForm .mktoLabel.checked-text {
   .input-number-group .input-number-increment {
 	margin-left: 0.3rem;
   }
-
-
-
 
 /*-- //responsive--
 
