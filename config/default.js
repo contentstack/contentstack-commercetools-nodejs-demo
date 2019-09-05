@@ -11,7 +11,7 @@ module.exports = exports = {
 		"client_id": "x2z4Pthbd9Rt17C8QpsX3jOH",
 		"client_secret": "ca25HOYZoc5LggFNqosjGXmHSUDieKa8"
 	},
-	url:"localhost:4000"
-	//url:"https://commercetool-contentstack-demo.herokuapp.com",
+	//url:"localhost:4000"
+	url:"https://commercetool-contentstack-demo.herokuapp.com",
 	//url: "https://peaceful-thicket-75002.herokuapp.com/",
 };
