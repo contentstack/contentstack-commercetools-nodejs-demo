@@ -6,8 +6,8 @@
 
 **About this project**: Create a professional website using Commercetools and Contentstack.
 
-### Live Demo
-
+### Live Demo 
+	https://commercetool-contentstack-demo.herokuapp.com/
 
 ### Tutorial
 We have created an in-depth tutorial on how you can create a website using Nodejs express framework. By following the steps given in the tutorial, design a website similar to the one given in the demo.
