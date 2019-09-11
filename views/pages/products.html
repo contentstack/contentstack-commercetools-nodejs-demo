@@ -11,12 +11,12 @@
 	<meta property='og:title' content='{{product.title}}' />
 	<meta property='og:image' content='{{product.featured_image[0].url}}' />
 	<meta property='og:description' content='{{product.seo.description}}' />
-	<meta property='og:url' content='{{url}}{{product.url}}' />
+	<meta property='og:url' content='{{product.url}}' />
 	<!-- fb tags-->
 	<meta property="og:title" content="{{product.title}}" />
 	<meta property="og:type" content="article" />
 	<meta property="og:image" content="{{product.featured_image[0].url}}" />
-	<meta property="og:url" content="{{url}}{{product.url}}" />
+	<meta property="og:url" content="{{product.url}}" />
 	<meta property="og:description" content="{{product.seo.description}}" />
 	<!-- For Twitter -->
 	<meta name="twitter:card" content="{{product.seo.description}}" />
@@ -90,7 +90,7 @@
 					<div class="single-page">
 						<div class="single-page-row" id="detail-21">
 							<ol class="arrows">
-								<li><a href="{{url}}{{product.categories[0].url}}">{{product.categories[0].title}}</a>
+								<li><a href="{{product.categories[0].url}}">{{product.categories[0].title}}</a>
 								</li>
 								<li style="color:#d4c694">Featured</li>
 							</ol>

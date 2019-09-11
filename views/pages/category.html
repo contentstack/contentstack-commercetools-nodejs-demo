@@ -10,12 +10,12 @@
 <meta property='og:title' content='{{category}}' />
 <meta property='og:image' content='{{products[0].featured_image[0].url}}' />
 <meta property='og:description' content='Demo app built using contentstack' />
-<meta property='og:url' content='{{url}}/{{category}}' />
+<meta property='og:url' content='/{{category}}' />
 <!-- fb tags-->
 <meta property="og:title" content="{{category}}" />
 <meta property="og:type" content="article" />
 <meta property="og:image" content="{{products[0].featured_image[0].url}}" />
-<meta property="og:url" content="{{url}}/{{category}}" />
+<meta property="og:url" content="category}}" />
 <meta property="og:description" content="Demo app built using contentstack" />
 <!-- For Twitter -->
 <meta name="twitter:card" content="summary" />
@@ -71,7 +71,7 @@
 
 			<div class="col-md-3">
 				<div class="product-img" style="margin-bottom: 14px;">
-					<a href="{{url}}{{ product.url }}">
+					<a href="{{ product.url }}">
 						
 						<img src="{{ product.featured_image[0].url}}?width=225&height=225" alt="" /></a>
 				</div>
