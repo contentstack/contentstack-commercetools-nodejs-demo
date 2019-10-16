@@ -123,12 +123,10 @@
 									<ul>
 
 										<li class="offer-price-text">$
-											{{ product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100 }}
+											{{ product.number }}
 										</li>
 									</ul>
 								</div>
-								<span style="display: none" class="item_product">{{product.product_link.id}}</span>
-
 								<p class="single-price-text">{{ product.description | safe }}</p>
 								<div class="input-group input-number-group">
 									<div class="input-group-button">
@@ -141,13 +139,11 @@
 								</div>
 								<div class="simpleCart_shelfItem">
 									<h2  style="display:none;" class="item_name">{{ product.title }}</h2>
-									<span style="display:none" class="item_product">{{product.product_link.id}}</span>
-
 								</input>
 									<img style="display:none" class="item_thumb"
 										src="{{product.featured_image[0].url}}?width=70&height=70" alt="Item Alt">
 									<span style="display:none"
-										class="item_price">{{ product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100 }}</span>
+										class="item_price">{{ product.number }}</span>
 									<a href="javascript:;" class="item_add_simplecart item_add">Add to Cart</a>
 								</div>
 								<div class="itemDetails">
@@ -185,7 +181,7 @@
 				<!-- //collapse -->
 			</div>
 		</div>
-		<!-- {% if product.related_products.length != 0 %}
+		{% if product.related_products.length != 0 %}
 		<div class="recommendation">
 			<h4>Related Products</h4>
 			<div class="recommended-carousel" id="recommended-carousel">
@@ -194,13 +190,12 @@
 					<div class="recommended-image product-img">
 						<a href="{{related.url}}"> <img alt="{{related.image.title}}"
 								src="{{related.featured_image[0].url }}?height=225&width=225" /> </a>
-
 					</div>
 					<div class="recommended-slide-text-section">
 						<a href="{{related.url}}" class="recommended-title recommended-slide-title">
 							{{related.title}}</a> </br>
 						<span class="recommended-text recommended-slide-title">$
-							{{related.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100}}</span>
+							{{related.number}}</span>
 
 					</div>
 				</div>
@@ -215,7 +210,7 @@
 			</div>
 			{% endif %}
 		</div>
-		{% endif %} -->
+		{% endif %}
 	</section>
 	{% endblock %}
 </body>

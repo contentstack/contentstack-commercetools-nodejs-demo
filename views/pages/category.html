@@ -38,6 +38,9 @@
 			]
 		});
 	});
+
+	console.log(`${products}`)
+
 </script>
 
 
@@ -71,19 +74,17 @@
 
 			<div class="col-md-3">
 				<div class="product-img" style="margin-bottom: 14px;">
-					<a href="{{ product.url }}">
-						
+					<a href="{{ product.url }}">				
 						<img src="{{ product.featured_image[0].url}}?width=225&height=225" alt="" /></a>
 				</div>
 				<div class="p-mask" style="text-align: center;">
-					{% if product.offer_price > product.price %}
+					{% if product.number %}
 					<div class="simpleCart_shelfItem">
 						<img style="display:none" class="item_thumb"
 							src="{{product.featured_image[0].url}}?width=70&height=70" alt="Item Alt" />
 						<h2 style="display:none" class="item_name">{{ product.title }}</h2>
-						<span style="display:none" class="item_product">{{product.product_link.id}}</span>
 						<span style="display:none"
-							class="item_price">{{ (product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100) }}</span>
+							class="item_price">{{ product.number }}</span>
 						<a href="javascript:;" class="fa fa-cart-plus item_add item_add_simplecart">Add to Cart</a>
 					</div>
 					{% else %}
@@ -91,23 +92,16 @@
 						<img style="display:none" class="item_thumb"
 							src="{{product.featured_image[0].url}}?width=70&height=70" alt="Item Alt" />
 						<h2 style="display:none" class="item_name">{{ product.title }}</h2>
-						<span style="display:none" class="item_product">{{product.product_link.id}}</span>
 						<span style="display:none"
-							class="item_price">{{ (product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100) }}</span>
+							class="item_price">{{ product.number }}</span>
 						<a href="javascript:;" class="fa fa-cart-plus item_add item_add_simplecart">Add to Cart</a>
 					</div>
 					{% endif %}
 				</div>
 
 				<h4>{{ product.title }}</h4>
-				{% if product.offer_price %}
-				{% if product.offer_price > product.price %}
-				<h5>${{ (product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100) }}</h5>
-				{% else %}
-				<h5>${{ (product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100) }}</h5>
-				{% endif %}
-				{% else %}
-				<h5>${{ (product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100) }}</h5>
+				{% if product.number %}
+				<h4>${{ product.number }}</h4>
 				{% endif %}
 
 			</div>
