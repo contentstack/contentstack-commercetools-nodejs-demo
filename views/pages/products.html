@@ -2,9 +2,8 @@
 <html lang="en">
 
 <head>
-	<title>e-commerce site | {{product.seo.title}}</title>
+	<title>CommerceTools + Contentstack</title>
 	<!-- Begin Monetate ExpressTag Sync v8.1. Place at start of document head. DO NOT ALTER. -->
-	<script type="text/javascript">var monetateT = new Date().getTime();</script>
 	<script type="text/javascript" src="{{monetate}}"></script>
 	<!-- End Monetate tag. -->
 	<!-- linkedin tags-->
@@ -56,7 +55,6 @@
 {% block content %}
 
 <body data-pageref="{{product.uid}}" data-contenttype="{{contentType}}">
-
 	{% include "partials/header.html" %}
 	<script type="text/javascript">
 		
@@ -73,16 +71,6 @@
 			}
 		})
 	</script>
-
-	<script async src="https://www.googletagmanager.com/gtag/js?id={{trackingId}}"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', "{{trackingId}}");
-	</script>
-
-
 	<section class="main-content">
 		<div class="products">
 			<div class="container">

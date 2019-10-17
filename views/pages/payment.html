@@ -1,12 +1,9 @@
   {% extends "index.html" %}
   {% block content %}
 
-  <script type="text/javascript">
+<script type="text/javascript">
 
-
-
-
-async function createOrder(){
+function createOrder(){
   if(!$('#fname').val() && !$('#email').val() && !$('#cname').val() && !$('#adr').val()){
     return alert("please enter valid details first");
   }
@@ -15,7 +12,6 @@ async function createOrder(){
   window.localStorage.clear();
   window.open('/','_self');
 }
-
 
 </script>
 <!DOCTYPE html>
@@ -134,9 +130,7 @@ span.price {
 </head>
 <body> 
 
-
-  <div style="margin-left: 25%;margin-top: 36px;padding: -9px;"> Total Bill : {{totalPrice}} $</div>
-
+<div id="total-price" style="margin-left: 25%;margin-top: 36px;padding: -9px;"></div>
 <div class="row">
   <div class="col-75">
     <div class="container">
@@ -179,7 +173,7 @@ span.price {
             <input type="text" id="cname" name="cardname" placeholder="John More Doe" required>
             <label for="ccnum">Credit card number</label>
             <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
-            <label for="expmonth">Exp Month</label>
+            <label for="expmonth">Expiry Month</label>
             <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
             <div class="row">
               <div class="col-50">
@@ -205,4 +199,18 @@ span.price {
 
 </body>
 </html>
+
+ <script>
+  (function(){
+    let price = 0;
+    if(window.localStorage.simpleCart_items){
+      let cartItems = JSON.parse(window.localStorage.simpleCart_items);
+      Object.keys(cartItems).map((item)=>{
+        price += cartItems[item].price;
+      })
+      document.getElementById("total-price").innerHTML = `Total price $${price}`;
+    }
+  })();
+ </script> 
   {% endblock %}
+
