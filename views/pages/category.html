@@ -69,10 +69,10 @@
 <section class="main-content">
 	<div class="container">
 		{% if products.length!==0 %}
-		<div class="catergItem d-flex flex-wrap ">
+		<div class="catergItem d-flex flex-wrap col-md-12">
 			{% for product in products %}
 
-			<div class="col-md-3">
+			<div class="col-md-4 col-sm-4 col-xs-12 ">
 				<div class="product-img" style="margin-bottom: 14px;">
 					<a href="{{ product.url }}">				
 						<img src="{{ product.featured_image[0].url}}?width=225&height=225" alt="" /></a>
@@ -99,7 +99,7 @@
 					{% endif %}
 				</div>
 
-				<h4>{{ product.title }}</h4>
+				<h3>{{ product.title }}</h3>
 				{% if product.number %}
 				<h4>${{ product.number }}</h4>
 				{% endif %}
