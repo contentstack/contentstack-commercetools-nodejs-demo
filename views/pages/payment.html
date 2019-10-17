@@ -206,7 +206,7 @@ span.price {
     if(window.localStorage.simpleCart_items){
       let cartItems = JSON.parse(window.localStorage.simpleCart_items);
       Object.keys(cartItems).map((item)=>{
-        price += cartItems[item].price;
+        price += cartItems[item].price*cartItems[item].quantity;
       })
       document.getElementById("total-price").innerHTML = `Total price $${price}`;
     }
