@@ -97,34 +97,13 @@
 <script type="text/javascript">
 
 async function createCartFn(cartObj){
-     let obj= JSON.parse(cartObj);
+    let obj= JSON.parse(cartObj);
     let bodyArray=[];
-
     Object.keys(obj).map((key)=>{
       bodyArray.push({productId:obj[key].product, quantity:obj[key].quantity})
     })
-
-
-    try {
-        let cartResponse =  await fetch(`/createCart`,{
-        method:"POST",
-        headers: {
-                'Content-Type': 'application/json',
-        },
-        body:JSON.stringify(bodyArray)
-        })
-        let cartResponseResolved = await cartResponse.json();
-
-        if(cartResponseResolved.status == 200){
-            window.open(`/cart/${cartResponseResolved.cartId}/pay`,'_self');
-        }
-        else {
-            alert("Sorry problem checking out, cart creation Error");
-        }
-     } catch(err){
-        alert("Sorry problem checking out, cart creation Error"+err);
-     }   
-
+    let randomCartId = Math.floor((Math.random() * 100000000000));
+    window.open(`/cart/${randomCartId}/pay`,'_self');
   }
 
 
@@ -133,8 +112,8 @@ async function createCartFn(cartObj){
         if(simpleCart.items().length > 0){
             createCartFn(window.localStorage.simpleCart_items);  
         }
-
     });
+
     function getCookie(cname) {
         var name = cname + "=";
         var decodedCookie = decodeURIComponent(document.cookie);
