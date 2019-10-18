@@ -14,7 +14,7 @@ module.exports = (app) => {
     			totalPrice:100,
     		})
 	});
-	app.use('/', require('./home2'));
+	app.use('/', require('./home'));
 	app.use('/category', require('./category'));
 	app.use('/product', require('./product'));
 };
