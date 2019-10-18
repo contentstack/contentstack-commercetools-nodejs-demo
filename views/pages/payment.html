@@ -2,10 +2,9 @@
   {% block content %}
 
 <script type="text/javascript">
-
 function createOrder(){
   if(!$('#fname').val() && !$('#email').val() && !$('#cname').val() && !$('#adr').val()){
-    return alert("please enter valid details first");
+    return alert("Required Fields Missing");
   }
   let randomOrderId = Math.floor((Math.random() * 100000000000));
   alert("Your Order has been created with Order Id="+randomOrderId)
@@ -135,10 +134,9 @@ span.price {
 </style>
 </head>
 <body> 
-
-
- 
-
+<script type="text/javascript">
+  alert("This is a demo e-commerce site powered by Contentstack")
+</script>
 <div>
   <div class="col-75">
       <div id="total-price" class="bill"></div>

@@ -16,7 +16,6 @@ router.get('/:id', (req, res, next) => {
 		.find()
 		.spread(function success(result) {
 			result[0] = result[0] ? result[0] : {}
-			console.log("&&&",result[0])
 			res.render('pages/products', {
 					product: result[0],
 					contentType: "product",
