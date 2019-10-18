@@ -9,10 +9,7 @@ router.get('/', (req, res, next) => {
     .query({ "locale": `en-us` })
     .toJSON()
     .find()
-    .spread(function success(result, count) {
-
-        console.log('result', result[0]);
-        
+    .spread(function success(result, count) {        
         return res.render('pages/home2', {
             data: result[0],
             contentType: "home_page_new",
@@ -21,7 +18,6 @@ router.get('/', (req, res, next) => {
       }, function error(error) {
         next(error);
       //commercetools pricing
-    
     });
 })
 

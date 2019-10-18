@@ -11,10 +11,9 @@ module.exports = (app) => {
 	app.use('/createCart',createCart);
 	app.use('/cart/:cartId/pay',(req,res) =>{
 		   res.render('pages/payment',{
-    			totalPrice:100,
     		})
 	});
-	app.use('/', require('./home2'));
+	app.use('/', require('./home'));
 	app.use('/category', require('./category'));
 	app.use('/product', require('./product'));
 };
