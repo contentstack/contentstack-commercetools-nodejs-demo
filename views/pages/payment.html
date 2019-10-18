@@ -63,6 +63,12 @@ body {
   padding: 0 16px;
 }
 
+.bill {
+  margin-left: 25%;
+  margin-top: 60px;
+  font-size: 25px;
+  font-weight: 700;
+}
 .container {
   background-color: #f2f2f2;
   padding: 5px 20px 15px 20px;
@@ -73,7 +79,7 @@ body {
   margin-left: 25%;
 }
 
-input[type=text] {
+input[type=text],[type=email] {
   width: 100%;
   margin-bottom: 20px;
   padding: 12px;
@@ -130,15 +136,26 @@ span.price {
     margin-bottom: 20px;
   }
 }
+@media (max-width: 992px){
+  .bill {
+    text-align: center;
+    margin-left: 0;
+  }
+  .container {
+    width:100%;
+    margin-left: auto;
+  }
+}
 </style>
 </head>
 <body> 
 
 
-  <div style="margin-left: 25%;margin-top: 36px;padding: -9px;"> Total Bill : {{totalPrice}} $</div>
+ 
 
-<div class="row">
+<div>
   <div class="col-75">
+      <div class="bill"> Total Bill : {{totalPrice}} $</div>
     <div class="container">
       <form>
       
