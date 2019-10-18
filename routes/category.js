@@ -3,6 +3,9 @@ var router = express.Router();
 const { getAllProducts } = require('../lib/commercetool')
 
 router.get('/:category', (req, res, next) => {
+
+	console.log(config,"Dsdf");
+
 	var url = req.path.split("/");
 	res.cookie('locale', 'en-us', "/");
 	locale = 'en-us';

@@ -208,7 +208,8 @@ span.price {
       Object.keys(cartItems).map((item)=>{
         price += cartItems[item].price*cartItems[item].quantity;
       })
-      document.getElementById("total-price").innerHTML = `Total price $${price}`;
+      if(price)
+        document.getElementById("total-price").innerHTML = `Total price $${price}`;
     }
   })();
  </script> 

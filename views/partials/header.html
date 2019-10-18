@@ -53,7 +53,7 @@
 
 <script type="text/javascript">
 
-async function createCartFn(cartObj){
+function createCartFn(cartObj){
     let obj= JSON.parse(cartObj);
     let bodyArray=[];
     Object.keys(obj).map((key)=>{
@@ -62,7 +62,6 @@ async function createCartFn(cartObj){
     let randomCartId = Math.floor((Math.random() * 100000000000));
     window.open(`/cart/${randomCartId}/pay`,'_self');
   }
-
 
     $('.simpleCart_checkout_button').click( async function(event) {     
         console.log("----"+simpleCart.items().length);
