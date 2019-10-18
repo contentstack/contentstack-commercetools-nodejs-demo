@@ -8,7 +8,7 @@
             <img src="https://images.contentstack.io/v3/assets/blt11467371f44f3c8c/bltbe3c2be4494ebc7a/5c6160676d61b3c84129f510/combined-shape_(2).svg"
                 height="18.5" width="18.5" alt="options" id="IMG_28" /></a>
         </button>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler toggler-btn" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="cart-container">
@@ -376,7 +376,7 @@ async function createCartFn(cartObj){
     .navbar-nav .nav-link{
         display: block;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: normal;
         font-style: normal;
         font-stretch: normal;
@@ -388,7 +388,10 @@ async function createCartFn(cartObj){
         margin-left: 35px;
         font-family: futura-pt, sans-serif;
     }
-    
+    .toggler-btn:focus {
+        outline: none;
+        box-shadow: none;
+    }
     .navbar #cart{
         right: 22px;
         position: absolute;
