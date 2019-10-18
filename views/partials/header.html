@@ -1,53 +1,47 @@
-<nav id="NAV_1">
-    <div id="DIV_2">
-        <ul id="UL_3">
-            <li>
-                <a href="/"><a href="/"><img src="{{header.site_logo.url}}" alt="logo" id="IMG_7" /></a></a>
-            </li>
-            {% if active==="/" %}
-            <li class="active"><a href="/" class="hyper"><span>Home</span></a></li>
-            {% else %}
-            <li>
-                <a href="/">Home</a>
-            </li>
-            {% endif %}
-            {% for nav in header.navigation %}
-            {% if nav.category[0].url===active %}
-            <li class="active"><a href="{{ nav.category[0].url }}"
-                    class="hyper"><span>{{ nav.title }}</span></a></li>
-            {% else %}
-            <li><a href="{{ nav.category[0].url }}" class="hyper"><span>{{ nav.title }}</span></a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-        <ul id="UL_20">
-            <li>
-                <a href="#/"><a href="#"><img
-                            src="https://images.contentstack.io/v3/assets/blt11467371f44f3c8c/bltba89ea77869614e3/5c61606700babade4322384d/combined-shape_(3).svg"
-                            height="18.5" width="18.5" alt="search" id="IMG_24" /></a></a>
-            </li>
-            <li>
-                <button id="cart"><a>
-                        <span class="item-count simpleCart_quantity"></span>
-                        <img src="https://images.contentstack.io/v3/assets/blt11467371f44f3c8c/bltbe3c2be4494ebc7a/5c6160676d61b3c84129f510/combined-shape_(2).svg"
-                            height="18.5" width="18.5" alt="options" id="IMG_28" /></a></button>
-            </li>
-        </ul>
-    </div>
-    <div class="cart-container">
-        <div class="shopping-cart">
-            <div class="shopping-cart-header">
-                <div class="shopping-cart-total">
-                    <span class="lighter-text">Total:</span>
-                    <span class="simpleCart_total"></span>
+<div class="bs-example" id="NAV_1" >
+    <nav class="navbar navbar-expand-md navbar-light" id="DIV_2">
+        <a href="/" class="navbar-brand">
+            <img src="{{header.site_logo.url}}" alt="logo" id="IMG_7">
+        </a>
+        <button id="cart"><a>
+            <span class="item-count simpleCart_quantity"></span>
+            <img src="https://images.contentstack.io/v3/assets/blt11467371f44f3c8c/bltbe3c2be4494ebc7a/5c6160676d61b3c84129f510/combined-shape_(2).svg"
+                height="18.5" width="18.5" alt="options" id="IMG_28" /></a>
+        </button>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="cart-container">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <div class="shopping-cart-total">
+                        <span class="lighter-text">Total:</span>
+                        <span class="simpleCart_total"></span>
+                    </div>
                 </div>
+                <div class="simpleCart_items"></div>
+                <a href="#" class="simpleCart_checkout_button button">Checkout</a>
             </div>
-            <div class="simpleCart_items"></div>
-            <a href="#" class="simpleCart_checkout_button button">Checkout</a>
         </div>
-    </div>
-</nav>
-
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                {% if active==="/" %}
+                <a href="/" class="hyper nav-item nav-link active"><span>Home</span></a>
+                {% else %}
+                <a href="/" class="nav-item nav-link">Home</a>
+                {% endif %}
+                {% for nav in header.navigation %}
+                {% if nav.category[0].url===active %}
+                <a href="{{ nav.category[0].url }}"
+                        class="hyper nav-item nav-link active"><span>{{ nav.title }}</span></a>
+                {% else %}
+                <a href="{{ nav.category[0].url }}" class="hyper nav-item nav-link"><span>{{ nav.title }}</span></a>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </nav>
+</div>
 
 <script type="text/javascript" src="/js/simpleCart.min.js"></script>
 
@@ -137,7 +131,7 @@ function createCartFn(cartObj){
         simpleCart.bind('ready', function () {
             console.log("cart Ready")
             toogleButtonState();
-            $("#cart").on("click", function () {
+            $(".navbar> #cart").on("click", function () {
                 $(".shopping-cart").fadeToggle("fast");
             });
             simpleCart.bind("afterAdd", function (item, isNew) {
@@ -172,6 +166,7 @@ function createCartFn(cartObj){
         position: absolute;
         z-index: 555;
         right: 0;
+        top: 58px;
     }
 
     .lighter-text {
@@ -209,8 +204,6 @@ function createCartFn(cartObj){
         border-radius: 3px;
         padding: 20px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 25px 0px;
-        font-family:
-
     }
 
     .shopping-cart .shopping-cart-header {
@@ -276,9 +269,9 @@ function createCartFn(cartObj){
         margin-right: 6px;
     }
 
-    .item-remove {
+    /* .item-remove {
         position: ;
-    }
+    } */
 
     .shopping-cart:after {
         bottom: 100%;
@@ -348,55 +341,14 @@ function createCartFn(cartObj){
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 98px;
     }
 
-    #NAV_1 #UL_3 {
-        margin: 0;
-        padding: 0;
-    }
-
-    #NAV_1 #UL_20 {
-        display: flex;
-        flex-flow: row-reverse nowrap;
-        margin: 0;
-        padding: 0;
-    }
-
-    #NAV_1 #UL_3 li {
-        list-style: none;
-        display: inline-block;
-        margin-left: 35px;
-        font: normal normal 400 normal 14px / normal futura-pt, sans-serif;
-        ;
-    }
-
-    #NAV_1 #UL_3 li a {
-        display: block;
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        color: #737373;
-        position: relative;
-        padding-bottom: 3px;
-        font-family: futura-pt, sans-serif;
-    }
-
-    #NAV_1 #UL_3 li:first-child {
-        margin-right: 15px;
-        margin-left: 0;
-    }
-
-    #NAV_1 #UL_3 li.active:not(:first-child) a,
-    #NAV_1 #UL_3 li:hover:not(:first-child) a {
+    .navbar-nav .nav-link .active:not(:first-child),
+    .navbar-nav .nav-link :hover:not(:first-child)  {
         color: #181818;
     }
 
-    #NAV_1 #UL_3 li a::before {
+    .navbar-nav .nav-link::before {
         content: '';
         position: absolute;
         width: 45%;
@@ -408,19 +360,19 @@ function createCartFn(cartObj){
         background: transparent;
     }
 
-    #NAV_1 #UL_3 li.active:not(:first-child) a::before,
-    #NAV_1 #UL_3 li:hover:not(:first-child) a::before {
+    .navbar-nav.nav-link.active:not(:first-child)::before,
+    .navbar-nav.nav-link:hover:not(:first-child)::before {
         background: #b1b110;
     }
 
-    #NAV_1 #UL_20 li {
-        list-style: none;
-        display: inline-block;
-
-        margin-left: 18px;
+    .navbar-nav .nav-link.active {
+        border-bottom: 3px solid #b1b110;
     }
-
-    #NAV_1 #UL_20 li a {
+    .navbar-nav.nav-link:hover{
+        border-bottom: 3px solid #b1b110;
+    }
+    
+    .navbar-nav .nav-link{
         display: block;
         text-decoration: none;
         font-size: 14px;
@@ -431,20 +383,21 @@ function createCartFn(cartObj){
         letter-spacing: normal;
         color: #737373;
         position: relative;
-        padding-bottom: 2px;
+        padding-bottom: 3px;
+        margin-left: 35px;
+        font-family: futura-pt, sans-serif;
     }
-
-    #UL_20 #cart {
+    
+    .navbar #cart{
+        right: 22px;
+        position: absolute;
         color: #737373;
         text-align: center;
         border: 0px;
         background: none;
         font: normal normal 400 normal 16px / normal futura-pt, sans-serif;
-        ;
         outline: none;
-        position: relative;
     }
-
     #cart .item-count {
         display: inline-block;
         position: absolute;
@@ -465,12 +418,6 @@ function createCartFn(cartObj){
         line-height: 14px;
         letter-spacing: normal;
         color: #ffffff;
-    }
-
-    #NAV_1 #UL_20 li .lang-dropdown {
-        background: #fcfcfc;
-        padding: 3px;
-        border-radius: 6px;
     }
 
     .selectpicker {
@@ -509,7 +456,7 @@ function createCartFn(cartObj){
         text-decoration: none;
     }
 
-    .catergItem h4 {
+    .catergItem h3{
         font-size: 16px;
         text-align: center;
         padding: 10px 0;
@@ -517,8 +464,20 @@ function createCartFn(cartObj){
         line-height: 1.4;
         font-family: futura-pt, sans-serif;
         font-weight: 400;
+        height: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
-
+    .catergItem h4{
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 20px;
+        font-family: inherit;
+        line-height: 1.4;
+        font-family: futura-pt, sans-serif;
+        font-weight: 400;
+    }
     .catergItem h5 {
         font-size: 14px;
         text-align: center;
@@ -535,6 +494,37 @@ function createCartFn(cartObj){
 
     .pagination-sec {
         margin: 50px 0;
+    }
+    img {
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+    }
+    @media (max-width: 768px){
+        #NAV_1 {
+            padding: 0;
+        }
+        .navbar-nav .nav-link {
+            margin-left: 0;
+        }
+        .navbar #cart {
+            right: 100px;
+            top: 25px;
+        }
+        .cart-container {
+            right: 80px;
+        }
+        .navbar-nav .nav-link.active {
+            border-bottom:0;
+            text-decoration: underline;
+            text-decoration-color: #b1b110;
+        }
+        .shopping-cart {
+            width: 220px;
+        }
+        .simpleCart_checkout_button {
+            margin-left: 26px;
+        }
     }
 </style>
 <style type="text/css">
