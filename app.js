@@ -11,8 +11,6 @@ var express = require('express'),
   var errorHandler = require('express-error-handler');
 var bodyParser = require('body-parser')
 
-const basicAuth = require('express-basic-auth')
-
 
 var env = process.env.NODE_ENV || "production",
   _dirname = (process.env.SITE_PATH) ? path.resolve(process.env.SITE_PATH) : process.cwd(),
@@ -36,13 +34,6 @@ var env = process.env.NODE_ENV || "production",
 
 var app = express();
 
-
-
-
- app.use(basicAuth({
-     users: { 'admin': 'supersecret' },
-     challenge: true
-  }))
 
 // app.use(bodyParser.urlencoded({ extended: false }))
  
