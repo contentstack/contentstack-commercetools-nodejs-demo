@@ -1,0 +1,254 @@
+/*#header-nav h4.contact a {color:#D4EFF6;text-decoration:none}*/
+/*NAV*/
+.menu-smb-cat {border-bottom:1px solid #fff;}
+#footer .menu-smb-cat {border:none;}
+
+
+##clouds-bounce .cloud { background: transparent url('http://www2.sfdcstatic.com/in/assets/css/images/cloud-logos.gif') no-repeat scroll left -93px; }
+#clouds-bounce .cloud span { background: transparent url('http://www2.sfdcstatic.com/in/assets/css/images/cloud-logos.gif') no-repeat scroll center top; }
+#clouds-bounce .cloud1 span { background-position: center -188px; }
+#clouds-bounce .cloud2 span { background-position: center -245px; }
+#clouds-bounce .cloud3 span { background-position: center -295px; height: 58px; margin: 13px 0 0 13px; }
+#clouds-bounce .cloud4 span { background-position: center -352px; margin-top: 20px; }
+#clouds-bounce .cloud5 span { background-position: center -390px; }
+#clouds-bounce .cloud6 span { background-position: center -445px; margin-top: 15px; }
+#clouds-bounce .cloud7 span { background-position: center -494px; }
+#clouds-bounce .cloud8 span { background-position: center -540px; }
+#customer-module .logo { background: url("http://www2.sfdcstatic.com/in/assets/css/images/cloudless-logo_in.png") no-repeat scroll 0 0 transparent; display: block; float: left; height: 120px; }
+#customer-module .logo1 { background-position: -9px -31px; height: 64px; margin: 29px 2px 0 21px; width: 135px; }
+#customer-module .logo2 { background-position: -147px -10px; height: 55px; margin: 8px 0 0 6px; width: 99px; }
+#customer-module .logo3 { background-position: -240px -63px; height: 38px; margin: 62px 0 0 -5px; width: 117px; }
+#customer-module .logo4 { background-position: -328px -14px; height: 37px; margin: 14px 0 0 -27px; width: 138px; }
+#customer-module .logo5 { background-position: -437px -51px; height: 67px; margin: 52px 0 0 -31px; width: 123px; }
+#customer-module .logo6 { background-position: -559px -6px; height: 60px; margin: 6px 0 0 -6px; width: 103px; }
+#customer-module .logo7 { background-position: -661px -56px; height: 50px; margin: 62px 0 0 -11px; width: 107px; }
+#customer-module .logo8 { background-position: -766px -8px; height: 50px; margin: 7px 0 0 -5px; width: 128px; }
+#customer-module .stories { margin-top: 20px; text-align: center; }
+.static-promos { margin: 0px 5px 0 5px; }
+h3.cust_quote { font-family: ProximaNovaRegular, Arial, sans-serif; font-size: 23px; line-height: 100%; color: #8ac8e1 }
+h3.cust_quote b { color: #1697c0 }
+h3.cust_quote p { font-size: 15px; color: #8ac8e1; margin: 0px }
+h1.sem-contact-me { font-family: ProximaNovaRegular, Arial, sans-serif; font-size: 26px; line-height: 100%; color: #18b9d7 }
+#billboard-h1 { margin-left: -15px; background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/ban_sem_arrows_cust.jpg') no-repeat scroll center top; border: 1px solid transparent; width: 885px; height: 205px }
+#billboard-h1 h1 { font-family: ProximaNovaRegular, Arial, sans-serif; font-size: 38px; line-height: 100%; color: #029ae3; margin-left: 25px }
+#billboard-h2 { background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/ban_sem_cust_arrows_notext.png') no-repeat scroll left top; border: 0px solid blue; width: 560px; height: 207px }
+#billboard-h2 h1 { font-family: ProximaNovaRegular, Arial, sans-serif; font-size: 32px; line-height: 100%; color: #029ae3; font-weight: normal }
+#billboard-h3 { margin-left: -15px; background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/ban_sem_call_center.jpg') no-repeat scroll center top; border: 1px solid transparent; width: 885px; height: 205px }
+#billboard-h3 h1 { font-family: ProximaNovaRegular, Arial, sans-serif; font-size: 35px; line-height: 100%; color: #029ae3; margin-left: 25px }
+/*SOCIAL SHARING LINKS - HORIZONTAL*/
+#border_container { border: 0px solid red; position: relative; width: 920px; } /*bordered box widthmargin-left:-10px; */
+#border_container #box_nw { border: 0px solid blue; background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/boxnw.gif') no-repeat; position: absolute; top: 0; left: 0; width: 17px; height: 17px }
+#border_container #box_ne { border: 0px solid blue; background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/boxne.gif') no-repeat; position: absolute; top: 0; right: 0; width: 17px; height: 17px }
+#border_container #box_se { border: 0px solid blue; background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/boxse.gif') no-repeat; position: absolute; bottom: 0; right: 0; width: 17px; height: 17px }
+#border_container #box_sw { border: 0px solid blue; background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/boxsw.gif') no-repeat; position: absolute; bottom: 0; left: 0; width: 17px; height: 17px }
+#border_container #box_n { border: 0px solid red; background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/boxn.gif') repeat-x; position: absolute; top: 0; left: 0; width: 100%; height: 17px }
+#border_container #box_s { border: 0px solid red; background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/boxs.gif') repeat-x; position: absolute; bottom: 0; left: 0; width: 100%; height: 17px }
+#border_container #box_w { border: 0px solid green; background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/boxw.gif') repeat-y; position: absolute; top: 0; left: 0; width: 17px; height: 100% }
+#border_container #box_e { border: 0px solid green; background: transparent url('http://www2.sfdcstatic.com/au/assets/images/form/boxe.gif') repeat-y; position: absolute; bottom: 0; right: 0; width: 17px; height: 100% }
+#border_container #border_content { padding: 20px; border: 0px solid red }
+#border_container #border_content b { font-size: 15px; font-weight: bold }
+#border_container #border_content #div_content { float: left; border: 0px solid red; width: 150px; height: 125px; text-align: center; margin-right: 20px; } /*content width*/
+#border_container #border_content #div_content #ico { border: 0px solid blue; }
+#border_container #border_content #div_content #txt { float: left; border: 0px solid green; width: 100%; font-size: 11px; line-height: 150% }
+#border_container #border_content #div_content #txt a { font-size: 13px; font-weight: bold }
+/*span.msg {padding-top:-10px;}*/
+div.field { line-height: 16px; }
+/*
+#nav .wrap a {margin-left:5px;margin-right:5px;}
+*/
+
+/* HOMEPAGE SINGLE VALUE PROP */
+.elevator-main { margin-left: -4px; background: url('http://www2.sfdcstatic.com/au/assets/images/elevator-bg.png') no-repeat center top; }
+/*
+.elevator-pitch {border: 0x solid red;} 
+#CTA {list-style-type: none;border: 0px solid green;position:absolute;right:9px;bottom:5px;}
+#CTA li {text-align: center;}
+#CTA a {color:#ffffff;text-decoration:none;font-size:18px;line-height:8px;}
+#CTA .CTA-container {border: 0px solid green; display: table;  height: 60px; width: 170px;  background:transparent url(/in/assets/images/wrapped-buttons.png) no-repeat;} 
+#CTA .CTA-container:hover {background-position:0px -60px;}
+#CTA .CTA-container #CTA-single { border:0px solid red;width:auto;display:block;margin-top:14px;}
+#CTA .CTA-container #CTA-multi { border:0px solid blue;width:auto;display:block;margin-top:8px;} 
+#CTA .CTA-container #CTA-multi #line2 {border: 0px solid red; font-size:14px;}
+*/
+
+/*Mobile & desktop nav tweaks*/
+
+.en #nav li.menu-solutions ul.horizontal{ width: 500px; }
+
+.en #nav li.menu-solutions ul.horizontal li{ width: 47%;  }
+
+.en #nav li.menu-solutions ul.horizontal li li { width: 213px; }
+
+#nav li ul{
+	top:60px!important;
+}
+
+.grey-line{
+background: url('/assets/images/divider-nav-transparent.png') no-repeat center top!important;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+
+.menu-divided {
+margin-top: 20px !important;
+}
+
+
+ 
+/*IN EVENTS  */
+#tbl-agenda { width: 97% !important; }
+#tbl-agenda td { border-bottom: 1px solid #E7E7E7; padding-left: 10px; font-size: 13px; line-height: 16px; vertical-align: top; }
+#tbl-agenda td:first-child { width: 25%; text-align: center; white-space: nowrap; }
+ul#events { list-style-image: url('http://www2.sfdcstatic.com/common/assets/css/images/check_grn.gif'); border: 0px solid red; font-size: 13px; line-height: 16px; padding-left: 35px; }
+#greybox-content-rt p { font-size: 13px; line-height: 19px; }
+.map-to-location { text-decoration: none; color: #006699; font-size: 15px; border: 0px solid red; height: 21px; margin-top: 15px; }
+/* Added by Aonghus to fix the video cta issue 2013-2-4 */
+
+.video-cta-large { max-width: 392px; max-height: 246px; }
+.video-cta-large img { max-width: 392px; max-height: 246px; }
+.video-cta-large .video-text, .video-cta-large .video-time { width: 100%; bottom: 0; color: #fff; }
+.video-cta-large .video-time { right: 10px; }
+.video-cta-large .video-text { left: 0; background-color: #525252; color: #fff; opacity: 0.85; filter: alpha(opacity=85); }
+.video-cta-large .play-button { position: absolute; top: 50%; left: 50%; display: block; width: 56px; height: 37px; margin-top: -18px; margin-left: -28px; background: url("http://www2.sfdcstatic.com/common/assets/img/rwd/play-button.png") no-repeat left top transparent; }
+.video-cta-large a:hover .play-button { background: url("http://www2.sfdcstatic.com/common/assets/img/rwd/play-button-over.png"); }
+.video-cta-small { max-width: 94px; }
+.video-cta-small img { max-width: 94px; max-height: 56px; display: block; }
+.video-cta-small .video-text, .video-cta-small .video-time { display: block; padding: 1px 0 0 3px; color: #666; }
+/* End: Added by Aonghus to fix the video cta issue 2013-2-4 */
+ 
+/* SHORT FORM */
+/*#hp-container { border: 0px solid red; width: auto; height: 224px; margin-top: 12px; }
+#hp-container #hp-survey { border: 0px solid green; width: 477px; height: 238px; float: left; margin-left: 30px; background: transparent url('http://www2.sfdcstatic.com/ap/assets/images/form/survey-container.png') no-repeat top left; }
+#hp-container #hp-shortform { border: 0px solid blue; width: 604px; height: 224px; float: left; 
+background: transparent url('http://www2.sfdcstatic.com/in/assets/images/promos/ban_shortform-phase2.png') no-repeat top left; }
+#hp-container #hp-shortform #hp-theform { border: 0px solid yellow; width: 235px; height: 187px; margin-left: 360px; margin-top: 25px; 
+}
+#hp-container #hp-shortform #hp-theform #shortform-form-container { border: 0px solid green; width: 235px; height: 187px;
+} */
+.india-elevator-socialent { background: url("http://www2.sfdcstatic.com/in/assets/images/promos/ban_hp_se-IN.jpg") no-repeat scroll center top transparent; height: 246px; text-align: center; }
+.india-elevator-socialent-alt { background-attachment: scroll; background-clip: initial; background-color: transparent; /*background-image:url(/in/assets/images/promos/ban_hp_cfjapan_live-IN.jpg);*/
+background-origin: initial; background-position: 50% 0; background-repeat: no-repeat no-repeat; height: 246px; text-align: center; border: 0px solid red; }
+/******************************** SEO ********************************/
+#seo-content-container .tab1 .short_version h2 { color: #333333; font-weight: normal; font-size: 16px; }
+#seo-content-container .tab1 .remainder_of_long_version h1 { color: #333333; font-weight: normal; font-size: 18px; }
+#seo-content-container .tab1 .remainder_of_long_version h2 { color: #333333; font-weight: normal; font-size: 16px; }
+#seo-content-container .tab1 .remainder_of_long_version h3 { color: #333333; font-size: 14px; }
+.form-with-background .form-panel-container { min-height: 550px; }
+ul#bulletz { line-height: 20px; list-style-image: url('http://www2.sfdcstatic.com/common/assets/css/images/check_grn.gif'); padding-left: 25px; }
+/*
+RWD  
+September 2012
+*/
+.en #nav li ul.submenu-2col { width: 500px; }
+.en #nav li ul.submenu-2col li { width: 47%; border: 0px solid green; }
+.en #nav li ul.submenu-2col li li { width: 213px; border: 0px solid red; }
+.en #nav li ul.submenu-3col { border: 0px solid pink; }
+.en #nav li ul.submenu-3col li { border: 0px solid green; }
+.en #nav li ul.submenu-3col li li { border: 0px solid red; }
+.min-480 { border: 0px solid red; }
+.en #nav li.menu-solutions li.menu-whysalesforce ul { border-top: 1px solid #FFFFFF !important; }
+/* RWD HOMEPAGE OVERRIDES */
+
+/*.product-container { padding-bottom: 0.8%; }  fixing the bucket alignment bug */
+.media .media-title h3, .media .media-title h4 { display: block; } /*fix title two line problem*/
+
+/* fix for placeholder styled form */
+.form-theme-1 form,.form-theme-embed form  {padding-right: 50px;}
+.form-theme-1 .form-disclaimer a, .form-theme-1 .form-disclaimer a:hover, .form-theme-1 .form-disclaimer a:visited, .form-theme-embed .form-disclaimer a, .form-theme-embed .form-disclaimer a:hover, .form-theme-embed .form-disclaimer a:visited {color:#ffffff;}
+.form-theme-1 .form-disclaimer, .form-theme-embed .form-disclaimer {padding-right:20px;}
+.form-theme-1 .trustdisclaimer {display: none;}
+/* end fix */
+
+.hp-cust-slide2{background-image:url('/in/assets/images/home/ban_hp_dreamforce.jpg');height:280px !important;}
+.hp-prosp-slide2{background-image:url('/in/assets/images/home/ban_hp_johnson_990x280.jpg');height:280px !important;}
+.hp-cust-slide-changi{background-image:url('/in/assets/images/home/ban_ap-in_hp_changi_990x280.jpg');height:280px !important;}
+.hp-prosp-slide-changi{background-image:url('/in/assets/images/home/ban_ap-in_hp_changi_990x280.jpg');height:280px !important;}
+
+.hp-sf1-cust{background:#0f2c4a url('/common/assets/images/home/sfdc_sf1_hero_cust_1600x450.jpg');height:450px !important;}
+
+#service-slide3     {background-image:url('/in/assets/images/servicecloud/ban_service_vodafone_522x264.jpg');height:380px; !important}
+.product-med {
+
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 67px;
+  height: 67px;
+  display: inline-block;
+}
+.product-med img{
+    width: 67px;
+    height: 67px;
+}
+
+
+.product-med.sales-icon {background-position: ;}
+.product-med.service-icon {background-position: -67px 0;}
+.product-med.marketing-cloud-icon {background-position: -134px 0;}
+.product-med.community-cloud-icon {background-position: -201px 0;}
+.product-med.analytics-cloud-icon {background-position: -268px 0;}
+.product-med.platform-cloud-icon {background-position: -335px 0;}
+.product-med.iot-cloud-icon {background-position: -402px 0;}
+
+.products-desktop .grid-25 p{width:90%;
+}
+
+/* SALES CLOUD BANNERS */
+/* prospect*/
+#prosp-sales-slide2 { background-image: url('/in/assets/images/salescloud/ban_sales_gartner_sfa_990x380.jpg'); height: 380px; !important; }
+
+
+/*chatter s1*/
+#mssg-corp-email {
+margin-left:0px;
+}
+
+#chatter-slide1-sf1    {background-image:url('/assets/images/chatter/chatter_hero_990x420-sf1.jpg');height:420px;}
+
+/* SCREEN 3 and 4 - HIGH RESOLUTION IMAGES*/
+@media screen and (min-width: 768px) {  /* minifier: remove line when 'removeLines=noMediaQuery' */ /* for IE6-8 to use desktop styles */
+/* Prospect Full Bleed */
+    /*.hp-sf1-sales{background:#000000 url('/ap/assets/images/home/sfdc_sales_bgr_1600x450.jpg');height:450px !important;}*/
+} 
+
+
+/*EVENTFORCE OVERWRITES*/
+/*ATHOR: MIKE SCHRIEWER*/
+/*E-MAIL: mschriewer@salesforce.com*/
+/*DATE: 20.07.2016*/
+
+.bg-header-image {
+    background: rgba(0,0,0,0) url("/eu/assets/images/events/event-header-background-image.png") no-repeat scroll 0 0;
+    left: 0;
+}
+
+.bg-blue-bleed {
+	background:url(/eu/assets/images/events/top-blue-white-bleed-bg.gif) repeat-x;
+}
+
+.generic-nav-horizontal .li-level-1-active .div-level-1 {
+    background-color: #003660;
+    border-radius: 3px 3px 0 0;
+}
+
+
+
+#form-container > div.submit-container.clearfix > a.submit.shadow-surround-5.font-white.bg-gradient-darkblue.top-5.bottom-5.font-20.font-family-lucida {
+	border-radius: 3px;
+	padding: 0 30px;
+	background: #003660 repeat scroll 0 0;
+}
+
+#form-container > div.submit-container.clearfix > a.submit.shadow-surround-5.font-white.bg-gradient-darkblue.top-5.bottom-5.font-20.font-family-lucida:hover {
+	background: #1d4076 repeat scroll 0 0;
+}
+
+
+
+.nav-only .container li a:visited span{
+    color: #07b !important;
+}
+
+.nav-only .container li a span{
+    font-size:15px;
+}
