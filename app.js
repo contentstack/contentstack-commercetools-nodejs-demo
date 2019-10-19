@@ -13,14 +13,14 @@ var bodyParser = require('body-parser')
 
 
 
-var env = process.env.NODE_ENV || "production",
+var env = process.env.NODE_ENV || "default",
   _dirname = (process.env.SITE_PATH) ? path.resolve(process.env.SITE_PATH) : process.cwd(),
   _env;
 
 // try {
   // load environment based configurations
   var _path = path.join(_dirname, 'config');
-  if(env === 'production')
+  if(env === 'default')
       _env = require(path.join(_path, 'default'));
   else
       _env = require(path.join(_path, env));

@@ -6,11 +6,10 @@ module.exports = exports = {
 		access_token: ''
 	},
 	commercetools: {
-		"project_key": "cs-ct-integration",
-		"host": "sphere.io",
+		"project_id": "",
+		"host": "",  //api host url
 		"client_id": "",
 		"client_secret": "",
-		"scopes":['manage_project:cs-ct-integration']
+		"scopes":[]
 	}
 };
-
