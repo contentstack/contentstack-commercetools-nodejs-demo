@@ -1,0 +1,118 @@
+{% extends "index.html" %}
+
+{% block content %}
+<script type="text/javascript">
+
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" src="/js/simpleCart.min.js"></script>
+<!-- linkedin tags-->
+<meta property='og:title' content='{{category}}' />
+<meta property='og:image' content='{{products[0].featured_image[0].url}}' />
+<meta property='og:description' content='Demo app built using contentstack' />
+<meta property='og:url' content='/{{category}}' />
+<!-- fb tags-->
+<meta property="og:title" content="{{category}}" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="{{products[0].featured_image[0].url}}" />
+<meta property="og:url" content="category}}" />
+<meta property="og:description" content="Demo app built using contentstack" />
+<!-- For Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{{category}}" />
+<meta name="twitter:description" content="Demo app built using contentstack" />
+<meta name="twitter:image" content="{{products.featured_image[0].url}}" />
+<script>
+	window.dataLayer = window.dataLayer || [];
+	$(document).ready(function () {
+		simpleCart({
+			cartStyle: "div",
+			cartColumns: [
+				{ view: "image", attr: "thumb", label: false },
+				{ attr: "name", label: "Name" },
+				{ attr: "price", label: "Price", view: "currency" },
+				{ view: "decrement", label: false, text: " - " },
+				{ attr: "quantity", label: "Qty" },
+				{ view: "increment", label: false, text: " +" },
+				{ view: "remove", text: "Remove", label: false }
+			]
+		});
+	});
+
+</script>
+
+<style>
+	.item_add_simplecart {
+		width: 155.3px;
+		height: 40px;
+		object-fit: contain;
+		border-radius: 20px;
+		background-color: #262626;
+		display: inline-block;
+		text-align: center;
+		font-size: 12px;
+		line-height: 40px;
+		border: 1px solid transparent;
+		transition: 0.3s;
+		color: #ffffff;
+	}
+
+	.item_add_simplecart:hover {
+		border-color: #262626;
+		background: #fff;
+		color: #262626;
+	}
+</style>
+<section class="main-content">
+	<div class="container">
+		{% if products.length!==0 %}
+		<div class="catergItem d-flex flex-wrap col-md-12">
+			{% for product in products %}
+
+			<div class="col-md-4 col-sm-4 col-xs-12 ">
+				<div class="product-img" style="margin-bottom: 14px;">
+					<a href="{{ product.url }}">				
+						<img src="{{ product.featured_image[0].url}}?width=225&height=225" alt="" /></a>
+				</div>
+				<div class="p-mask" style="text-align: center;">
+					{% if product.number %}
+					<div class="simpleCart_shelfItem">
+						<img style="display:none" class="item_thumb"
+							src="{{product.featured_image[0].url}}?width=70&height=70" alt="Item Alt" />
+						<h2 style="display:none" class="item_name">{{ product.title }}</h2>
+						<span style="display:none"
+							class="item_price">{{ product.number }}</span>
+						<a href="javascript:;" class="fa fa-cart-plus item_add item_add_simplecart">Add to Cart</a>
+					</div>
+					{% else %}
+					<div class="simpleCart_shelfItem">
+						<img style="display:none" class="item_thumb"
+							src="{{product.featured_image[0].url}}?width=70&height=70" alt="Item Alt" />
+						<h2 style="display:none" class="item_name">{{ product.title }}</h2>
+						<span style="display:none"
+							class="item_price">{{ product.number }}</span>
+						<a href="javascript:;" class="fa fa-cart-plus item_add item_add_simplecart">Add to Cart</a>
+					</div>
+					{% endif %}
+				</div>
+
+				<h3>{{ product.title }}</h3>
+				{% if product.number %}
+				<h4>${{ product.number }}</h4>
+				{% endif %}
+
+			</div>
+
+			{% endfor %}
+		</div>
+		{% else %}
+		<div class="no-pro" style="text-align:center; margin-top:5px">
+			Sorry, there are no products currently listed on the page you're looking!
+		</div>
+		{% endif %}
+	</div>
+</section>
+{% endblock %}
+
+
+</style>
