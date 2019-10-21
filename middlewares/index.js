@@ -1,14 +1,14 @@
-var express = require('express');
-var router = express.Router();
-const basicAuth = require('express-basic-auth')
+const express = require('express');
+const router = express.Router();
+const basicAuth = require('express-basic-auth');
 
-function a(req,res,next){
-	basicAuth({
-    	users: { 'admin': 'supersecret' }
-	})
-	next()
+function a(req, res, next) {
+  basicAuth({
+    	users: {'admin': 'supersecret'},
+  });
+  next();
 }
 
-router.get('*', a,require('./load-partials'));
+router.get('*', a, require('./load-partials'));
 
 module.exports = router;
