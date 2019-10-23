@@ -42,19 +42,34 @@
         </div>
     </nav>
 </div>
-
 <script type="text/javascript" src="/js/simpleCart.min.js"></script>
-
 <script type="text/javascript">
-
-function createCartFn(cartObj){
+async function createCartFn(cartObj){
     let obj= JSON.parse(cartObj);
     let bodyArray=[];
     Object.keys(obj).map((key)=>{
       bodyArray.push({productId:obj[key].product, quantity:obj[key].quantity})
     })
-    let randomCartId = Math.floor((Math.random() * 100000000000));
-    window.open(`/cart/${randomCartId}/pay`,'_self');
+
+    try {
+        let cart =  await fetch(`/createCart`,{
+        method:"POST",
+        headers: {
+                'Content-Type': 'application/json',
+        },
+        body:JSON.stringify(bodyArray)
+        })
+        let cartResponse = await cart.json();
+        if(cartResponse.status == 200){
+            window.open(`/cart/${cartResponse.cartId}/pay`,'_self');
+        }
+        else {
+            alert("Sorry problem checking out, cart creation Error"+cartResponse.err.message);
+        }
+    }catch(err){
+        alert("Sorry problem checking out, cart creation Error"+err);
+    }
+
   }
 
     $('.simpleCart_checkout_button').click( async function(event) {     
@@ -475,7 +490,7 @@ function createCartFn(cartObj){
     .catergItem h4{
         font-size: 16px;
         text-align: center;
-        padding-bottom: 20px;
+        margin-top : 5px;
         font-family: inherit;
         line-height: 1.4;
         font-family: futura-pt, sans-serif;

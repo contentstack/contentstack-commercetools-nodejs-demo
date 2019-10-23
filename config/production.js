@@ -3,13 +3,14 @@ module.exports = exports = {
   // Contentstack Config
   contentstack: {
     api_key: '',
-    access_token: ''
+    access_token: '',
+    ct_extension_id:''
   },
   commercetools: {
     'project_id': '',
-    'host': '', // api host url
+    'host': 'sphere.io', // api host url
     'client_id': '',
     'client_secret': '',
-    'scopes': [],
+    'scopes': []
   },
 };

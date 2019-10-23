@@ -112,12 +112,12 @@
 								<h3 class="item_name">{{ product.title }}</h3>
 								<div class="single-price">
 									<ul>
-
 										<li class="offer-price-text">$
-											{{ product.number }}
+											{{ product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100 }}
 										</li>
 									</ul>
 								</div>
+								<span style="display: none" class="item_product">{{product.product_link.id}}</span>
 								<p class="single-price-text">{{ product.description | safe }}</p>
 								<div class="input-group input-number-group">
 									<div class="input-group-button">
@@ -130,11 +130,12 @@
 								</div>
 								<div class="simpleCart_shelfItem">
 									<h2  style="display:none;" class="item_name">{{ product.title }}</h2>
+									<span style="display:none" class="item_product">{{product.product_link.id}}</span>
 								</input>
 									<img style="display:none" class="item_thumb"
 										src="{{product.featured_image[0].url}}?width=70&height=70" alt="Item Alt">
 									<span style="display:none"
-										class="item_price">{{ product.number }}</span>
+										class="item_price">{{ product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100 }}</span>
 									<a href="javascript:;" class="item_add_simplecart item_add">Add to Cart</a>
 								</div>
 								<div class="itemDetails">
@@ -186,8 +187,7 @@
 						<a href="{{related.url}}" class="recommended-title recommended-slide-title">
 							{{related.title}}</a> </br>
 						<span class="recommended-text recommended-slide-title">$
-							{{related.number}}</span>
-
+							{{related.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100}}</span>
 					</div>
 				</div>
 				{% endfor %}
