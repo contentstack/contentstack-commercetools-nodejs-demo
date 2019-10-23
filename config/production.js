@@ -3,7 +3,7 @@ module.exports = exports = {
   // Contentstack Config
   contentstack: {
     api_key: '',
-    access_token: '',
+    access_token: ''
   },
   commercetools: {
     'project_id': '',
