@@ -1,0 +1,127 @@
+{
+  "title": "Product",
+  "uid": "product",
+  "inbuilt_class": false,
+  "schema": [
+    {
+      "display_name": "Title",
+      "uid": "title",
+      "data_type": "text",
+      "mandatory": true,
+      "unique": true,
+      "field_metadata": {
+        "_default": true
+      },
+      "multiple": false
+    },
+    {
+      "display_name": "URL",
+      "uid": "url",
+      "data_type": "text",
+      "mandatory": false,
+      "field_metadata": {
+        "_default": true
+      },
+      "multiple": false,
+      "unique": false
+    },
+    {
+      "data_type": "text",
+      "display_name": "Description",
+      "uid": "description",
+      "field_metadata": {
+        "description": "",
+        "default_value": "",
+        "multiline": true,
+        "error_message": ""
+      },
+      "format": "",
+      "multiple": false,
+      "mandatory": true,
+      "unique": false
+    },
+    {
+      "data_type": "file",
+      "display_name": "Featured Image",
+      "uid": "featured_image",
+      "field_metadata": {
+        "description": "",
+        "rich_text_type": "standard",
+        "image": true
+      },
+      "multiple": true,
+      "mandatory": true,
+      "unique": false
+    },
+    {
+      "data_type": "number",
+      "display_name": "Price",
+      "uid": "price",
+      "field_metadata": {
+        "description": "",
+        "default_value": ""
+      },
+      "mandatory": true,
+      "multiple": false,
+      "unique": false
+    },
+    {
+      "data_type": "number",
+      "display_name": "Offer Price",
+      "uid": "offer_price",
+      "field_metadata": {
+        "description": "",
+        "default_value": ""
+      },
+      "mandatory": false,
+      "multiple": false,
+      "unique": false
+    },
+    {
+      "data_type": "reference",
+      "display_name": "Categories",
+      "reference_to": "category",
+      "field_metadata": {
+        "ref_multiple": true
+      },
+      "uid": "categories",
+      "multiple": false,
+      "mandatory": true,
+      "unique": false
+    },
+    {
+      "data_type": "boolean",
+      "display_name": "In Stock",
+      "uid": "in_stock",
+      "field_metadata": {
+        "description": "",
+        "default_value": true
+      },
+      "multiple": false,
+      "mandatory": false,
+      "unique": false
+    },
+    {
+      "data_type": "reference",
+      "display_name": "Related Products",
+      "reference_to": "product",
+      "field_metadata": {
+        "ref_multiple": true
+      },
+      "uid": "related_products",
+      "multiple": false,
+      "mandatory": false,
+      "unique": false
+    }
+  ],
+  "maintain_revisions": true,
+  "description": "",
+  "options": {
+    "is_page": true,
+    "singleton": false,
+    "title": "title",
+    "sub_title": [],
+    "url_pattern": "/:unique_id",
+    "url_prefix": "/product/"
+  }
+}
