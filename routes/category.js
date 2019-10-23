@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const {getAllProducts} = require('../lib/commercetool');
+const product_link_id = config.contentstack.ct_extension_id;
 
 router.get('/:category', (req, res, next) => {
   let url = req.path.split('/');
@@ -14,22 +15,20 @@ router.get('/:category', (req, res, next) => {
       .toJSON()
       .limit(9)
       .query({'categories': {'$in_query': {'url': '/category/' + req.params.category}}})
-      .only(['title', 'url', 'in_stock', 'featured_image', 'offer_price', 'price', 'product_link'])
+      .only(['title', 'url', 'in_stock', 'featured_image', 'offer_price', 'price', product_link_id])
       .includeCount()
       .find()
       .spread(function success(result, count) {
         // //commercetools pricing
         getAllProducts(req, res).then((products) => {
           result.forEach(function(data) {
-            if (req.originalUrl.includes('/en/') || req.originalUrl.includes('/fr/')) {
-              data.url = '/' + locale.split('-', 1) + data.url;
-            }
             products.body.results.forEach(function(ids) {
-              if (data.product_link.id === ids.id) {
-                data.product_link = ids;
+              if (data[product_link_id].id === ids.id) {
+                data['product_link'] = ids;
               }
             });
           });
+
           res.render('pages/category', {
             products: result,
             active: req.originalUrl.slice(0, req.originalUrl.indexOf('?') + 1) || req.originalUrl,

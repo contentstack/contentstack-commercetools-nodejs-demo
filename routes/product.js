@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const {getAllProducts} = require('../lib/commercetool');
+const product_link_id = config.contentstack.ct_extension_id;
 
 router.get('/:id', (req, res, next) => {
   let url = req.path.split('/');
@@ -20,18 +21,14 @@ router.get('/:id', (req, res, next) => {
         result[0] = result[0] ? result[0] : {};
         getAllProducts().then((products) => {
           products.body.results.forEach(function(ids) {
-            if (result[0].product_link.id === ids.id) {
-              result[0].product_link = ids;
+            if (result[0][product_link_id].id === ids.id) {
+              result[0]['product_link'] = ids;
             }
           });
-
           result[0].related_products.forEach(function(data) {
-            if (req.originalUrl.includes('/fr')) {
-              data.url = '/' + locale.split('-', 1) + data.url;
-            }
             products.body.results.forEach(function(ids) {
-              if (data.product_link.id === ids.id) {
-                data.product_link = ids;
+              if (data[product_link_id].id === ids.id) {
+                data['product_link'] = ids;
               }
             });
           });

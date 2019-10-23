@@ -2,14 +2,29 @@
   {% block content %}
 
 <script type="text/javascript">
-function createOrder(){
+async function createOrder(){
   if(!$('#fname').val() && !$('#email').val() && !$('#cname').val() && !$('#adr').val()){
     return alert("Required Fields Missing");
   }
-  let randomOrderId = Math.floor((Math.random() * 100000000000));
-  alert("Your Order has been created with Order Id="+randomOrderId)
-  window.localStorage.clear();
-  window.open('/','_self');
+  try {
+    let order = await fetch('/createOrder',{
+      method:"POST",
+      headers: {
+            'Content-Type': 'application/json',
+      },
+      body:JSON.stringify({id:`{{cartId}}`})
+    })
+    let orderResponse = await order.json();
+    if(orderResponse.status ==200){
+      alert("your order has been created with order Id="+orderResponse.orderId)
+      window.localStorage.clear();
+      window.open('/','_self');
+    }else {
+      alert("Could not create order. Please try again later"+orderResponse.err.message);
+    }
+  }catch(err){
+    alert("Could not create order. Please try again later Error"+err);
+  }  
 }
 
 </script>

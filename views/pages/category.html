@@ -75,13 +75,14 @@
 						<img src="{{ product.featured_image[0].url}}?width=225&height=225" alt="" /></a>
 				</div>
 				<div class="p-mask" style="text-align: center;">
-					{% if product.number %}
+					{% if product.offer_price > product.price %}
 					<div class="simpleCart_shelfItem">
 						<img style="display:none" class="item_thumb"
 							src="{{product.featured_image[0].url}}?width=70&height=70" alt="Item Alt" />
 						<h2 style="display:none" class="item_name">{{ product.title }}</h2>
+						<span style="display:none" class="item_product">{{product.product_link.id}}</span>
 						<span style="display:none"
-							class="item_price">{{ product.number }}</span>
+							class="item_price">{{ (product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100) }}</span>
 						<a href="javascript:;" class="fa fa-cart-plus item_add item_add_simplecart">Add to Cart</a>
 					</div>
 					{% else %}
@@ -89,16 +90,22 @@
 						<img style="display:none" class="item_thumb"
 							src="{{product.featured_image[0].url}}?width=70&height=70" alt="Item Alt" />
 						<h2 style="display:none" class="item_name">{{ product.title }}</h2>
-						<span style="display:none"
-							class="item_price">{{ product.number }}</span>
+						<span style="display:none" class="item_product">{{product.product_link.id}}</span>
+						<span style="display:none" class="item_price">{{ (product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100) }}</span>
 						<a href="javascript:;" class="fa fa-cart-plus item_add item_add_simplecart">Add to Cart</a>
 					</div>
 					{% endif %}
 				</div>
 
-				<h3>{{ product.title }}</h3>
-				{% if product.number %}
-				<h4>${{ product.number }}</h4>
+				<h4>{{ product.title }}</h4>
+				{% if product.offer_price %}
+				{% if product.offer_price > product.price %}
+				<h5>${{ (product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100) }}</h5>
+				{% else %}
+				<h5>${{ (product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100) }}</h5>
+				{% endif %}
+				{% else %}
+				<h5>${{ (product.product_link.masterData.current.masterVariant.prices[0].value.centAmount/100) }}</h5>
 				{% endif %}
 
 			</div>
