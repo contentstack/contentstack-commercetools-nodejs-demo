@@ -1,3 +1,7 @@
+/* eslint-disable max-len */
+/* eslint-disable no-unused-vars */
+/* eslint-disable camelcase */
+/* eslint-disable new-cap */
 const express = require('express');
 const router = express.Router();
 const {getAllProducts} = require('../lib/commercetool');
@@ -23,7 +27,8 @@ router.get('/:category', (req, res, next) => {
         getAllProducts(req, res).then((products) => {
           result.forEach(function(data) {
             products.body.results.forEach(function(ids) {
-              if (data[product_link_id].id === ids.id) {
+              console.log('data', data);
+              if (data.featured_image[0].uid === ids.id) {
                 data['product_link'] = ids;
               }
             });

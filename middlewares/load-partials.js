@@ -1,8 +1,12 @@
+/* eslint-disable max-len */
+/* eslint-disable new-cap */
+/* eslint-disable no-unused-vars */
 const async = require('async');
 
 module.exports = function(req, res, next) {
   async.parallel([
     function(callback) {
+      // eslint-disable-next-line no-unused-vars
       let url = req.path.split('/');
       let locale;
       if (req.path.includes('/en')) {
@@ -18,7 +22,6 @@ module.exports = function(req, res, next) {
         locale = 'en-us';
         url = url[1];
       }
-
 
       const Query = Stack.ContentType('header').Query()
           .language(`${locale}`)

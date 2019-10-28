@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 
 const bodyParser = require('body-parser');
 

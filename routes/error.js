@@ -3,18 +3,18 @@ module.exports = (app) => {
   app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
-	  	next(err);
+    next(err);
   });
 
   // development error handler
   if (app.get('env') === 'development') {
-	  	app.use((err, req, res, next) => {
-	    	res.status(err.status || 500);
-	    	res.render('error/404', {
-	      		message: err.message,
-	      		error: err,
-	    	});
-	  	});
+    app.use((err, req, res, next) => {
+      res.status(err.status || 500);
+      res.render('error/404', {
+        message: err.message,
+        error: err,
+      });
+    });
   }
 
   // production error handler

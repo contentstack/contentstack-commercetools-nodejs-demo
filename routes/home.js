@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable new-cap */
 const express = require('express');
 const router = express.Router();
 const fetch = require('node-fetch');
@@ -22,4 +24,3 @@ router.get('/', (req, res, next) => {
 });
 
 module.exports = router;
-s
