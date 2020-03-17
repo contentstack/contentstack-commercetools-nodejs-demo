@@ -8,7 +8,7 @@
 ### Live Demo
 You can check the [live demo](https://commercetools.contentstackdemos.com/) to get the first-hand experience of the website 
 
-### Crdentials
+### Credentials
 Username:admin
 password:supersecret
 
