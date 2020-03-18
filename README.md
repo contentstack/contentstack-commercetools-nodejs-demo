@@ -8,10 +8,6 @@
 ### Live Demo
 You can check the [live demo](https://commercetools.contentstackdemos.com/) to get the first-hand experience of the website 
 
-### Credentials
-Username:admin
-password:supersecret
-
 ### Tutorial
 We have created an in-depth tutorial on how you can create a website using Commercetools and Contentstack. By following the steps given in the tutorial, design a website similar to the one given in the demo.
 
