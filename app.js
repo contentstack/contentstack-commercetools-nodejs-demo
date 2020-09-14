@@ -20,7 +20,7 @@ var env = process.env.NODE_ENV || "production",
   // load environment based configurations
   var _path = path.join(_dirname, 'config');
   if(env === 'production')
-      _env = require(path.join(_path, 'default'));
+      _env = require(path.join(_path, 'production'));
   else
       _env = require(path.join(_path, env));
 
