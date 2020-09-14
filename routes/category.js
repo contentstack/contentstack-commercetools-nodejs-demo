@@ -20,6 +20,7 @@ router.get('/:category', (req, res, next) => {
 		.find()
 		.spread(function success(result, count) {
 			// //commercetools pricing
+
 			res.render('pages/category', {
 					products: result,
 					active: req.originalUrl.slice(0, req.originalUrl.indexOf('?') + 1) || req.originalUrl,
