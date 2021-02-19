@@ -27,17 +27,13 @@ var env = process.env.NODE_ENV || "default",
 
   // load globals
   global['config'] = _env;
-  global['Stack'] = Contentstack.Stack({
-    api_key: config.contentstack.api_key,
-    access_token: config.contentstack.access_token,
-    environment: env
-  });
+  const { api_key, access_token } = config.contentstack;
+  global['Stack'] = Contentstack.Stack(api_key, access_token, env);
 
 var app = express();
 
 
 // app.use(bodyParser.urlencoded({ extended: false }))
- 
 // // parse application/json
 // app.use(bodyParser.json());
 

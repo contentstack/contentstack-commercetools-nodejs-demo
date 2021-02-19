@@ -1,12 +1,12 @@
 <div class="bs-example" id="NAV_1" >
-    <nav class="navbar navbar-expand-md navbar-light" id="DIV_2">
+    <nav class="navbar navbar-expand-md navbar-dark" id="DIV_2">
         <a href="/" class="navbar-brand">
             <img src="{{header.site_logo.url}}" alt="logo" id="IMG_7">
         </a>
         <button id="cart"><a>
             <span class="item-count simpleCart_quantity"></span>
-            <img src="https://images.contentstack.io/v3/assets/blt11467371f44f3c8c/bltbe3c2be4494ebc7a/5c6160676d61b3c84129f510/combined-shape_(2).svg"
-                height="18.5" width="18.5" alt="options" id="IMG_28" /></a>
+            <img src="https://images.contentstack.io/v3/assets/blt89a3b547f112982e/bltc16a8634966b9a29/602fc2d92bcd81160ce92492/shopping_cart-white-24dp.svg"
+             alt="cart" id="IMG_28" /></a>
         </button>
         <button type="button" class="navbar-toggler toggler-btn" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -72,10 +72,10 @@ async function createCartFn(cartObj){
 
   }
 
-    $('.simpleCart_checkout_button').click( async function(event) {     
+    $('.simpleCart_checkout_button').click( async function(event) {
         console.log("----"+simpleCart.items().length);
         if(simpleCart.items().length > 0){
-            createCartFn(window.localStorage.simpleCart_items);  
+            createCartFn(window.localStorage.simpleCart_items);
         }
     });
 
@@ -172,6 +172,18 @@ async function createCartFn(cartObj){
 </script>
 <style type="text/css">
     @import url("https://use.typekit.net/bek0yja.css");
+
+    .navbar-brand {
+        padding-top: 0;
+        border-radius: 50%;
+        max-height: 60px;
+        max-width: 60px;
+        overflow: hidden;
+    }
+
+    .navbar-brand img {
+        width: 100% !important;
+    }
 
     .headerRow {
         display: none;
@@ -341,7 +353,7 @@ async function createCartFn(cartObj){
     /* Header Menu */
     #NAV_1 {
         width: 100%;
-        max-width: 1280px;
+        background: #333;
         margin: 0 auto;
         font: normal normal 400 normal 14px / 21px futura-pt;
         outline: none;
@@ -386,7 +398,7 @@ async function createCartFn(cartObj){
     .navbar-nav.nav-link:hover{
         border-bottom: 3px solid #b1b110;
     }
-    
+
     .navbar-nav .nav-link{
         display: block;
         text-decoration: none;

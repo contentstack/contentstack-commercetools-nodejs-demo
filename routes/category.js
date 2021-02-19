@@ -23,7 +23,7 @@ router.get('/:category', (req, res, next) => {
         getAllProducts(req, res).then((products) => {
           result.forEach(function(data) {
             products.body.results.forEach(function(ids) {
-              if (data[product_link_id].id === ids.id) {
+              if (data[product_link_id] && data[product_link_id][0] && data[product_link_id][0].id === ids.id) {
                 data['product_link'] = ids;
               }
             });

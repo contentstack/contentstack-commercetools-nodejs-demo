@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "NODE_ENV=production node ./bin/www",
+    "dev": "NODE_ENV=test nodemon ./bin/www"
   },
   "dependencies": {
     "@commercetools/sdk-client": "^2.1.0",
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "eslint": "^6.5.1",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.7"
   }
 }
