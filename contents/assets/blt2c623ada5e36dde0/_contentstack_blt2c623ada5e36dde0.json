@@ -1,0 +1,19 @@
+[
+    {
+        "stackHeaders": {
+            "api_key": "bltc91ab68f0b5e7b84"
+        },
+        "urlPath": "/assets/blt2c623ada5e36dde0",
+        "uid": "blt2c623ada5e36dde0",
+        "content_type": "image/png",
+        "file_size": "294397",
+        "tags": [],
+        "filename": "banner-section-2.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt2c623ada5e36dde0/612f164a67a2530f06655d69/banner-section-2.png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "banner-section-2.png",
+        "publish_details": []
+    }
+]

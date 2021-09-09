@@ -1,0 +1,41 @@
+[
+    {
+        "stackHeaders": {
+            "api_key": "bltc91ab68f0b5e7b84"
+        },
+        "urlPath": "/assets/blteccabffada65846c",
+        "uid": "blteccabffada65846c",
+        "content_type": "image/png",
+        "file_size": "22168",
+        "tags": [],
+        "filename": "MVMT_Rallye_Green_Sandstone_2.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blteccabffada65846c/612f1616981a381cf3358c3a/MVMT_Rallye_Green_Sandstone_2.png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "MVMT_Rallye_Green_Sandstone_2.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:40.698Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:40.698Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:40.698Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            }
+        ]
+    }
+]

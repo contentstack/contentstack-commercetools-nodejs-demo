@@ -1,0 +1,159 @@
+{"level":"info","message":"Migrating languages","timestamp":"2021-09-09T07:30:31.303Z"}
+{"level":"info","message":"\u001b[32mLanguages have been imported successfully!\u001b[39m","timestamp":"2021-09-09T07:30:31.316Z"}
+{"level":"info","message":"Migrating environment","timestamp":"2021-09-09T07:30:31.321Z"}
+{"level":"info","message":"\u001b[32mEnvironments have been imported successfully!\u001b[39m","timestamp":"2021-09-09T07:30:35.763Z"}
+{"level":"info","message":"Migrating assets","timestamp":"2021-09-09T07:30:35.780Z"}
+{"level":"info","message":"No folders were found at: /home/abhishek/Desktop/Ecommerce app/sample app/contentstack-commercetools-nodejs-demo/_backup_533/assets/folders.json","timestamp":"2021-09-09T07:30:35.796Z"}
+{"level":"info","message":"Asset blt773e52445d32120b published successfully","timestamp":"2021-09-09T07:30:40.527Z"}
+{"level":"info","message":"Completed asset import of batch no: 1","timestamp":"2021-09-09T07:30:40.530Z"}
+{"level":"info","message":"Asset blt168086b448db506b published successfully","timestamp":"2021-09-09T07:30:43.812Z"}
+{"level":"info","message":"Completed asset import of batch no: 42","timestamp":"2021-09-09T07:30:43.815Z"}
+{"level":"info","message":"Asset blt58a18511eaf01574 published successfully","timestamp":"2021-09-09T07:30:50.606Z"}
+{"level":"info","message":"Asset blt187bec7297f75c4d published successfully","timestamp":"2021-09-09T07:30:53.889Z"}
+{"level":"info","message":"Completed asset import of batch no: 41","timestamp":"2021-09-09T07:30:53.891Z"}
+{"level":"info","message":"Completed asset import of batch no: 40","timestamp":"2021-09-09T07:30:58.669Z"}
+{"level":"info","message":"Asset blt4735200b7734093a published successfully","timestamp":"2021-09-09T07:31:10.682Z"}
+{"level":"info","message":"Completed asset import of batch no: 39","timestamp":"2021-09-09T07:31:15.472Z"}
+{"level":"info","message":"Asset blt9e315567a7c74316 published successfully","timestamp":"2021-09-09T07:31:26.088Z"}
+{"level":"info","message":"Completed asset import of batch no: 38","timestamp":"2021-09-09T07:31:28.508Z"}
+{"level":"info","message":"Completed asset import of batch no: 37","timestamp":"2021-09-09T07:31:33.451Z"}
+{"level":"info","message":"Asset blt7d85951297cb881d published successfully","timestamp":"2021-09-09T07:32:08.779Z"}
+{"level":"info","message":"Completed asset import of batch no: 36","timestamp":"2021-09-09T07:32:08.781Z"}
+{"level":"info","message":"Asset blt9b3ad7eb455b2502 published successfully","timestamp":"2021-09-09T07:32:12.261Z"}
+{"level":"info","message":"Asset blte98f2e730d7aaf33 published successfully","timestamp":"2021-09-09T07:32:15.580Z"}
+{"level":"info","message":"Completed asset import of batch no: 35","timestamp":"2021-09-09T07:32:15.583Z"}
+{"level":"info","message":"Completed asset import of batch no: 34","timestamp":"2021-09-09T07:32:54.213Z"}
+{"level":"info","message":"Asset blt8559c761a4d9c6db published successfully","timestamp":"2021-09-09T07:33:02.039Z"}
+{"level":"info","message":"Completed asset import of batch no: 33","timestamp":"2021-09-09T07:33:02.042Z"}
+{"level":"info","message":"Asset blt2b3101ae6321efc7 published successfully","timestamp":"2021-09-09T07:33:08.249Z"}
+{"level":"info","message":"Asset blt16efbdb7f4a5fc3f published successfully","timestamp":"2021-09-09T07:33:11.144Z"}
+{"level":"info","message":"Completed asset import of batch no: 32","timestamp":"2021-09-09T07:33:11.146Z"}
+{"level":"info","message":"Asset blt13c1149016a8bc45 published successfully","timestamp":"2021-09-09T07:33:44.581Z"}
+{"level":"info","message":"Completed asset import of batch no: 31","timestamp":"2021-09-09T07:33:44.583Z"}
+{"level":"info","message":"Asset blt9b55fcb9312538be published successfully","timestamp":"2021-09-09T07:33:47.583Z"}
+{"level":"info","message":"Asset blt1aa2bfaf2c25cab7 published successfully","timestamp":"2021-09-09T07:33:51.041Z"}
+{"level":"info","message":"Completed asset import of batch no: 30","timestamp":"2021-09-09T07:33:51.055Z"}
+{"level":"info","message":"Asset blt5a3e02293781ea99 published successfully","timestamp":"2021-09-09T07:33:54.511Z"}
+{"level":"info","message":"Completed asset import of batch no: 29","timestamp":"2021-09-09T07:33:58.188Z"}
+{"level":"info","message":"Asset blt7dc525bb04ebca87 published successfully","timestamp":"2021-09-09T07:34:02.191Z"}
+{"level":"info","message":"Completed asset import of batch no: 28","timestamp":"2021-09-09T07:34:03.957Z"}
+{"level":"info","message":"Asset blt3fc77a690fe3ea5c published successfully","timestamp":"2021-09-09T07:34:09.922Z"}
+{"level":"info","message":"Completed asset import of batch no: 27","timestamp":"2021-09-09T07:34:11.579Z"}
+{"level":"info","message":"Asset blt4e824b1de2511b04 published successfully","timestamp":"2021-09-09T07:34:17.789Z"}
+{"level":"info","message":"Completed asset import of batch no: 26","timestamp":"2021-09-09T07:34:17.794Z"}
+{"level":"info","message":"Asset bltc837bb3c057cbc5c published successfully","timestamp":"2021-09-09T07:34:20.798Z"}
+{"level":"info","message":"Completed asset import of batch no: 25","timestamp":"2021-09-09T07:34:50.812Z"}
+{"level":"info","message":"Asset bltfddfc38f1c9bbac9 published successfully","timestamp":"2021-09-09T07:34:57.897Z"}
+{"level":"info","message":"Completed asset import of batch no: 24","timestamp":"2021-09-09T07:35:27.927Z"}
+{"level":"info","message":"Asset blte94de2e15d2ec7a3 published successfully","timestamp":"2021-09-09T07:35:47.866Z"}
+{"level":"info","message":"Asset blt312943cb6f122b95 published successfully","timestamp":"2021-09-09T07:35:53.293Z"}
+{"level":"info","message":"Completed asset import of batch no: 23","timestamp":"2021-09-09T07:35:53.301Z"}
+{"level":"info","message":"Asset blt2e9297b6f3b06e2d published successfully","timestamp":"2021-09-09T07:36:26.815Z"}
+{"level":"info","message":"Completed asset import of batch no: 22","timestamp":"2021-09-09T07:36:26.820Z"}
+{"level":"info","message":"Completed asset import of batch no: 21","timestamp":"2021-09-09T07:36:34.647Z"}
+{"level":"info","message":"Asset blt1313677d39bd0163 published successfully","timestamp":"2021-09-09T07:36:42.730Z"}
+{"level":"info","message":"Completed asset import of batch no: 20","timestamp":"2021-09-09T07:36:44.739Z"}
+{"level":"info","message":"Asset blt879cd1c772665b54 published successfully","timestamp":"2021-09-09T07:36:49.022Z"}
+{"level":"info","message":"Asset blt924feed058e91a66 published successfully","timestamp":"2021-09-09T07:37:12.804Z"}
+{"level":"info","message":"Completed asset import of batch no: 19","timestamp":"2021-09-09T07:37:12.806Z"}
+{"level":"info","message":"Asset bltcf621fdb580eb2bf published successfully","timestamp":"2021-09-09T07:37:16.947Z"}
+{"level":"info","message":"Completed asset import of batch no: 18","timestamp":"2021-09-09T07:37:20.234Z"}
+{"level":"info","message":"Completed asset import of batch no: 17","timestamp":"2021-09-09T07:37:54.192Z"}
+{"level":"info","message":"Completed asset import of batch no: 16","timestamp":"2021-09-09T07:37:59.036Z"}
+{"level":"info","message":"Asset bltf5b80226417675d0 published successfully","timestamp":"2021-09-09T07:38:07.357Z"}
+{"level":"info","message":"Completed asset import of batch no: 15","timestamp":"2021-09-09T07:38:07.358Z"}
+{"level":"info","message":"Asset blt3ffb74f8c1c911fc published successfully","timestamp":"2021-09-09T07:38:14.355Z"}
+{"level":"info","message":"Completed asset import of batch no: 14","timestamp":"2021-09-09T07:38:22.585Z"}
+{"level":"info","message":"Completed asset import of batch no: 13","timestamp":"2021-09-09T07:38:27.552Z"}
+{"level":"info","message":"Asset blt2d5a09e1750fd509 published successfully","timestamp":"2021-09-09T07:38:32.902Z"}
+{"level":"info","message":"Completed asset import of batch no: 12","timestamp":"2021-09-09T07:38:32.905Z"}
+{"level":"info","message":"Asset bltd65c655094eea711 published successfully","timestamp":"2021-09-09T07:38:38.772Z"}
+{"level":"info","message":"Completed asset import of batch no: 11","timestamp":"2021-09-09T07:38:38.776Z"}
+{"level":"info","message":"Asset bltad7bc212997ccd0e published successfully","timestamp":"2021-09-09T07:38:45.888Z"}
+{"level":"info","message":"Asset blt971bb30a8935452d published successfully","timestamp":"2021-09-09T07:38:50.322Z"}
+{"level":"info","message":"Completed asset import of batch no: 10","timestamp":"2021-09-09T07:38:50.325Z"}
+{"level":"info","message":"Completed asset import of batch no: 9","timestamp":"2021-09-09T07:39:50.374Z"}
+{"level":"info","message":"Asset blt8afad49b0b3e223d published successfully","timestamp":"2021-09-09T07:39:57.110Z"}
+{"level":"info","message":"Asset blt71a637614e57d34b published successfully","timestamp":"2021-09-09T07:40:04.823Z"}
+{"level":"info","message":"Completed asset import of batch no: 8","timestamp":"2021-09-09T07:40:04.825Z"}
+{"level":"info","message":"Asset blt98dace025f0f08fa published successfully","timestamp":"2021-09-09T07:40:09.448Z"}
+{"level":"info","message":"Asset blt81a2a4bb3ef0d842 published successfully","timestamp":"2021-09-09T07:40:15.553Z"}
+{"level":"info","message":"Completed asset import of batch no: 7","timestamp":"2021-09-09T07:40:15.556Z"}
+{"level":"info","message":"Asset blt1bd8ae32c4ec6a66 published successfully","timestamp":"2021-09-09T07:40:53.582Z"}
+{"level":"info","message":"Completed asset import of batch no: 6","timestamp":"2021-09-09T07:40:53.587Z"}
+{"level":"info","message":"Asset blt7c6b45f74fe1d3d2 published successfully","timestamp":"2021-09-09T07:40:58.191Z"}
+{"level":"info","message":"Asset bltabb8c61cf8eaef60 published successfully","timestamp":"2021-09-09T07:41:27.430Z"}
+{"level":"info","message":"Completed asset import of batch no: 5","timestamp":"2021-09-09T07:41:27.434Z"}
+{"level":"info","message":"Asset blt0ab7208e0d9e7414 published successfully","timestamp":"2021-09-09T07:41:32.833Z"}
+{"level":"info","message":"Asset bltbf9efaf0ff83729c published successfully","timestamp":"2021-09-09T07:41:37.965Z"}
+{"level":"info","message":"Completed asset import of batch no: 4","timestamp":"2021-09-09T07:41:37.969Z"}
+{"level":"info","message":"Asset blt7f26d38efa2cb276 published successfully","timestamp":"2021-09-09T07:41:43.069Z"}
+{"level":"info","message":"Completed asset import of batch no: 3","timestamp":"2021-09-09T07:41:43.072Z"}
+{"level":"info","message":"Completed asset import of batch no: 2","timestamp":"2021-09-09T07:41:47.028Z"}
+{"level":"info","message":"\u001b[32m73 assets uploaded successfully!\u001b[39m","timestamp":"2021-09-09T07:41:47.031Z"}
+{"level":"info","message":"\u001b[37mMigrating extensions\u001b[39m","timestamp":"2021-09-09T07:41:47.037Z"}
+{"level":"info","message":"\u001b[32mExtensions have been imported successfully!\u001b[39m","timestamp":"2021-09-09T07:41:48.859Z"}
+{"level":"info","message":"\u001b[37mMigrating webhooks\u001b[39m","timestamp":"2021-09-09T07:41:48.865Z"}
+{"level":"info","message":"\u001b[37mNo Webhooks Found\u001b[39m","timestamp":"2021-09-09T07:41:48.869Z"}
+{"level":"info","message":"\u001b[37mMigrating global-fields\u001b[39m","timestamp":"2021-09-09T07:41:48.882Z"}
+{"level":"info","message":"\u001b[37mNo globalfields Found\u001b[39m","timestamp":"2021-09-09T07:41:48.885Z"}
+{"level":"info","message":"Migrating contenttypes","timestamp":"2021-09-09T07:41:48.896Z"}
+{"level":"info","message":"category was updated successfully!","timestamp":"2021-09-09T07:41:57.433Z"}
+{"level":"info","message":"header was updated successfully!","timestamp":"2021-09-09T07:42:03.182Z"}
+{"level":"info","message":"home_page_new was updated successfully!","timestamp":"2021-09-09T07:42:05.600Z"}
+{"level":"info","message":"product was updated successfully!","timestamp":"2021-09-09T07:42:10.021Z"}
+{"level":"info","message":"\u001b[32mContent types have been imported successfully!\u001b[39m","timestamp":"2021-09-09T07:42:10.023Z"}
+{"level":"info","message":"\u001b[37mMigrating workflows\u001b[39m","timestamp":"2021-09-09T07:42:10.026Z"}
+{"level":"info","message":"\u001b[32mWorkflows have been imported successfully!\u001b[39m","timestamp":"2021-09-09T07:42:10.027Z"}
+{"level":"info","message":"Migrating entries","timestamp":"2021-09-09T07:42:10.037Z"}
+{"level":"info","message":"\u001b[37mSuppressing content type fields...\u001b[39m","timestamp":"2021-09-09T07:42:10.037Z"}
+{"level":"info","message":"Creating entries for content type category in language en-us ...","timestamp":"2021-09-09T07:42:10.043Z"}
+{"level":"info","message":"6 entries created successfully in category content type in en-us locale!","timestamp":"2021-09-09T07:42:20.633Z"}
+{"level":"info","message":"Creating entries for content type product in language en-us ...","timestamp":"2021-09-09T07:42:20.635Z"}
+{"level":"info","message":"10 entries created successfully in product content type in en-us locale!","timestamp":"2021-09-09T07:42:37.029Z"}
+{"level":"info","message":"Creating entries for content type home_page_new in language en-us ...","timestamp":"2021-09-09T07:42:37.029Z"}
+{"level":"info","message":"1 entries created successfully in home_page_new content type in en-us locale!","timestamp":"2021-09-09T07:42:38.459Z"}
+{"level":"info","message":"Creating entries for content type header in language en-us ...","timestamp":"2021-09-09T07:42:38.461Z"}
+{"level":"info","message":"1 entries created successfully in header content type in en-us locale!","timestamp":"2021-09-09T07:42:40.908Z"}
+{"level":"info","message":"\u001b[32mEntries created successfully in 'en-us' language\u001b[39m","timestamp":"2021-09-09T07:42:40.909Z"}
+{"level":"info","message":"No entries without mapped uid found!","timestamp":"2021-09-09T07:42:40.910Z"}
+{"level":"info","message":"Completed re-post entries batch no: 1 successfully!","timestamp":"2021-09-09T07:42:43.180Z"}
+{"level":"info","message":"Imported entries of Content Type: 'header' in language: 'en-us' successfully!","timestamp":"2021-09-09T07:42:43.182Z"}
+{"level":"info","message":"Completed re-post entries batch no: 1 successfully!","timestamp":"2021-09-09T07:42:46.245Z"}
+{"level":"info","message":"Completed re-post entries batch no: 5 successfully!","timestamp":"2021-09-09T07:42:49.547Z"}
+{"level":"info","message":"Completed re-post entries batch no: 4 successfully!","timestamp":"2021-09-09T07:42:53.213Z"}
+{"level":"info","message":"Completed re-post entries batch no: 3 successfully!","timestamp":"2021-09-09T07:42:56.169Z"}
+{"level":"info","message":"Completed re-post entries batch no: 2 successfully!","timestamp":"2021-09-09T07:42:59.068Z"}
+{"level":"info","message":"Imported entries of Content Type: 'product' in language: 'en-us' successfully!","timestamp":"2021-09-09T07:42:59.070Z"}
+{"level":"info","message":"\u001b[32mImported entries in 'en-us' language successfully!\u001b[39m","timestamp":"2021-09-09T07:42:59.072Z"}
+{"level":"info","message":"Successfully imported 'en-us' entries!","timestamp":"2021-09-09T07:42:59.074Z"}
+{"level":"info","message":"Re-modified content type schemas to their original form!","timestamp":"2021-09-09T07:42:59.081Z"}
+{"level":"info","message":"\u001b[32mThe stack has been eradicated from bugged entries!\u001b[39m","timestamp":"2021-09-09T07:42:59.086Z"}
+{"level":"info","message":"\u001b[32mEntries have been imported successfully!\u001b[39m","timestamp":"2021-09-09T07:42:59.088Z"}
+{"level":"info","message":"Entry blt33bca934289360a7 published successfully in category content type","timestamp":"2021-09-09T07:43:00.402Z"}
+{"level":"info","message":"Entry blt0ac96469a529fa04 published successfully in category content type","timestamp":"2021-09-09T07:43:01.965Z"}
+{"level":"info","message":"Entry blt5cb2771ed6bcf69c published successfully in category content type","timestamp":"2021-09-09T07:43:03.306Z"}
+{"level":"info","message":"Entry blt073302c68bb3b3f7 published successfully in category content type","timestamp":"2021-09-09T07:43:04.668Z"}
+{"level":"info","message":"Entry bltdc1de61897e3a09f published successfully in category content type","timestamp":"2021-09-09T07:43:06.117Z"}
+{"level":"info","message":"Entry blt526e34cfde0ddb9b published successfully in category content type","timestamp":"2021-09-09T07:43:07.551Z"}
+{"level":"info","message":"Entries published successfully in category content type","timestamp":"2021-09-09T07:43:07.553Z"}
+{"level":"info","message":"Entry bltf7b86b8aeb28da50 published successfully in product content type","timestamp":"2021-09-09T07:43:09.191Z"}
+{"level":"info","message":"Entry blt06593f89b4b0207d published successfully in product content type","timestamp":"2021-09-09T07:43:10.644Z"}
+{"level":"info","message":"Entry blt912a4b73ec3ace96 published successfully in product content type","timestamp":"2021-09-09T07:43:12.163Z"}
+{"level":"info","message":"Entry blt98b7b713fc82c887 published successfully in product content type","timestamp":"2021-09-09T07:43:13.683Z"}
+{"level":"info","message":"Entry blt38c5b2de6c748ba5 published successfully in product content type","timestamp":"2021-09-09T07:43:15.248Z"}
+{"level":"info","message":"Entry blt7ec0e389746cae2e published successfully in product content type","timestamp":"2021-09-09T07:43:16.624Z"}
+{"level":"info","message":"Entry blt7f6a22a1a5ba14e9 published successfully in product content type","timestamp":"2021-09-09T07:43:17.999Z"}
+{"level":"info","message":"Entry blt46db151f0b8fb105 published successfully in product content type","timestamp":"2021-09-09T07:43:19.638Z"}
+{"level":"info","message":"Entry blt2eec3bb34477df60 published successfully in product content type","timestamp":"2021-09-09T07:43:21.277Z"}
+{"level":"info","message":"Entry bltceccaa78087a130e published successfully in product content type","timestamp":"2021-09-09T07:43:22.916Z"}
+{"level":"info","message":"Entries published successfully in product content type","timestamp":"2021-09-09T07:43:22.918Z"}
+{"level":"info","message":"Entry blt12503670f101b3d4 published successfully in home_page_new content type","timestamp":"2021-09-09T07:43:24.310Z"}
+{"level":"info","message":"Entries published successfully in home_page_new content type","timestamp":"2021-09-09T07:43:24.312Z"}
+{"level":"info","message":"Entry blt620eed3e23743a90 published successfully in header content type","timestamp":"2021-09-09T07:43:25.682Z"}
+{"level":"info","message":"Entries published successfully in header content type","timestamp":"2021-09-09T07:43:25.684Z"}
+{"level":"info","message":"\u001b[37mMigrating labels\u001b[39m","timestamp":"2021-09-09T07:43:25.693Z"}
+{"level":"info","message":"\u001b[32mAll the entries have been published successfully\u001b[39m","timestamp":"2021-09-09T07:43:25.686Z"}
+{"level":"info","message":"\u001b[32mLabels have been imported successfully!\u001b[39m","timestamp":"2021-09-09T07:43:25.696Z"}
+{"level":"info","message":"The log for this is stored at contents/logs/import","timestamp":"2021-09-09T07:43:25.696Z"}
+{"level":"info","message":"\u001b[32mStack: trail stack has been imported succesfully!\u001b[39m","timestamp":"2021-09-09T07:43:25.696Z"}

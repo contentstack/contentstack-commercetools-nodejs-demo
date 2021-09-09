@@ -1,0 +1,20 @@
+[
+    {
+        "stackHeaders": {
+            "api_key": "bltc91ab68f0b5e7b84"
+        },
+        "urlPath": "/assets/blt760724c97bf0c921",
+        "uid": "blt760724c97bf0c921",
+        "content_type": "image/png",
+        "file_size": "36450",
+        "tags": [],
+        "filename": "Buffalo_Jackson_Denver_Duffle.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt760724c97bf0c921/612f166699bb772286a8304e/Buffalo_Jackson_Denver_Duffle.png",
+        "ACL": {},
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "Buffalo_Jackson_Denver_Duffle.png",
+        "publish_details": []
+    }
+]

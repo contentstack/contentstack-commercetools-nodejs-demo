@@ -1,0 +1,41 @@
+[
+    {
+        "stackHeaders": {
+            "api_key": "bltc91ab68f0b5e7b84"
+        },
+        "urlPath": "/assets/blt8b03aa347ac26a43",
+        "uid": "blt8b03aa347ac26a43",
+        "content_type": "image/jpeg",
+        "file_size": "163629",
+        "tags": [],
+        "filename": "lp-banner-2.jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt8b03aa347ac26a43/612f16b2149c07518459355d/lp-banner-2.jpg",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "lp-banner-2.jpg",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:16.571Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:16.571Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:16.571Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            }
+        ]
+    }
+]

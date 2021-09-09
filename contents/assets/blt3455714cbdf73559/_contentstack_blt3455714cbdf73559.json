@@ -1,0 +1,41 @@
+[
+    {
+        "stackHeaders": {
+            "api_key": "bltc91ab68f0b5e7b84"
+        },
+        "urlPath": "/assets/blt3455714cbdf73559",
+        "uid": "blt3455714cbdf73559",
+        "content_type": "image/png",
+        "file_size": "8244",
+        "tags": [],
+        "filename": "New_Wayfarer_Sunglasses_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt3455714cbdf73559/612f16913dc61a23f66e1917/New_Wayfarer_Sunglasses_(3).png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "New_Wayfarer_Sunglasses_(3).png",
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:44.755Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:44.755Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:44.755Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            }
+        ]
+    }
+]
