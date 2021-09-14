@@ -1,0 +1,215 @@
+{
+    "blt12503670f101b3d4": {
+        "title": "Home New",
+        "url": "/",
+        "primary_banner_section": {
+            "title": "Timepieces For The Timeless Gentleman",
+            "description": "Size Info Narrow through the bust and shoulders. Details & Care Iconic checks line the collar and cuffs of this lightweight quilted jacket that embraces heritage styling while providing the perfect amount of warmth for transitional seasons.",
+            "banner_image": {
+                "uid": "bltfd66ce347a0882a9",
+                "created_at": "2021-09-01T05:59:19.015Z",
+                "updated_at": "2021-09-01T05:59:19.015Z",
+                "content_type": "image/jpeg",
+                "file_size": "130854",
+                "tags": [],
+                "filename": "lp-banner-1.jpg",
+                "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltfd66ce347a0882a9/612f16b713b1701f07a5a77f/lp-banner-1.jpg",
+                "ACL": [],
+                "is_dir": false,
+                "_version": 1,
+                "title": "lp-banner-1.jpg",
+                "publish_details": [
+                    {
+                        "environment": "blt0677a9c52fcd5de1",
+                        "locale": "en-us",
+                        "time": "2021-09-01T05:59:20.820Z",
+                        "user": "bltc359c2d884f0888e",
+                        "version": 1
+                    },
+                    {
+                        "environment": "bltf9d34c6dfb34d221",
+                        "locale": "en-us",
+                        "time": "2021-09-01T05:59:20.820Z",
+                        "user": "bltc359c2d884f0888e",
+                        "version": 1
+                    },
+                    {
+                        "environment": "blt3e578964e5ba0afe",
+                        "locale": "en-us",
+                        "time": "2021-09-02T07:23:07.181Z",
+                        "user": "bltd5d70bb484fce3ae",
+                        "version": 1
+                    }
+                ]
+            },
+            "cta": {
+                "title": "Shop now",
+                "link": "/category/watches"
+            }
+        },
+        "first_card_column": {
+            "image": {
+                "uid": "blt4662f08c25248dce",
+                "created_at": "2021-09-01T05:57:24.770Z",
+                "updated_at": "2021-09-01T05:57:24.770Z",
+                "content_type": "image/png",
+                "file_size": "192739",
+                "tags": [],
+                "filename": "essentials.png",
+                "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt4662f08c25248dce/612f1644b1977a0f05056773/essentials.png",
+                "ACL": [],
+                "is_dir": false,
+                "_version": 1,
+                "title": "essentials.png",
+                "publish_details": [
+                    {
+                        "environment": "blt0677a9c52fcd5de1",
+                        "locale": "en-us",
+                        "time": "2021-09-01T05:57:26.431Z",
+                        "user": "bltc359c2d884f0888e",
+                        "version": 1
+                    },
+                    {
+                        "environment": "bltf9d34c6dfb34d221",
+                        "locale": "en-us",
+                        "time": "2021-09-01T05:57:26.431Z",
+                        "user": "bltc359c2d884f0888e",
+                        "version": 1
+                    },
+                    {
+                        "environment": "blt3e578964e5ba0afe",
+                        "locale": "en-us",
+                        "time": "2021-09-02T05:51:38.055Z",
+                        "user": "bltd5d70bb484fce3ae",
+                        "version": 1
+                    }
+                ]
+            },
+            "title": "Essentials",
+            "description": "Find the latest trends and looks for every occasion and every location.",
+            "cta": {
+                "title": "Shop now",
+                "link": "/category/everyday-carry"
+            }
+        },
+        "secondary_banner_section": {
+            "title": "Get Inspired",
+            "description": "Find the latest trends and looks for every occasion and every location.",
+            "banner_image": {
+                "uid": "blt8b03aa347ac26a43",
+                "created_at": "2021-09-01T05:59:14.708Z",
+                "updated_at": "2021-09-01T05:59:14.708Z",
+                "content_type": "image/jpeg",
+                "file_size": "163629",
+                "tags": [],
+                "filename": "lp-banner-2.jpg",
+                "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt8b03aa347ac26a43/612f16b2149c07518459355d/lp-banner-2.jpg",
+                "ACL": [],
+                "is_dir": false,
+                "_version": 1,
+                "title": "lp-banner-2.jpg",
+                "publish_details": [
+                    {
+                        "environment": "bltf9d34c6dfb34d221",
+                        "locale": "en-us",
+                        "time": "2021-09-01T05:59:16.571Z",
+                        "user": "bltc359c2d884f0888e",
+                        "version": 1
+                    },
+                    {
+                        "environment": "blt3e578964e5ba0afe",
+                        "locale": "en-us",
+                        "time": "2021-09-01T05:59:16.571Z",
+                        "user": "bltc359c2d884f0888e",
+                        "version": 1
+                    },
+                    {
+                        "environment": "blt0677a9c52fcd5de1",
+                        "locale": "en-us",
+                        "time": "2021-09-01T05:59:16.571Z",
+                        "user": "bltc359c2d884f0888e",
+                        "version": 1
+                    }
+                ]
+            },
+            "cta": {
+                "title": "Shop now",
+                "link": "/category/clothing"
+            }
+        },
+        "secondary_card_column": {
+            "title": "Gifts for Her",
+            "description": "Hand-selected selection of gifts for the special woman curated by our brand ambassador.",
+            "image": {
+                "uid": "blt66ead2b3b7b279da",
+                "created_at": "2021-09-01T05:58:02.949Z",
+                "updated_at": "2021-09-01T05:58:02.949Z",
+                "content_type": "image/png",
+                "file_size": "186396",
+                "tags": [],
+                "filename": "giftsforher.png",
+                "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt66ead2b3b7b279da/612f166a67a2530f06655d73/giftsforher.png",
+                "ACL": [],
+                "is_dir": false,
+                "_version": 1,
+                "title": "giftsforher.png",
+                "publish_details": [
+                    {
+                        "environment": "bltf9d34c6dfb34d221",
+                        "locale": "en-us",
+                        "time": "2021-09-01T05:58:04.895Z",
+                        "user": "bltc359c2d884f0888e",
+                        "version": 1
+                    },
+                    {
+                        "environment": "blt0677a9c52fcd5de1",
+                        "locale": "en-us",
+                        "time": "2021-09-01T05:58:04.895Z",
+                        "user": "bltc359c2d884f0888e",
+                        "version": 1
+                    },
+                    {
+                        "environment": "blt3e578964e5ba0afe",
+                        "locale": "en-us",
+                        "time": "2021-09-02T05:51:38.057Z",
+                        "user": "bltd5d70bb484fce3ae",
+                        "version": 1
+                    }
+                ]
+            },
+            "cta": {
+                "title": "Shop for her",
+                "link": "/category/everyday-carry"
+            }
+        },
+        "tags": [],
+        "locale": "en-us",
+        "ACL": {},
+        "uid": "blt12503670f101b3d4",
+        "_version": 8,
+        "_in_progress": false,
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:28:06.449Z",
+                "user": "bltd5d70bb484fce3ae",
+                "version": 8
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-02T07:28:06.449Z",
+                "user": "bltd5d70bb484fce3ae",
+                "version": 8
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-02T07:28:06.449Z",
+                "user": "bltd5d70bb484fce3ae",
+                "version": 8
+            }
+        ]
+    }
+}

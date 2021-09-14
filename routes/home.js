@@ -16,6 +16,7 @@ router.get('/', (req, res, next) => {
           url: config.url,
         });
       }, function error(error) {
+        console.log(error);
         next(error);
         // commercetools pricing
       });

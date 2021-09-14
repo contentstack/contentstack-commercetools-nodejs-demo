@@ -1,0 +1,41 @@
+[
+    {
+        "stackHeaders": {
+            "api_key": "bltc91ab68f0b5e7b84"
+        },
+        "urlPath": "/assets/blt973cc6b3b446d621",
+        "uid": "blt973cc6b3b446d621",
+        "content_type": "image/png",
+        "file_size": "381334",
+        "tags": [],
+        "filename": "big_3.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt973cc6b3b446d621/612f16da8a4f0c517e3e0d00/big_3.png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "big_3.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:55.727Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:55.727Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:22:15.838Z",
+                "user": "bltd5d70bb484fce3ae",
+                "version": 1
+            }
+        ]
+    }
+]

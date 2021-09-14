@@ -1,0 +1,41 @@
+[
+    {
+        "stackHeaders": {
+            "api_key": "bltc91ab68f0b5e7b84"
+        },
+        "urlPath": "/assets/blt66ead2b3b7b279da",
+        "uid": "blt66ead2b3b7b279da",
+        "content_type": "image/png",
+        "file_size": "186396",
+        "tags": [],
+        "filename": "giftsforher.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt66ead2b3b7b279da/612f166a67a2530f06655d73/giftsforher.png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "giftsforher.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:04.895Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:04.895Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T05:51:38.057Z",
+                "user": "bltd5d70bb484fce3ae",
+                "version": 1
+            }
+        ]
+    }
+]

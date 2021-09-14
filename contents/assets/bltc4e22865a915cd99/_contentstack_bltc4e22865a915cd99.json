@@ -1,0 +1,20 @@
+[
+    {
+        "stackHeaders": {
+            "api_key": "bltc91ab68f0b5e7b84"
+        },
+        "urlPath": "/assets/bltc4e22865a915cd99",
+        "uid": "bltc4e22865a915cd99",
+        "content_type": "image/png",
+        "file_size": "36095",
+        "tags": [],
+        "filename": "Danner_Mountain_Light.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltc4e22865a915cd99/612f167599bb772286a83052/Danner_Mountain_Light.png",
+        "ACL": {},
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "Danner_Mountain_Light.png",
+        "publish_details": []
+    }
+]

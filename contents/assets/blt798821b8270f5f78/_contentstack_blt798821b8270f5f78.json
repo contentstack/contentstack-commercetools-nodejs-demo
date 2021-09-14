@@ -1,0 +1,34 @@
+[
+    {
+        "stackHeaders": {
+            "api_key": "bltc91ab68f0b5e7b84"
+        },
+        "urlPath": "/assets/blt798821b8270f5f78",
+        "uid": "blt798821b8270f5f78",
+        "content_type": "image/png",
+        "file_size": "64899",
+        "tags": [],
+        "filename": "shopinstagram_(4).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt798821b8270f5f78/612f163b56ed301db65204e2/shopinstagram_(4).png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "shopinstagram_(4).png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:17.757Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:17.757Z",
+                "user": "bltc359c2d884f0888e",
+                "version": 1
+            }
+        ]
+    }
+]

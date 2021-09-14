@@ -1,0 +1,20 @@
+[
+    {
+        "stackHeaders": {
+            "api_key": "bltc91ab68f0b5e7b84"
+        },
+        "urlPath": "/assets/blt71f716156915204f",
+        "uid": "blt71f716156915204f",
+        "content_type": "image/png",
+        "file_size": "400",
+        "tags": [],
+        "filename": "combined-shape_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt71f716156915204f/612f32df3ff46b267bdf9f3c/combined-shape_(1).png",
+        "ACL": {},
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "combined-shape_(1).png",
+        "publish_details": []
+    }
+]
