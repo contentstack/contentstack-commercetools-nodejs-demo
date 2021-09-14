@@ -29,7 +29,7 @@ router.get('/:id', (req, res, next) => {
           });
           result[0].related_products.forEach(function (data) {
             products.body.results.forEach(function (ids) {
-              if (data[product_link_id][0].id === ids.id) {
+              if (data[product_link_id] && data[product_link_id].length && data[product_link_id][0].id === ids.id) {
                 data['product_link'] = ids;
               }
             });
