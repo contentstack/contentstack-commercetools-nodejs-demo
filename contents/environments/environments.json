@@ -1,14 +1,11 @@
 {
     "bltf9d34c6dfb34d221": {
-        "stackHeaders": {
-            "api_key": "bltc91ab68f0b5e7b84"
-        },
         "urlPath": "/environments/production",
         "deploy_content": false,
         "servers": [],
         "urls": [
             {
-                "url": "https://commercetool-contentstack-demo.herokuapp.com",
+                "url": "https://commercetools.contentstackdemos.com",
                 "locale": "en-us"
             }
         ],
@@ -18,15 +15,12 @@
         "updated_at": "2021-09-01T05:54:47.270Z"
     },
     "blt0677a9c52fcd5de1": {
-        "stackHeaders": {
-            "api_key": "bltc91ab68f0b5e7b84"
-        },
         "urlPath": "/environments/preview",
         "deploy_content": false,
         "servers": [],
         "urls": [
             {
-                "url": "https://commercetool-contentstack-demo.herokuapp.com",
+                "url": "https://commercetools.contentstackdemos.com/",
                 "locale": "en-us"
             }
         ],
@@ -36,9 +30,6 @@
         "updated_at": "2021-09-01T05:54:47.271Z"
     },
     "blt3e578964e5ba0afe": {
-        "stackHeaders": {
-            "api_key": "bltc91ab68f0b5e7b84"
-        },
         "urlPath": "/environments/development",
         "deploy_content": false,
         "servers": [],
