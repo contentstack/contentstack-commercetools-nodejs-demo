@@ -62,21 +62,18 @@
                 "environment": "blt3e578964e5ba0afe",
                 "locale": "en-us",
                 "time": "2021-09-01T08:00:36.318Z",
-                "user": "bltd5d70bb484fce3ae",
                 "version": 1
             },
             {
                 "environment": "blt0677a9c52fcd5de1",
                 "locale": "en-us",
                 "time": "2021-09-01T08:00:36.324Z",
-                "user": "bltd5d70bb484fce3ae",
                 "version": 1
             },
             {
                 "environment": "bltf9d34c6dfb34d221",
                 "locale": "en-us",
                 "time": "2021-09-01T08:00:36.347Z",
-                "user": "bltd5d70bb484fce3ae",
                 "version": 1
             }
         ]
@@ -356,7 +353,6 @@
                 "environment": "blt3e578964e5ba0afe",
                 "locale": "en-us",
                 "time": "2021-09-02T07:23:07.181Z",
-                "user": "bltd5d70bb484fce3ae",
                 "version": 1
             }
         ]
@@ -600,7 +596,6 @@
                 "environment": "blt3e578964e5ba0afe",
                 "locale": "en-us",
                 "time": "2021-09-02T07:25:57.131Z",
-                "user": "bltd5d70bb484fce3ae",
                 "version": 1
             }
         ]
@@ -696,7 +691,6 @@
                 "environment": "blt3e578964e5ba0afe",
                 "locale": "en-us",
                 "time": "2021-09-02T07:22:15.838Z",
-                "user": "bltd5d70bb484fce3ae",
                 "version": 1
             }
         ]
@@ -960,7 +954,6 @@
                 "environment": "blt3e578964e5ba0afe",
                 "locale": "en-us",
                 "time": "2021-09-01T07:56:24.577Z",
-                "user": "bltd5d70bb484fce3ae",
                 "version": 1
             }
         ]
@@ -1934,7 +1927,6 @@
                 "environment": "blt3e578964e5ba0afe",
                 "locale": "en-us",
                 "time": "2021-09-02T05:51:38.055Z",
-                "user": "bltd5d70bb484fce3ae",
                 "version": 1
             }
         ]
@@ -2967,7 +2959,6 @@
                 "environment": "blt3e578964e5ba0afe",
                 "locale": "en-us",
                 "time": "2021-09-02T05:51:38.057Z",
-                "user": "bltd5d70bb484fce3ae",
                 "version": 1
             }
         ]
@@ -3077,7 +3068,6 @@
                 "environment": "blt3e578964e5ba0afe",
                 "locale": "en-us",
                 "time": "2021-09-02T07:26:41.220Z",
-                "user": "bltd5d70bb484fce3ae",
                 "version": 1
             }
         ]
