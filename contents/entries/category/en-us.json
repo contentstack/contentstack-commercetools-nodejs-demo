@@ -1,1 +1,188 @@
-{"blt33bca934289360a7":{"title":"Home","url":"/category/home","description":"","tags":[],"locale":"en-us","ACL":{},"uid":"blt33bca934289360a7","_version":1,"_in_progress":false,"publish_details":[{"environment":"blt3e578964e5ba0afe","locale":"en-us","time":"2021-09-02T07:38:31.965Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"blt0677a9c52fcd5de1","locale":"en-us","time":"2021-09-02T07:38:31.965Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"bltf9d34c6dfb34d221","locale":"en-us","time":"2021-09-02T07:38:31.965Z","user":"bltd5d70bb484fce3ae","version":1}]},"bltdc1de61897e3a09f":{"title":"Contacts","url":"/category/contacts","description":"","tags":[],"locale":"en-us","ACL":{},"uid":"bltdc1de61897e3a09f","_version":1,"_in_progress":false,"publish_details":[{"environment":"blt0677a9c52fcd5de1","locale":"en-us","time":"2021-09-02T07:38:31.955Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"bltf9d34c6dfb34d221","locale":"en-us","time":"2021-09-02T07:38:31.955Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"blt3e578964e5ba0afe","locale":"en-us","time":"2021-09-02T07:38:31.955Z","user":"bltd5d70bb484fce3ae","version":1}]},"blt073302c68bb3b3f7":{"title":"Clothing","url":"/category/clothing","description":"","tags":[],"locale":"en-us","ACL":{},"uid":"blt073302c68bb3b3f7","_version":1,"_in_progress":false,"publish_details":[{"environment":"blt3e578964e5ba0afe","locale":"en-us","time":"2021-09-02T07:38:31.996Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"blt0677a9c52fcd5de1","locale":"en-us","time":"2021-09-02T07:38:31.996Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"bltf9d34c6dfb34d221","locale":"en-us","time":"2021-09-02T07:38:31.996Z","user":"bltd5d70bb484fce3ae","version":1}]},"blt5cb2771ed6bcf69c":{"title":"Watches","url":"/category/watches","description":"","tags":[],"locale":"en-us","ACL":{},"uid":"blt5cb2771ed6bcf69c","_version":1,"_in_progress":false,"publish_details":[{"environment":"blt3e578964e5ba0afe","locale":"en-us","time":"2021-09-02T07:38:32.005Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"blt0677a9c52fcd5de1","locale":"en-us","time":"2021-09-02T07:38:32.005Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"bltf9d34c6dfb34d221","locale":"en-us","time":"2021-09-02T07:38:32.005Z","user":"bltd5d70bb484fce3ae","version":1}]},"blt0ac96469a529fa04":{"title":"Gadgets","url":"/category/gadgets","description":"","tags":[],"locale":"en-us","ACL":{},"uid":"blt0ac96469a529fa04","_version":1,"_in_progress":false,"publish_details":[{"environment":"blt3e578964e5ba0afe","locale":"en-us","time":"2021-09-02T07:38:32.038Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"blt0677a9c52fcd5de1","locale":"en-us","time":"2021-09-02T07:38:32.038Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"bltf9d34c6dfb34d221","locale":"en-us","time":"2021-09-02T07:38:32.038Z","user":"bltd5d70bb484fce3ae","version":1}]},"blt526e34cfde0ddb9b":{"title":"Everyday Carry","url":"/category/everyday-carry","description":"","tags":[],"locale":"en-us","ACL":{},"uid":"blt526e34cfde0ddb9b","_version":1,"_in_progress":false,"publish_details":[{"environment":"blt3e578964e5ba0afe","locale":"en-us","time":"2021-09-02T07:38:32.069Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"bltf9d34c6dfb34d221","locale":"en-us","time":"2021-09-02T07:38:32.069Z","user":"bltd5d70bb484fce3ae","version":1},{"environment":"blt0677a9c52fcd5de1","locale":"en-us","time":"2021-09-02T07:38:32.069Z","user":"bltd5d70bb484fce3ae","version":1}]}}
+{
+    "blt33bca934289360a7": {
+        "title": "Home",
+        "url": "/category/home",
+        "description": "",
+        "tags": [],
+        "locale": "en-us",
+        "ACL": {},
+        "uid": "blt33bca934289360a7",
+        "_version": 1,
+        "_in_progress": false,
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:31.965Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:31.965Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:31.965Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltdc1de61897e3a09f": {
+        "title": "Contacts",
+        "url": "/category/contacts",
+        "description": "",
+        "tags": [],
+        "locale": "en-us",
+        "ACL": {},
+        "uid": "bltdc1de61897e3a09f",
+        "_version": 1,
+        "_in_progress": false,
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:31.955Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:31.955Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:31.955Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt073302c68bb3b3f7": {
+        "title": "Clothing",
+        "url": "/category/clothing",
+        "description": "",
+        "tags": [],
+        "locale": "en-us",
+        "ACL": {},
+        "uid": "blt073302c68bb3b3f7",
+        "_version": 1,
+        "_in_progress": false,
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:31.996Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:31.996Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:31.996Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt5cb2771ed6bcf69c": {
+        "title": "Watches",
+        "url": "/category/watches",
+        "description": "",
+        "tags": [],
+        "locale": "en-us",
+        "ACL": {},
+        "uid": "blt5cb2771ed6bcf69c",
+        "_version": 1,
+        "_in_progress": false,
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:32.005Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:32.005Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:32.005Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt0ac96469a529fa04": {
+        "title": "Gadgets",
+        "url": "/category/gadgets",
+        "description": "",
+        "tags": [],
+        "locale": "en-us",
+        "ACL": {},
+        "uid": "blt0ac96469a529fa04",
+        "_version": 1,
+        "_in_progress": false,
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:32.038Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:32.038Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:32.038Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt526e34cfde0ddb9b": {
+        "title": "Everyday Carry",
+        "url": "/category/everyday-carry",
+        "description": "",
+        "tags": [],
+        "locale": "en-us",
+        "ACL": {},
+        "uid": "blt526e34cfde0ddb9b",
+        "_version": 1,
+        "_in_progress": false,
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:32.069Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:32.069Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-02T07:38:32.069Z",
+                "version": 1
+            }
+        ]
+    }
+}
