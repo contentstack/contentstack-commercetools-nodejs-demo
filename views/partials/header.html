@@ -73,7 +73,6 @@ async function createCartFn(cartObj){
   }
 
     $('.simpleCart_checkout_button').click( async function(event) {     
-        console.log("----"+simpleCart.items().length);
         if(simpleCart.items().length > 0){
             createCartFn(window.localStorage.simpleCart_items);  
         }

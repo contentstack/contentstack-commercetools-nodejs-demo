@@ -1,0 +1,36 @@
+[
+    {
+        "urlPath": "/assets/blt839c59d5f9577227",
+        "uid": "blt839c59d5f9577227",
+        "content_type": "image/png",
+        "file_size": "1142",
+        "tags": [],
+        "filename": "combined-shape.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt839c59d5f9577227/612f32df8e16ab655b347f9c/combined-shape.png",
+        "ACL": {},
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "combined-shape.png",
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T08:00:36.318Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T08:00:36.324Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T08:00:36.347Z",
+                "version": 1
+            }
+        ]
+    }
+]

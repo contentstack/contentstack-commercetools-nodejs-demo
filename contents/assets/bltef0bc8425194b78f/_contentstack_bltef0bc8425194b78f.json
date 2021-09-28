@@ -1,0 +1,35 @@
+[
+    {
+        "urlPath": "/assets/bltef0bc8425194b78f",
+        "uid": "bltef0bc8425194b78f",
+        "content_type": "image/png",
+        "file_size": "249591",
+        "tags": [],
+        "filename": "banner-3.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltef0bc8425194b78f/612f16c0de6ea41fd9fce7f0/banner-3.png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "banner-3.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:29.678Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:29.678Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:29.678Z",
+                "version": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "urlPath": "/assets/blte96768fcc868d247",
+        "uid": "blte96768fcc868d247",
+        "content_type": "image/png",
+        "file_size": "294397",
+        "tags": [],
+        "filename": "banner-section-2.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blte96768fcc868d247/612f16829a0ce123cd2a9129/banner-section-2.png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "banner-section-2.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:28.664Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:28.663Z",
+                "version": 1
+            }
+        ]
+    }
+]

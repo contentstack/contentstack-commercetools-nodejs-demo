@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Commercetools Extension</title>
+  <script src="https://unpkg.com/@contentstack/ui-extensions-sdk@2.2.0/dist/ui-extension-sdk.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+  <link href="https://unpkg.com/@contentstack/ui-extensions-sdk@2.2.0/dist/ui-extension-sdk.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.12.1/polyfill.min.js"></script>
+  <script src="https://unpkg.com/currency.js/dist/currency.min.js"></script>
+  <style>@-webkit-keyframes change_color{0%{background-color:#f9b653;background:#f9b653}20%,40%{background:#f9b653}to{background-color:#e8e8e9}}@-moz-keyframes change_color{0%{background-color:#f9b653;background:#f9b653}20%,40%{background:#f9b653}to{background-color:#e8e8e9}}@-o-keyframes change_color{0%{background-color:#f9b653;background:#f9b653}20%,40%{background:#f9b653}to{background-color:#e8e8e9}}@-ms-keyframes change_color{0%{background-color:#f9b653;background:#f9b653}20%,40%{background:#f9b653}to{background-color:#e8e8e9}}@keyframes change_color{0%{background-color:#f9b653;background:#f9b653}20%,40%{background:#f9b653}to{background-color:#e8e8e9}}@-webkit-keyframes change_color-2{0%,50%,to{background:#f9b653}25%{background:#e7484a}}@-moz-keyframes change_color-2{0%,50%,to{background:#f9b653}25%{background:#e7484a}}@-o-keyframes change_color-2{0%,50%,to{background:#f9b653}25%{background:#e7484a}}@-ms-keyframes change_color-2{0%,50%,to{background:#f9b653}25%{background:#e7484a}}@keyframes change_color-2{0%,50%,to{background:#f9b653}25%{background:#e7484a}}.dropdown-toggle::after{display:none}dl,ol,ul{margin-bottom:0}.selected-search{margin-top:8px;text-align:center}.li-search{width:100%;cursor:pointer;padding:6px 10px;margin:0;font-size:13px}.cs-table-body li div{list-style-position:inside;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;height:71px}.cs-table-body .table-row .table-cell img{margin-top:-17px}.cs-table-body{height:calc(100vh - 188px);height:-moz-calc(100vh - 188px);height:-webkit-calc(100vh - 188px);overflow:hidden;overflow-x:hidden;overflow-y:scroll;top:123px}.cs-table .cs-table-body .table-cell{color:#748590;padding:25px 15px;max-height:71px}.cs-table .cs-table-head{height:58px;margin-top:64px}.cs-table .cs-table-head .table-cell{padding:22px 10px 19px 15px}.product-list li:nth-child(even){background:#f0f7f8}.dropdown-menu ul li:hover{background-color:#f5f5f5}.cs-table .table-row{border-bottom:1px solid #edf1f2}.cs-pagination{float:right}.cs-table-bottom-bar{position:fixed;bottom:0;border-top:1px solid #e8e8e9!important}.cs-table-top-header{position:fixed;top:0;width:100%;z-index:11}.holder{left:0;position:fixed;right:0;top:0;z-index:1}body{overflow:hidden}.selected-search i{font-size:xx-small}.cs-form-group.search-box i{top:9px}.add_product,.close_popup{padding:6px 20px;margin-right:15px}.t-body{height:100%}.cs-table-body::-webkit-scrollbar{width:5px;background-color:transparent}.cs-table-body::-webkit-scrollbar-thumb{border-radius:6px;background-color:#dfe2e9;cursor:pointer}.cs-table-body::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.sorting-none .icon-chevron-down{position:absolute;bottom:0;font-size:9px;top:6px}.icon-chevron-up{position:absolute;top:0;font-size:9px}.sorting-none{display:inline;position:relative;cursor:pointer;vertical-align:text-bottom;padding-left:14px}.sorting-none .disable-chevron{opacity:.5}#loader-wrapper{width:100%;height:100%;position:fixed;top:0;z-index:10001}.hide{display:none!important}#loader-wrapper .loader-bg{opacity:.5;width:100%;height:100%;position:absolute;background-color:#edf1f2;left:0}#loader-wrapper .loader-spin{top:50%;left:50%;width:80px;height:80px;z-index:99;overflow:hidden;position:absolute;background-color:#fff;padding:20px 12px 20px 24px;box-sizing:border-box;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;-webkit-box-shadow:-1px 1px 13px -5px #0f0f0f;-moz-box-shadow:-1px 1px 13px -5px #0f0f0f;-ms-box-shadow:-1px 1px 13px -5px #0f0f0f;-o-box-shadow:-1px 1px 13px -5px #0f0f0f;box-shadow:-1px 1px 13px -5px #0f0f0f}#loader-wrapper .loader-spin .left,.left{float:left}.right{float:right}#loader-wrapper .loader-spin .right{float:right;position:relative;margin:15px 0 0;left:-13px;-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}#loader-wrapper .loader-spin .rect{width:20px;height:3px;position:relative;border-radius:2px}#loader-wrapper .loader-spin .rect.color{background:#e8e8e9;-webkit-animation:change_color 1s infinite ease-in-out;-moz-animation:change_color 1s infinite ease-in-out;-o-animation:change_color 1s infinite ease-in-out;-ms-animation:change_color 1s infinite ease-in-out;animation:change_color 1s infinite ease-in-out}#loader-wrapper .loader-spin .right .rect.color{background:#e8e8e9;-webkit-animation:change_color-2 1s infinite ease-in-out;-moz-animation:change_color-2 1s infinite ease-in-out;-o-animation:change_color-2 1s infinite ease-in-out;-ms-animation:change_color-2 1s infinite ease-in-out;animation:change_color-2 1s infinite ease-in-out}#loader-wrapper .loader-spin .rect.grey,#loader-wrapper .loader-spin .right .rect.grey{background:#e8e8e9}#loader-wrapper .loader-spin .rect+.rect{margin-top:2px}#loader-wrapper .loader-spin .rect:nth-child(6){width:16px;left:0;animation-delay:.1s}#loader-wrapper .loader-spin .rect:nth-child(5){width:18px;left:-5px;animation-delay:.25s}#loader-wrapper .loader-spin .rect:nth-child(4){left:-9px;animation-delay:.4s}#loader-wrapper .loader-spin .rect:nth-child(3){left:-9px;animation-delay:.55s}#loader-wrapper .loader-spin .rect:nth-child(2){width:18px;left:-5px;animation-delay:.7s}#loader-wrapper .loader-spin .rect:nth-child(1){width:16px;left:0;animation-delay:.85s}#loader-wrapper .loader-spin .right .rect:nth-child(1){left:0;animation-delay:.1s}#loader-wrapper .loader-spin .right .rect:nth-child(2){left:-5px;animation-delay:.25s}#loader-wrapper .loader-spin .right .rect:nth-child(3){left:-9px;animation-delay:.4s}#loader-wrapper .loader-spin .right .rect:nth-child(4){left:-9px;animation-delay:.55s}#loader-wrapper .loader-spin .right .rect:nth-child(5){left:-5px;animation-delay:.7s}#loader-wrapper .loader-spin .right .rect:nth-child(6){left:0;animation-delay:.85s}.cs-table-top-header .search{width:calc(100% - 490px)}.separator{height:15px;width:.1px;background-color:gray;display:inline-block;opacity:.5}</style>
+  <script>const currencySymbols={USD:"$",EUR:"€",CRC:"₡",GBP:"£",ILS:"₪",INR:"₹",JPY:"¥",KRW:"₩",NGN:"₦",PHP:"₱",PLN:"zł",PYG:"₲",THB:"฿",UAH:"₴",VND:"₫"};function returnProductDetails(e){let o=e.id||"",r=e&&e.name&&e.name[commerceTools.locale]||"",c=e&&e.description?e.description[commerceTools.locale].replace(/(<([^>]+)>)/gi,""):"",{sku:a,prices:n,images:l}=e&&e.masterVariant||"",{centAmount:t,currencyCode:m}=n&&n.length?n[0].value:"";return{id:o,name:r,description:c,images:l,price:`${currencySymbols[m]||""}${currency(t/100)||"Not Available"}`,sku:a}}function returnCategoryDetail(e){let{id:o}=e||"";return{id:o,key:e&&e.key||"",name:e&&e.name&&e.name[commerceTools.locale]||"",slug:e&&e.slug&&e.slug[commerceTools.locale]||"",parentCategory:e&&e.parent&&e.parent.obj&&e.parent.obj.name?e.parent.obj.name[commerceTools.locale]:"Not Available"}}</script>
+</head>
+
+<body>
+  <div id="loader-wrapper" class="hide">
+    <div class="loader-bg"></div>
+    <div class="loader-spin" cs-loader="">
+      <div class="left">
+        <div class="rect rect1 color"></div>
+        <div class="rect rect2 color"></div>
+        <div class="rect rect3 color"></div>
+        <div class="rect rect4 color"></div>
+        <div class="rect rect5 color"></div>
+        <div class="rect rect6 color"></div>
+      </div>
+      <div class="right">
+        <div class="rect rect1 color"></div>
+        <div class="rect rect2 color"></div>
+        <div class="rect rect3 color"></div>
+        <div class="rect rect4 color"></div>
+        <div class="rect rect5 color"></div>
+        <div class="rect rect6 color"></div>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="cs-table clearfix">
+      <div class="holder">
+        <div class="cs-table-top-header">
+          <div class="left w-8">
+
+            <div class="selected-search" data-toggle="dropdown">
+              <span>
+                <span class="active-search-filter" title="Active">All</span>
+              </span>
+              <i class="icon-chevron-down"></i>
+            </div>
+            <div class="dropdown-menu select-controls">
+              <ul class="scroll-bar-design no-padding" id="search-filter">
+                <li onclick="onFilterChange('All')" id="all" class="li-search selected-option" value="active">
+                  <label class="lbl dropdown-text-wrap">All</label>
+                </li>
+                <li onclick="onFilterChange('SKUs', 'variants.sku')" id="sku" class="li-search">
+                  <label class="lbl dropdown-text-wrap">SKUs</label>
+                </li>
+                <li onclick="onFilterChange('Product Keys', 'key')" id="key" class="li-search">
+                  <label class="lbl dropdown-text-wrap">Product Keys</label>
+                </li>
+                <li onclick="onFilterChange('Variants Keys', 'variants.key')" id="v-key" class="li-search">
+                  <label class="lbl dropdown-text-wrap">Variants Keys</label>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="left search">
+            <div class="cs-form-group search-box no-margin">
+              <input type="search" id="search" class="cs-text-box cs-global-search" placeholder="Search products">
+              <i class="icon-search"></i>
+            </div>
+          </div>
+
+          <div class="cs-pagination clearfix">
+            <div class="result">
+              <label class="font-semi-bold current-products">1-10</label><label class="total-products">of 250
+                Products</label>
+            </div>
+            <div class="dropdown">
+              <div class="selected dropdown-toggle" data-toggle="dropdown">
+                <span class="current-page">1</span>
+                <i class="icon-chevron-down"></i>
+              </div>
+              <ul class="dropdown-menu page-count">
+              </ul>
+            </div>
+            <div class="pagination-prev disable">
+              <i class="icon-chevron-left" onClick="handlePageChange(undefined, undefined, 'prev')"
+                title="Previous"></i>
+            </div>
+            <div class="pagination-next">
+              <i class="icon-chevron-right" onClick="handlePageChange(undefined, undefined, 'next')" title="Next"></i>
+            </div>
+          </div>
+        </div>
+        <ul class="cs-table-head">
+          <li class="table-row header">
+            <div class="table-cell w-20">SKU</div>
+            <div class="table-cell w-20">PRODUCT NAME</div>
+            <div class="table-cell w-20">IMAGE</div>
+            <div class="table-cell w-10">PRICE</div>
+            <div class="table-cell w-20">DESCRIPTION</div>
+            <div class="table-cell w-5"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="t-body">
+        <ul class="cs-table-body product-list">
+
+        </ul>
+        <div class="cs-table-bottom-bar">
+          <button class="btn cs-btn-success add_product">Add Product</button>
+          <button class="btn cs-btn-primary close_popup">Close</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script>const resultTable=$(".cs-table-body"),lblTotalProducts=$(".total-products"),lblCurrentProducts=$(".current-products"),pageCountLi=$(".page-count"),productList=$(".product-list"),currentPage=$(".current-page"),activeSearchFilter=$(".active-search-filter"),categoryCols=["KEY","CATEGORY NAME","SLUG","PARENT CATEGORIES",""],header=$(".header");let commerceTools,accessToken,selectedItems=[],tempFetchedList=[],fetchedList=[],tempSearchText="";function filterFetchedArray(e){tempFetchedList.push(...e),fetchedList=Array.from(new Set(tempFetchedList.map(e=>e.id))).map(e=>tempFetchedList.find(t=>t.id===e))}class Commercetools{constructor({api_url:e,type:t,page_count:a,project_key:s,locale:c}){this.apiUrl=e,this.type=t,this.pageCount=a||10,this.projectKey=s,this.locale=c,this.url="category"!==t?`https://${this.apiUrl}/${this.projectKey}/product-projections`:`https://${this.apiUrl}/${this.projectKey}/categories`}async request(e=0,t="lastModifiedAt"){let a={url:`${this.url}?limit=${this.pageCount}&offset=${e}&sort=${t}&expand=parent.id`,method:"GET",headers:{Accept:"application/json","Content-Type":"application/json;charset=UTF-8",authorization:`Bearer ${accessToken}`}},s=await axios(a);return filterFetchedArray(s.data.results),s.data}async search(e,t=0){let a=activeSearchFilter.attr("id"),s=e.length<=6,c=a?`filter=${a}:"${e}"`:`text.${this.locale}='${e}'`,l={url:`${this.url}/search?limit=${this.pageCount}&offset=${t}&fuzzy=${s}&${c}&expand=parent.id`,method:"GET",headers:{Accept:"application/json","Content-Type":"application/json;charset=UTF-8",authorization:`Bearer ${accessToken}`}},n=await axios(l);return filterFetchedArray(n.data.results),n.data}}function removeHtmlTags(e){return e.replace(/(<([^>]+)>)/gi," ")}function returnCurrencyCode(e){return currencySymbols[e]}function calculatePagesCount(e,t){return t<e?1:Math.ceil(t/e)}function updatePaginationLabel({offset:e,count:t,total:a}){lblCurrentProducts.text(`${e+1}-${t+e}`),lblTotalProducts.text(`of ${a} Products`)}function initPagination({limit:e,offset:t,count:a,total:s}){const c=calculatePagesCount(e,s);pageCountLi.empty();for(let e=0;e<c;e+=1)pageCountLi.append(`<li id=${e} onClick="handlePageChange(${e},${e*commerceTools.pageCount})">${e+1}</li>`);$(".page-count #0").addClass("selected-option"),currentPage.text("1"),updatePaginationLabel({offset:t,count:a,total:s})}function isChecked(e){return selectedItems.find(t=>t.id===e)?"checked":""}function appendToCategories(e){let{id:t,key:a,name:s,slug:c,parentCategory:l}=returnCategoryDetail(e),n=`<li class="table-row" id=${t}>\n    <div class="table-cell w-20">\n      <div class="cs-checkbox">\n        <label>\n      <input type="checkbox" ${isChecked(t)} value=${t} name="select-option" class="cs select-option">          \n          <span class="lbl">${a||"SKU NOT AVAILABLE"}</span>\n        </label>\n      </div>\n    </div>\n    <div class="table-cell w-20 name">${s}</div>\n    <div class="table-cell w-20 slug" title="${c}">${c}</div>\n    <div class="table-cell w-20 parent-category">${l}</div>\n    <div class="table-cell w-20"><a target="_blank"\n        href="https://mc.commercetools.co/${commerceTools.projectKey}/categories/${t}">Details</a></div>\n  </li>`;resultTable.append(n)}function appendToProducts(e){let{id:t,sku:a,name:s,description:c,images:l,price:n}=returnProductDetails(e),o=`<li class="table-row" id=${t}>\n    <div class="table-cell w-20">\n      <div class="cs-checkbox">\n        <label>\n          ${"product_single"!==commerceTools.type?`<input type="checkbox" ${isChecked(t)} value=${t} name="select-option" class="cs select-option">`:`<input type="radio" ${isChecked(t)} value=${t} name="select-option" class="cs select-option">`}\n          <span class="lbl sku">${a||"SKU NOT AVAILABLE"}</span>\n        </label>\n      </div>\n    </div>\n    <div class="table-cell w-20 name">${s}</div>\n    <div class="table-cell w-20">\n      <img class="image" src=${l&&l.length&&l[0].url||""} alt="${s}" width="55" height="55">\n    </div>\n    <div class="table-cell w-10 pice">${n}</div>\n    <div class="table-cell w-20 description" title="${c}">${c}</div>\n    <div class="table-cell w-5"><a target="_blank"\n        href="https://mc.commercetools.co/${commerceTools.projectKey}/products/${t}">Details</a></div>\n  </li>`;resultTable.append(o)}function updateSelectedCountBtn(){$(".add_product").text(`Add ${selectedItems.length?selectedItems.length:""} ${"category"===commerceTools.type?"Categories":"Product(s)"}`)}function renderNullResults(e){productList.empty(),productList.append(`<li class="table-row">\n  <div class="table-cell w-100" style="text-align: center;">\n    <label>\n      <span class="lbl sku">0 results found for ${e}</span>\n    </label>\n  </div>\n</li>`)}function domChangeListner(){$(".select-option").unbind().change(function(){this.checked?"product_single"===commerceTools.type?(selectedItems=[]).push(fetchedList.find(e=>e.id===$(`#${this.value}`).attr("id"))):selectedItems.push(fetchedList.find(e=>e.id===$(`#${this.value}`).attr("id"))):selectedItems=selectedItems.filter(e=>e.id!==this.value),updateSelectedCountBtn()}),$(".close_popup").unbind().click(function(e){window.close()}),$(".add_product").unbind().click(function(e){window.opener.postMessage({message:"add",selectedItems:selectedItems},"*"),window.close()}),$("#search").unbind().on("keydown",async function(e){let t=$(this).val();if(13===e.keyCode)if(""!==t){let e=await commerceTools.search(t);tempSearchText=t,initPagination(e),e.count?renderList(e):renderNullResults(t)}else if(""!==tempSearchText||""!==t){let e=await commerceTools.request();tempSearchText="",initPagination(e),renderList(e)}}),window.addEventListener("beforeunload",e=>{window.opener.postMessage({message:"close"},"*")})}function renderList(e){updatePaginationLabel(e),productList.empty(),"category"!==commerceTools.type?e.results.forEach(e=>appendToProducts(e)):e.results.forEach(e=>appendToCategories(e)),domChangeListner()}function toggleState(){"1"===currentPage.text()?$(".pagination-prev").addClass("disable"):$(".pagination-prev").removeClass("disable"),parseInt(currentPage.text())===$(".page-count li").length?$(".pagination-next").addClass("disable"):$(".pagination-next").removeClass("disable")}async function handlePageChange(e,t,a){let s;(a||currentPage.text()!==$(`.page-count #${e}`).text())&&("prev"===a&&"1"===currentPage.text()||"next"===a&&parseInt(currentPage.text())===$(".page-count li").length||(e&&t||0===e&&0===t||(e=parseInt(currentPage.text()),"prev"===a?t=(e-=2)*commerceTools.pageCount:"next"===a&&(t=e*commerceTools.pageCount)),renderList(s=tempSearchText?await commerceTools.search(tempSearchText,t):await commerceTools.request(t)),$(".page-count li").siblings().removeClass("selected-option"),$(`.page-count #${e}`).addClass("selected-option"),currentPage.text(`${e+1}`),toggleState()))}function onFilterChange(e,t=""){activeSearchFilter.text(e),activeSearchFilter.attr("id",t)}async function initSelection(e){commerceTools=new Commercetools(e);let t=await commerceTools.request();initPagination(t),renderList(t),$(".add_product").text(`Add ${selectedItems.length?selectedItems.length:""} ${"category"===commerceTools.type?"Categories":"Product(s)"}`),domChangeListner()}function renderHeader(e,t){"category"===e&&(header.empty(),categoryCols.forEach(e=>header.append(`<div class="table-cell w-20">${e}</div>`)),$("#search").attr("placeholder","Search categories"),$("#sku").remove(),$("#key").remove(),$("#v-key").remove(),$("#search-filter").append('<li onclick="onFilterChange(\'Keys\', \'key\')" id="c-key" class="li-search">\n    <label class="lbl dropdown-text-wrap">Keys</label>\n    </li>'),$("#search-filter").append(`<li onclick="onFilterChange('slug', 'slug.${t}')" id="slug" class="li-search">\n    <label class="lbl dropdown-text-wrap">Slug</label>\n    </li>`))}axios.interceptors.request.use(e=>($("#loader-wrapper").removeClass("hide"),e),e=>Promise.reject(e)),axios.interceptors.response.use(e=>($("#loader-wrapper").addClass("hide"),e),e=>Promise.reject(e)),$(document).ready(()=>{window.addEventListener("message",function(e){void 0!==e.data&&null!==e.data&&"null"===e.origin&&("init"===e.data.message?(accessToken=e.data.accessToken,selectedItems.push(...e.data.selectedItems),renderHeader(e.data.config.type,e.data.config.locale),initSelection(e.data.config)):"remove"===e.data.message&&($(`#${e.data.deletedId}`).find(".select-option").prop("checked",!1),selectedItems=selectedItems.filter(t=>t.id!==e.data.deletedId),updateSelectedCountBtn()))},!1),window.opener.postMessage("openedReady","*")});</script>
+
+</body>
+
+</html>

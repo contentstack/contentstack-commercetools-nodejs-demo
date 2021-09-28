@@ -1,0 +1,35 @@
+[
+    {
+        "urlPath": "/assets/bltd09eaf92b027361a",
+        "uid": "bltd09eaf92b027361a",
+        "content_type": "image/png",
+        "file_size": "61244",
+        "tags": [],
+        "filename": "Golden_Bear_Steerhide_Moto.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltd09eaf92b027361a/612f169819e7e2227aa3e61d/Golden_Bear_Steerhide_Moto.png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "Golden_Bear_Steerhide_Moto.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:50.351Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:50.351Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:50.350Z",
+                "version": 1
+            }
+        ]
+    }
+]

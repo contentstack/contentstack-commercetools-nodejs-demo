@@ -1,0 +1,3270 @@
+{
+    "blt71f716156915204f": {
+        "urlPath": "/assets/blt71f716156915204f",
+        "uid": "blt71f716156915204f",
+        "content_type": "image/png",
+        "file_size": "400",
+        "tags": [],
+        "filename": "combined-shape_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt71f716156915204f/612f32df3ff46b267bdf9f3c/combined-shape_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "combined-shape_(1).png",
+        "publish_details": []
+    },
+    "blt839c59d5f9577227": {
+        "urlPath": "/assets/blt839c59d5f9577227",
+        "uid": "blt839c59d5f9577227",
+        "content_type": "image/png",
+        "file_size": "1142",
+        "tags": [],
+        "filename": "combined-shape.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt839c59d5f9577227/612f32df8e16ab655b347f9c/combined-shape.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "combined-shape.png",
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T08:00:36.318Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T08:00:36.324Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T08:00:36.347Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt9b1bf7815d29eb73": {
+        "urlPath": "/assets/blt9b1bf7815d29eb73",
+        "uid": "blt9b1bf7815d29eb73",
+        "content_type": "image/png",
+        "file_size": "512",
+        "tags": [],
+        "filename": "combined-shape_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt9b1bf7815d29eb73/612f32df85514a6ee3fab8c6/combined-shape_(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "combined-shape_(2).png",
+        "publish_details": []
+    },
+    "blt03cf8c0fcce5b48a": {
+        "urlPath": "/assets/blt03cf8c0fcce5b48a",
+        "uid": "blt03cf8c0fcce5b48a",
+        "content_type": "image/png",
+        "file_size": "265",
+        "tags": [],
+        "filename": "combined-shape_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt03cf8c0fcce5b48a/612f32e0504fe365615e43ca/combined-shape_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "combined-shape_(3).png",
+        "publish_details": []
+    },
+    "blt52468c3ad0c05533": {
+        "urlPath": "/assets/blt52468c3ad0c05533",
+        "uid": "blt52468c3ad0c05533",
+        "content_type": "text/html",
+        "file_size": "21184",
+        "tags": [],
+        "filename": "redirect.html",
+        "url": "https://assets.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt52468c3ad0c05533/61373b2241506f3b03761527/redirect.html",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "redirect.html",
+        "publish_details": []
+    },
+    "bltcfbdfeaffed349f0": {
+        "urlPath": "/assets/bltcfbdfeaffed349f0",
+        "uid": "bltcfbdfeaffed349f0",
+        "content_type": "image/png",
+        "file_size": "2388",
+        "tags": [],
+        "filename": "sign.PNG",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltcfbdfeaffed349f0/612f16aeed5b4856e03e5cc4/sign.PNG",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "sign.PNG",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:12.018Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:12.018Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt8b03aa347ac26a43": {
+        "urlPath": "/assets/blt8b03aa347ac26a43",
+        "uid": "blt8b03aa347ac26a43",
+        "content_type": "image/jpeg",
+        "file_size": "163629",
+        "tags": [],
+        "filename": "lp-banner-2.jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt8b03aa347ac26a43/612f16b2149c07518459355d/lp-banner-2.jpg",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "lp-banner-2.jpg",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:16.571Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:16.571Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:16.571Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltb63162dbf6521efe": {
+        "urlPath": "/assets/bltb63162dbf6521efe",
+        "uid": "bltb63162dbf6521efe",
+        "content_type": "image/png",
+        "file_size": "147795",
+        "tags": [],
+        "filename": "small_4.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltb63162dbf6521efe/612f16abf0e21b0efec1ac89/small_4.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "small_4.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:08.785Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:08.784Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltfd66ce347a0882a9": {
+        "urlPath": "/assets/bltfd66ce347a0882a9",
+        "uid": "bltfd66ce347a0882a9",
+        "content_type": "image/jpeg",
+        "file_size": "130854",
+        "tags": [],
+        "filename": "lp-banner-1.jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltfd66ce347a0882a9/612f16b713b1701f07a5a77f/lp-banner-1.jpg",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "lp-banner-1.jpg",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:20.820Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:20.820Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:23:07.181Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt64d32022e98a50d3": {
+        "urlPath": "/assets/blt64d32022e98a50d3",
+        "uid": "blt64d32022e98a50d3",
+        "content_type": "image/png",
+        "file_size": "35670",
+        "tags": [],
+        "filename": "Danner_Mountain_Light.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt64d32022e98a50d3/612f16ba70a3831078ba60f6/Danner_Mountain_Light.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Danner_Mountain_Light.png",
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:24.351Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:24.351Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:24.351Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltef0bc8425194b78f": {
+        "urlPath": "/assets/bltef0bc8425194b78f",
+        "uid": "bltef0bc8425194b78f",
+        "content_type": "image/png",
+        "file_size": "249591",
+        "tags": [],
+        "filename": "banner-3.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltef0bc8425194b78f/612f16c0de6ea41fd9fce7f0/banner-3.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "banner-3.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:29.678Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:29.678Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:29.678Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt1344564e526113fd": {
+        "urlPath": "/assets/blt1344564e526113fd",
+        "uid": "blt1344564e526113fd",
+        "content_type": "image/png",
+        "file_size": "196093",
+        "tags": [],
+        "filename": "small_5.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt1344564e526113fd/612f16cf91b18a15d974e5d2/small_5.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "small_5.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:45.239Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:45.239Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltf472766e6a4b7d69": {
+        "urlPath": "/assets/bltf472766e6a4b7d69",
+        "uid": "bltf472766e6a4b7d69",
+        "content_type": "image/jpeg",
+        "file_size": "104487",
+        "tags": [],
+        "filename": "dummy-719x401-Utrecht.jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltf472766e6a4b7d69/612f16c47d08b51ae85c1bcc/dummy-719x401-Utrecht.jpg",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "dummy-719x401-Utrecht.jpg",
+        "description": "",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:33.760Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:33.760Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltc8e21962f70897a5": {
+        "urlPath": "/assets/bltc8e21962f70897a5",
+        "uid": "bltc8e21962f70897a5",
+        "content_type": "image/png",
+        "file_size": "368918",
+        "tags": [],
+        "filename": "big_4.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltc8e21962f70897a5/612f16d570632215cb1ecaa5/big_4.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "big_4.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:50.587Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:50.587Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:25:57.131Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt082466055ee63036": {
+        "urlPath": "/assets/blt082466055ee63036",
+        "uid": "blt082466055ee63036",
+        "content_type": "image/png",
+        "file_size": "192648",
+        "tags": [],
+        "filename": "small_2.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt082466055ee63036/612f16de7d08b51ae85c1bd0/small_2.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "small_2.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:59.747Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:59.747Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt973cc6b3b446d621": {
+        "urlPath": "/assets/blt973cc6b3b446d621",
+        "uid": "blt973cc6b3b446d621",
+        "content_type": "image/png",
+        "file_size": "381334",
+        "tags": [],
+        "filename": "big_3.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt973cc6b3b446d621/612f16da8a4f0c517e3e0d00/big_3.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "big_3.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:55.727Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:55.727Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:22:15.838Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt34454e7bd847a751": {
+        "urlPath": "/assets/blt34454e7bd847a751",
+        "uid": "blt34454e7bd847a751",
+        "content_type": "image/jpeg",
+        "file_size": "95624",
+        "tags": [],
+        "filename": "The_Great_Outdoor.jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt34454e7bd847a751/612f16e814ce650ebf4559e0/The_Great_Outdoor.jpg",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "The_Great_Outdoor.jpg",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T06:00:10.237Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T06:00:10.237Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltfe41c666afdd12fd": {
+        "urlPath": "/assets/bltfe41c666afdd12fd",
+        "uid": "bltfe41c666afdd12fd",
+        "content_type": "image/png",
+        "file_size": "419640",
+        "tags": [],
+        "filename": "big_1.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltfe41c666afdd12fd/612f16ca9a0ce123cd2a9133/big_1.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "big_1.png",
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:40.914Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:40.914Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:40.914Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt216919908e4db2a3": {
+        "urlPath": "/assets/blt216919908e4db2a3",
+        "uid": "blt216919908e4db2a3",
+        "content_type": "image/png",
+        "file_size": "499044",
+        "tags": [],
+        "filename": "big_2.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt216919908e4db2a3/612f16e41cce030ec64b40dd/big_2.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "big_2.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T06:00:06.222Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T06:00:06.222Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltbfb53dce4bf0bd6f": {
+        "urlPath": "/assets/bltbfb53dce4bf0bd6f",
+        "uid": "bltbfb53dce4bf0bd6f",
+        "content_type": "image/jpeg",
+        "file_size": "108417",
+        "tags": [],
+        "filename": "Travel_by_Train.jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltbfb53dce4bf0bd6f/612f16eced5b4856e03e5cc8/Travel_by_Train.jpg",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Travel_by_Train.jpg",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T06:00:14.236Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T06:00:14.236Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt0bb8bde05be1ef80": {
+        "urlPath": "/assets/blt0bb8bde05be1ef80",
+        "uid": "blt0bb8bde05be1ef80",
+        "content_type": "image/jpeg",
+        "file_size": "40037",
+        "tags": [],
+        "filename": "Start-a-blog-1024x605.jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt0bb8bde05be1ef80/612f15ae932fbb12e7dc750f/Start-a-blog-1024x605.jpg",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "Start-a-blog-1024x605.jpg",
+        "publish_details": []
+    },
+    "bltb63c5cbc947844d4": {
+        "urlPath": "/assets/bltb63c5cbc947844d4",
+        "uid": "bltb63c5cbc947844d4",
+        "content_type": "image/png",
+        "file_size": "94313",
+        "tags": [],
+        "filename": "MVMT_Cloud_Silver_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltb63c5cbc947844d4/612f15b3a0513b0d7a38ad1c/MVMT_Cloud_Silver_(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "MVMT_Cloud_Silver_(2).png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:01.380Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:01.380Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T07:56:24.577Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltb91d4cfe53c1356b": {
+        "urlPath": "/assets/bltb91d4cfe53c1356b",
+        "uid": "bltb91d4cfe53c1356b",
+        "content_type": "image/png",
+        "file_size": "36450",
+        "tags": [],
+        "filename": "Buffalo_Jackson_Denver_Duffle_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltb91d4cfe53c1356b/612f15be43541f0dae298824/Buffalo_Jackson_Denver_Duffle_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Buffalo_Jackson_Denver_Duffle_(1).png",
+        "publish_details": []
+    },
+    "blt34cecea277fce356": {
+        "urlPath": "/assets/blt34cecea277fce356",
+        "uid": "blt34cecea277fce356",
+        "content_type": "image/png",
+        "file_size": "28346",
+        "tags": [],
+        "filename": "New_Wayfarer_Sunglasses_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt34cecea277fce356/612f15f316597c1021ce4243/New_Wayfarer_Sunglasses_(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "New_Wayfarer_Sunglasses_(2).png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:05.277Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:05.277Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:05.277Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltb3540292f428a9ad": {
+        "urlPath": "/assets/bltb3540292f428a9ad",
+        "uid": "bltb3540292f428a9ad",
+        "content_type": "image/png",
+        "file_size": "32426",
+        "tags": [],
+        "filename": "Viberg_Calfskin_Chelsae_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltb3540292f428a9ad/612f15ff994d721e4737177d/Viberg_Calfskin_Chelsae_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "Viberg_Calfskin_Chelsae_(1).png",
+        "publish_details": []
+    },
+    "blt7073ddab77d5d2db": {
+        "urlPath": "/assets/blt7073ddab77d5d2db",
+        "uid": "blt7073ddab77d5d2db",
+        "content_type": "image/png",
+        "file_size": "120112",
+        "tags": [],
+        "filename": "Unimatic_U1-E_Diver_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt7073ddab77d5d2db/612f15fd16597c1021ce4247/Unimatic_U1-E_Diver_(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "Unimatic_U1-E_Diver_(2).png",
+        "publish_details": []
+    },
+    "blt8881e3fd7efa3889": {
+        "urlPath": "/assets/blt8881e3fd7efa3889",
+        "uid": "blt8881e3fd7efa3889",
+        "content_type": "image/png",
+        "file_size": "232940",
+        "tags": [],
+        "filename": "Golden_Bear_Steerhide_Moto_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt8881e3fd7efa3889/612f15f867a2530f06655d5f/Golden_Bear_Steerhide_Moto_(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Golden_Bear_Steerhide_Moto_(2).png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:10.786Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:10.786Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:10.786Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt219731602ae0e670": {
+        "urlPath": "/assets/blt219731602ae0e670",
+        "uid": "blt219731602ae0e670",
+        "content_type": "image/png",
+        "file_size": "541022",
+        "tags": [],
+        "filename": "Golden_Bear_Steerhide_Moto_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt219731602ae0e670/612f160606f9881e7afed820/Golden_Bear_Steerhide_Moto_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Golden_Bear_Steerhide_Moto_(3).png",
+        "publish_details": []
+    },
+    "blt5926664195335cba": {
+        "urlPath": "/assets/blt5926664195335cba",
+        "uid": "blt5926664195335cba",
+        "content_type": "image/png",
+        "file_size": "18349",
+        "tags": [],
+        "filename": "Danner_Mountain_Light_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt5926664195335cba/612f15c575cb5a207a758620/Danner_Mountain_Light_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Danner_Mountain_Light_(1).png",
+        "publish_details": []
+    },
+    "blt49452b50fcc90380": {
+        "urlPath": "/assets/blt49452b50fcc90380",
+        "uid": "blt49452b50fcc90380",
+        "content_type": "image/png",
+        "file_size": "185734",
+        "tags": [],
+        "filename": "Taylor_Stitch_Mendocino_Peacoat_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt49452b50fcc90380/612f15c156ed301db65204d2/Taylor_Stitch_Mendocino_Peacoat_(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Taylor_Stitch_Mendocino_Peacoat_(2).png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:15.695Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:15.695Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:15.695Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt4c3f3ae7330f08cb": {
+        "urlPath": "/assets/blt4c3f3ae7330f08cb",
+        "uid": "blt4c3f3ae7330f08cb",
+        "content_type": "image/png",
+        "file_size": "36095",
+        "tags": [],
+        "filename": "Danner_Mountain_Light_F(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt4c3f3ae7330f08cb/612f15c7dbd21022811b4882/Danner_Mountain_Light_F(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Danner_Mountain_Light_F(1).png",
+        "publish_details": []
+    },
+    "bltd81dd6b0657a04be": {
+        "urlPath": "/assets/bltd81dd6b0657a04be",
+        "uid": "bltd81dd6b0657a04be",
+        "content_type": "image/png",
+        "file_size": "50563",
+        "tags": [],
+        "filename": "Danner_Mountain_Light_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltd81dd6b0657a04be/612f15c9813bbf1bad3ccc87/Danner_Mountain_Light_(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Danner_Mountain_Light_(2).png",
+        "publish_details": []
+    },
+    "blt486c31798b50d705": {
+        "urlPath": "/assets/blt486c31798b50d705",
+        "uid": "blt486c31798b50d705",
+        "content_type": "image/png",
+        "file_size": "132092",
+        "tags": [],
+        "filename": "Danner_Mountain_Light_F(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt486c31798b50d705/612f15cce1c703116797e949/Danner_Mountain_Light_F(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "Danner_Mountain_Light_F(2).png",
+        "publish_details": []
+    },
+    "bltc7fc53b953db9d13": {
+        "urlPath": "/assets/bltc7fc53b953db9d13",
+        "uid": "bltc7fc53b953db9d13",
+        "content_type": "image/png",
+        "file_size": "130200",
+        "tags": [],
+        "filename": "Buffalo_Jackson_Denver_Duffle_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltc7fc53b953db9d13/612f15cf99bb772286a8303a/Buffalo_Jackson_Denver_Duffle_(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "Buffalo_Jackson_Denver_Duffle_(2).png",
+        "publish_details": []
+    },
+    "bltfc4e0fe12496733a": {
+        "urlPath": "/assets/bltfc4e0fe12496733a",
+        "uid": "bltfc4e0fe12496733a",
+        "content_type": "image/png",
+        "file_size": "28686",
+        "tags": [],
+        "filename": "MVMT_Cloud_Silver_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltfc4e0fe12496733a/612f15d43eb0930d8042ae4f/MVMT_Cloud_Silver_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "MVMT_Cloud_Silver_(1).png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:34.153Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:34.153Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:34.153Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt277ba8ab55545253": {
+        "urlPath": "/assets/blt277ba8ab55545253",
+        "uid": "blt277ba8ab55545253",
+        "content_type": "image/png",
+        "file_size": "87653",
+        "tags": [],
+        "filename": "Danner_Mountain_Light_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt277ba8ab55545253/612f15d2b3439852c2dbf024/Danner_Mountain_Light_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Danner_Mountain_Light_(3).png",
+        "publish_details": []
+    },
+    "blt60e0b910a3ac8e4b": {
+        "urlPath": "/assets/blt60e0b910a3ac8e4b",
+        "uid": "blt60e0b910a3ac8e4b",
+        "content_type": "image/png",
+        "file_size": "145259",
+        "tags": [],
+        "filename": "small_1.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt60e0b910a3ac8e4b/612f15dc4cb7b62542582948/small_1.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "small_1.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:42.774Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:42.774Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt33ca8f4afcc8b698": {
+        "urlPath": "/assets/blt33ca8f4afcc8b698",
+        "uid": "blt33ca8f4afcc8b698",
+        "content_type": "image/png",
+        "file_size": "61244",
+        "tags": [],
+        "filename": "Golden_Bear_Steerhide_Moto_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt33ca8f4afcc8b698/612f15e134696214560981ae/Golden_Bear_Steerhide_Moto_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Golden_Bear_Steerhide_Moto_(1).png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:46.715Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:46.715Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:46.715Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt2447ade42ac8770b": {
+        "urlPath": "/assets/blt2447ade42ac8770b",
+        "uid": "blt2447ade42ac8770b",
+        "content_type": "image/png",
+        "file_size": "424901",
+        "tags": [],
+        "filename": "big_5.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt2447ade42ac8770b/612f15e68fc5b515720dc910/big_5.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "big_5.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:52.744Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:52.744Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:52.744Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt68becc01b5bdaea2": {
+        "urlPath": "/assets/blt68becc01b5bdaea2",
+        "uid": "blt68becc01b5bdaea2",
+        "content_type": "image/png",
+        "file_size": "50993",
+        "tags": [],
+        "filename": "Taylor_Stitch_Mendocino_Peacoat_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt68becc01b5bdaea2/612f15eab628401fc0d867c0/Taylor_Stitch_Mendocino_Peacoat_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Taylor_Stitch_Mendocino_Peacoat_(1).png",
+        "publish_details": []
+    },
+    "blt9de1ed0f546e31f8": {
+        "urlPath": "/assets/blt9de1ed0f546e31f8",
+        "uid": "blt9de1ed0f546e31f8",
+        "content_type": "image/png",
+        "file_size": "283227",
+        "tags": [],
+        "filename": "Buffalo_Jackson_Denver_Duffle_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt9de1ed0f546e31f8/612f15d97da25b0d66f84781/Buffalo_Jackson_Denver_Duffle_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "Buffalo_Jackson_Denver_Duffle_(3).png",
+        "publish_details": []
+    },
+    "blt4254fc85760c3ea0": {
+        "urlPath": "/assets/blt4254fc85760c3ea0",
+        "uid": "blt4254fc85760c3ea0",
+        "content_type": "image/png",
+        "file_size": "35141",
+        "tags": [],
+        "filename": "Unimatic_U1-E_Diver_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt4254fc85760c3ea0/612f15f119e7e2227aa3e60d/Unimatic_U1-E_Diver_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Unimatic_U1-E_Diver_(1).png",
+        "publish_details": []
+    },
+    "blte1e73ea322e92201": {
+        "urlPath": "/assets/blte1e73ea322e92201",
+        "uid": "blte1e73ea322e92201",
+        "content_type": "image/png",
+        "file_size": "203235",
+        "tags": [],
+        "filename": "MVMT_Cloud_Silver_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blte1e73ea322e92201/612f15ee0f5631145847b03c/MVMT_Cloud_Silver_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "MVMT_Cloud_Silver_(3).png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:59.926Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:59.926Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:59.926Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt57acaeefc337bd68": {
+        "urlPath": "/assets/blt57acaeefc337bd68",
+        "uid": "blt57acaeefc337bd68",
+        "content_type": "image/png",
+        "file_size": "35141",
+        "tags": [],
+        "filename": "Unimatic_U1-E_Diver.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt57acaeefc337bd68/612f1655d9ff54131218ae6a/Unimatic_U1-E_Diver.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Unimatic_U1-E_Diver.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:43.144Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:43.144Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:43.144Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt44215cd7263f3fc8": {
+        "urlPath": "/assets/blt44215cd7263f3fc8",
+        "uid": "blt44215cd7263f3fc8",
+        "content_type": "image/png",
+        "file_size": "81945",
+        "tags": [],
+        "filename": "shopinstagram.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt44215cd7263f3fc8/612f16515d086f0f03cdff1e/shopinstagram.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "shopinstagram.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:39.683Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:39.683Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt383d3b549db252cb": {
+        "urlPath": "/assets/blt383d3b549db252cb",
+        "uid": "blt383d3b549db252cb",
+        "content_type": "image/png",
+        "file_size": "111651",
+        "tags": [],
+        "filename": "livingroomcollection.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt383d3b549db252cb/612f164dc47eb75447df86a3/livingroomcollection.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "livingroomcollection.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:35.359Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:35.359Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt4662f08c25248dce": {
+        "urlPath": "/assets/blt4662f08c25248dce",
+        "uid": "blt4662f08c25248dce",
+        "content_type": "image/png",
+        "file_size": "192739",
+        "tags": [],
+        "filename": "essentials.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt4662f08c25248dce/612f1644b1977a0f05056773/essentials.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "essentials.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:26.431Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:26.431Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T05:51:38.055Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt2c623ada5e36dde0": {
+        "urlPath": "/assets/blt2c623ada5e36dde0",
+        "uid": "blt2c623ada5e36dde0",
+        "content_type": "image/png",
+        "file_size": "294397",
+        "tags": [],
+        "filename": "banner-section-2.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt2c623ada5e36dde0/612f164a67a2530f06655d69/banner-section-2.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "banner-section-2.png",
+        "publish_details": []
+    },
+    "blteccabffada65846c": {
+        "urlPath": "/assets/blteccabffada65846c",
+        "uid": "blteccabffada65846c",
+        "content_type": "image/png",
+        "file_size": "22168",
+        "tags": [],
+        "filename": "MVMT_Rallye_Green_Sandstone_2.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blteccabffada65846c/612f1616981a381cf3358c3a/MVMT_Rallye_Green_Sandstone_2.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "MVMT_Rallye_Green_Sandstone_2.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:40.698Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:40.698Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:40.698Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltb0d3133de1a5d994": {
+        "urlPath": "/assets/bltb0d3133de1a5d994",
+        "uid": "bltb0d3133de1a5d994",
+        "content_type": "image/png",
+        "file_size": "243172",
+        "tags": [],
+        "filename": "Unimatic_U1-E_Diver_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltb0d3133de1a5d994/612f160d7f808a1ba71e6865/Unimatic_U1-E_Diver_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Unimatic_U1-E_Diver_(3).png",
+        "publish_details": []
+    },
+    "blt7848cf781fd45587": {
+        "urlPath": "/assets/blt7848cf781fd45587",
+        "uid": "blt7848cf781fd45587",
+        "content_type": "image/png",
+        "file_size": "121020",
+        "tags": [],
+        "filename": "Viberg_Calfskin_Chelsae_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt7848cf781fd45587/612f1609dbd21022811b4886/Viberg_Calfskin_Chelsae_(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Viberg_Calfskin_Chelsae_(2).png",
+        "publish_details": []
+    },
+    "blt2f705cacdc5957db": {
+        "urlPath": "/assets/blt2f705cacdc5957db",
+        "uid": "blt2f705cacdc5957db",
+        "content_type": "image/png",
+        "file_size": "19786",
+        "tags": [],
+        "filename": "MVMT_Rallye_Green_Sandstone_3.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt2f705cacdc5957db/612f161a932fbb12e7dc7519/MVMT_Rallye_Green_Sandstone_3.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "MVMT_Rallye_Green_Sandstone_3.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:43.975Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:43.975Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:43.975Z",
+                "version": 1
+            }
+        ]
+    },
+    "blte253300b18a356cd": {
+        "urlPath": "/assets/blte253300b18a356cd",
+        "uid": "blte253300b18a356cd",
+        "content_type": "image/png",
+        "file_size": "443264",
+        "tags": [],
+        "filename": "Taylor_Stitch_Mendocino_Peacoat_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blte253300b18a356cd/612f16138ad1c01915c90b1a/Taylor_Stitch_Mendocino_Peacoat_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Taylor_Stitch_Mendocino_Peacoat_(3).png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:36.844Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:36.844Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:36.844Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt851cf11c11ee001d": {
+        "urlPath": "/assets/blt851cf11c11ee001d",
+        "uid": "blt851cf11c11ee001d",
+        "content_type": "image/jpeg",
+        "file_size": "2894",
+        "tags": [],
+        "filename": "Low-Cut_(2).jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt851cf11c11ee001d/612f1623e0fe3c1313b6ad90/Low-Cut_(2).jpg",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Low-Cut_(2).jpg",
+        "publish_details": []
+    },
+    "blte52c254d156fb7a3": {
+        "urlPath": "/assets/blte52c254d156fb7a3",
+        "uid": "blte52c254d156fb7a3",
+        "content_type": "image/jpeg",
+        "file_size": "2938",
+        "tags": [],
+        "filename": "Low-Cut_(1).jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blte52c254d156fb7a3/612f162575cb5a207a75862a/Low-Cut_(1).jpg",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Low-Cut_(1).jpg",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:54.827Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:54.827Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:54.827Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt8bc8e9d1372b03b2": {
+        "urlPath": "/assets/blt8bc8e9d1372b03b2",
+        "uid": "blt8bc8e9d1372b03b2",
+        "content_type": "image/png",
+        "file_size": "20178",
+        "tags": [],
+        "filename": "New_Wayfarer_Sunglasses_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt8bc8e9d1372b03b2/612f162813048f5592647dda/New_Wayfarer_Sunglasses_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "New_Wayfarer_Sunglasses_(3).png",
+        "publish_details": []
+    },
+    "blt35bf73b0bd77613d": {
+        "urlPath": "/assets/blt35bf73b0bd77613d",
+        "uid": "blt35bf73b0bd77613d",
+        "content_type": "image/png",
+        "file_size": "64378",
+        "tags": [],
+        "filename": "shopinstagram_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt35bf73b0bd77613d/612f162a327ed8143552714f/shopinstagram_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "shopinstagram_(3).png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:00.794Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:00.795Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltd8c09ef4b802ee9c": {
+        "urlPath": "/assets/bltd8c09ef4b802ee9c",
+        "uid": "bltd8c09ef4b802ee9c",
+        "content_type": "image/png",
+        "file_size": "269293",
+        "tags": [],
+        "filename": "Viberg_Calfskin_Chelsae_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltd8c09ef4b802ee9c/612f162043541f0dae29883a/Viberg_Calfskin_Chelsae_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Viberg_Calfskin_Chelsae_(3).png",
+        "publish_details": []
+    },
+    "bltc6b0aa64c7755f3d": {
+        "urlPath": "/assets/bltc6b0aa64c7755f3d",
+        "uid": "bltc6b0aa64c7755f3d",
+        "content_type": "image/jpeg",
+        "file_size": "3317",
+        "tags": [],
+        "filename": "Low-Cut.jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltc6b0aa64c7755f3d/612f162e360ae3147c553401/Low-Cut.jpg",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Low-Cut.jpg",
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:05.066Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:05.066Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:05.066Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt48c5329648e2301d": {
+        "urlPath": "/assets/blt48c5329648e2301d",
+        "uid": "blt48c5329648e2301d",
+        "content_type": "image/png",
+        "file_size": "76077",
+        "tags": [],
+        "filename": "bitmap.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt48c5329648e2301d/612f163799bb772286a8304a/bitmap.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "bitmap.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:13.669Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:13.669Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltcd15beb96a3ef084": {
+        "urlPath": "/assets/bltcd15beb96a3ef084",
+        "uid": "bltcd15beb96a3ef084",
+        "content_type": "image/png",
+        "file_size": "297462",
+        "tags": [],
+        "filename": "Danner_Mountain_Light_F(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltcd15beb96a3ef084/612f1635b1977a0f0505676f/Danner_Mountain_Light_F(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Danner_Mountain_Light_F(3).png",
+        "publish_details": []
+    },
+    "blt798821b8270f5f78": {
+        "urlPath": "/assets/blt798821b8270f5f78",
+        "uid": "blt798821b8270f5f78",
+        "content_type": "image/png",
+        "file_size": "64899",
+        "tags": [],
+        "filename": "shopinstagram_(4).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt798821b8270f5f78/612f163b56ed301db65204e2/shopinstagram_(4).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "shopinstagram_(4).png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:17.757Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:17.757Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltb66ac0c17e3201f4": {
+        "urlPath": "/assets/bltb66ac0c17e3201f4",
+        "uid": "bltb66ac0c17e3201f4",
+        "content_type": "image/png",
+        "file_size": "38875",
+        "tags": [],
+        "filename": "New_Wayfarer_Sunglasses_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltb66ac0c17e3201f4/612f163f428b53254db3afc2/New_Wayfarer_Sunglasses_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "New_Wayfarer_Sunglasses_(1).png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:21.352Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:21.352Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:21.352Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltdb4d12bb80a458eb": {
+        "urlPath": "/assets/bltdb4d12bb80a458eb",
+        "uid": "bltdb4d12bb80a458eb",
+        "content_type": "image/png",
+        "file_size": "16533",
+        "tags": [],
+        "filename": "MVMT_Rallye_Green_Sandstone_1.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltdb4d12bb80a458eb/612f16a00eae9613142785c8/MVMT_Rallye_Green_Sandstone_1.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "MVMT_Rallye_Green_Sandstone_1.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:58.455Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:58.455Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltc272649134f087e6": {
+        "urlPath": "/assets/bltc272649134f087e6",
+        "uid": "bltc272649134f087e6",
+        "content_type": "image/png",
+        "file_size": "50071",
+        "tags": [],
+        "filename": "MVMT_Rallye_Green_Sandstone_1_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltc272649134f087e6/612f1696dc345d15c0653be5/MVMT_Rallye_Green_Sandstone_1_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "MVMT_Rallye_Green_Sandstone_1_(1).png",
+        "publish_details": []
+    },
+    "blt5ad1a8fbd0189fc8": {
+        "urlPath": "/assets/blt5ad1a8fbd0189fc8",
+        "uid": "blt5ad1a8fbd0189fc8",
+        "content_type": "image/png",
+        "file_size": "155350",
+        "tags": [],
+        "filename": "small_3.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt5ad1a8fbd0189fc8/612f169d14ce650ebf4559d6/small_3.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "small_3.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:54.839Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:54.839Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltffa46a14bd46a874": {
+        "urlPath": "/assets/bltffa46a14bd46a874",
+        "uid": "bltffa46a14bd46a874",
+        "content_type": "image/png",
+        "file_size": "416283",
+        "tags": [],
+        "filename": "group-9.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltffa46a14bd46a874/612f16a77f808a1ba71e686f/group-9.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "group-9.png",
+        "publish_details": []
+    },
+    "bltd09eaf92b027361a": {
+        "urlPath": "/assets/bltd09eaf92b027361a",
+        "uid": "bltd09eaf92b027361a",
+        "content_type": "image/png",
+        "file_size": "61244",
+        "tags": [],
+        "filename": "Golden_Bear_Steerhide_Moto.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltd09eaf92b027361a/612f169819e7e2227aa3e61d/Golden_Bear_Steerhide_Moto.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Golden_Bear_Steerhide_Moto.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:50.351Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:50.351Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:50.350Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt0fe729a8a46273ee": {
+        "urlPath": "/assets/blt0fe729a8a46273ee",
+        "uid": "blt0fe729a8a46273ee",
+        "content_type": "image/png",
+        "file_size": "76391",
+        "tags": [],
+        "filename": "shopinstagram_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt0fe729a8a46273ee/612f1659555092559d65d376/shopinstagram_(2).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "shopinstagram_(2).png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:47.313Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:47.313Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt26272fce2f8889a8": {
+        "urlPath": "/assets/blt26272fce2f8889a8",
+        "uid": "blt26272fce2f8889a8",
+        "content_type": "image/png",
+        "file_size": "50993",
+        "tags": [],
+        "filename": "Taylor_Stitch_Mendocino_Peacoat.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt26272fce2f8889a8/612f165dee65201173ae1460/Taylor_Stitch_Mendocino_Peacoat.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Taylor_Stitch_Mendocino_Peacoat.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:52.190Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:52.190Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:52.190Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltd85485401d7c99cb": {
+        "urlPath": "/assets/bltd85485401d7c99cb",
+        "uid": "bltd85485401d7c99cb",
+        "content_type": "image/png",
+        "file_size": "138538",
+        "tags": [],
+        "filename": "dapperman.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltd85485401d7c99cb/612f16635d086f0f03cdff22/dapperman.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "dapperman.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:56.912Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:56.913Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt66ead2b3b7b279da": {
+        "urlPath": "/assets/blt66ead2b3b7b279da",
+        "uid": "blt66ead2b3b7b279da",
+        "content_type": "image/png",
+        "file_size": "186396",
+        "tags": [],
+        "filename": "giftsforher.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt66ead2b3b7b279da/612f166a67a2530f06655d73/giftsforher.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "giftsforher.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:04.895Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:04.895Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T05:51:38.057Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt760724c97bf0c921": {
+        "urlPath": "/assets/blt760724c97bf0c921",
+        "uid": "blt760724c97bf0c921",
+        "content_type": "image/png",
+        "file_size": "36450",
+        "tags": [],
+        "filename": "Buffalo_Jackson_Denver_Duffle.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt760724c97bf0c921/612f166699bb772286a8304e/Buffalo_Jackson_Denver_Duffle.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "Buffalo_Jackson_Denver_Duffle.png",
+        "publish_details": []
+    },
+    "blt500c35eecd369d63": {
+        "urlPath": "/assets/blt500c35eecd369d63",
+        "uid": "blt500c35eecd369d63",
+        "content_type": "image/png",
+        "file_size": "18349",
+        "tags": [],
+        "filename": "Saint_Laurent_East-West_Tote.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt500c35eecd369d63/612f166e34696214560981b2/Saint_Laurent_East-West_Tote.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "Saint_Laurent_East-West_Tote.png",
+        "publish_details": []
+    },
+    "bltaeba0c5f147b79d6": {
+        "urlPath": "/assets/bltaeba0c5f147b79d6",
+        "uid": "bltaeba0c5f147b79d6",
+        "content_type": "image/png",
+        "file_size": "309198",
+        "tags": [],
+        "filename": "banner-section-1.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltaeba0c5f147b79d6/612f1672149c075184593559/banner-section-1.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "banner-section-1.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:11.824Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:11.824Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-02T07:26:41.220Z",
+                "version": 1
+            }
+        ]
+    },
+    "bltc4e22865a915cd99": {
+        "urlPath": "/assets/bltc4e22865a915cd99",
+        "uid": "bltc4e22865a915cd99",
+        "content_type": "image/png",
+        "file_size": "36095",
+        "tags": [],
+        "filename": "Danner_Mountain_Light.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltc4e22865a915cd99/612f167599bb772286a83052/Danner_Mountain_Light.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "Danner_Mountain_Light.png",
+        "publish_details": []
+    },
+    "blta1233348d516cd43": {
+        "urlPath": "/assets/blta1233348d516cd43",
+        "uid": "blta1233348d516cd43",
+        "content_type": "image/png",
+        "file_size": "28686",
+        "tags": [],
+        "filename": "MVMT_Cloud_Silver.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blta1233348d516cd43/612f167956ed301db65204ec/MVMT_Cloud_Silver.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "MVMT_Cloud_Silver.png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:18.974Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:18.974Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:18.974Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt70016e7a095e61d1": {
+        "urlPath": "/assets/blt70016e7a095e61d1",
+        "uid": "blt70016e7a095e61d1",
+        "content_type": "image/png",
+        "file_size": "178205",
+        "tags": [],
+        "filename": "MVMT_Rallye_Green_Sandstone_1.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt70016e7a095e61d1/612f167d7ad8ce1459718b55/MVMT_Rallye_Green_Sandstone_1.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "MVMT_Rallye_Green_Sandstone_1.png",
+        "publish_details": []
+    },
+    "blt94b758a2583cb41f": {
+        "urlPath": "/assets/blt94b758a2583cb41f",
+        "uid": "blt94b758a2583cb41f",
+        "content_type": "image/png",
+        "file_size": "205",
+        "tags": [],
+        "filename": "5e4b0b.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt94b758a2583cb41f/612f1686327ed81435527153/5e4b0b.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "5e4b0b.png",
+        "publish_details": []
+    },
+    "bltd378afad721a72ad": {
+        "urlPath": "/assets/bltd378afad721a72ad",
+        "uid": "bltd378afad721a72ad",
+        "content_type": "image/jpeg",
+        "file_size": "66045",
+        "tags": [],
+        "filename": "dummy-719x401-Map.jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltd378afad721a72ad/612f168a813bbf1bad3ccc97/dummy-719x401-Map.jpg",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "dummy-719x401-Map.jpg",
+        "publish_details": []
+    },
+    "blte96768fcc868d247": {
+        "urlPath": "/assets/blte96768fcc868d247",
+        "uid": "blte96768fcc868d247",
+        "content_type": "image/png",
+        "file_size": "294397",
+        "tags": [],
+        "filename": "banner-section-2.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blte96768fcc868d247/612f16829a0ce123cd2a9129/banner-section-2.png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "banner-section-2.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:28.664Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:28.663Z",
+                "version": 1
+            }
+        ]
+    },
+    "blte6118b938cab2d2a": {
+        "urlPath": "/assets/blte6118b938cab2d2a",
+        "uid": "blte6118b938cab2d2a",
+        "content_type": "image/png",
+        "file_size": "40794",
+        "tags": [],
+        "filename": "MVMT_Rallye_Green_Sandstone_1_(1).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blte6118b938cab2d2a/612f168e7cc1f70d96f2061a/MVMT_Rallye_Green_Sandstone_1_(1).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "MVMT_Rallye_Green_Sandstone_1_(1).png",
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:40.063Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:40.063Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:40.063Z",
+                "version": 1
+            }
+        ]
+    },
+    "blt3455714cbdf73559": {
+        "urlPath": "/assets/blt3455714cbdf73559",
+        "uid": "blt3455714cbdf73559",
+        "content_type": "image/png",
+        "file_size": "8244",
+        "tags": [],
+        "filename": "New_Wayfarer_Sunglasses_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt3455714cbdf73559/612f16913dc61a23f66e1917/New_Wayfarer_Sunglasses_(3).png",
+        "ACL": {
+            "roles": [],
+            "others": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false,
+                "sub_acl": {
+                    "read": false,
+                    "create": false,
+                    "update": false,
+                    "delete": false,
+                    "publish": false
+                }
+            }
+        },
+        "is_dir": false,
+        "_version": 1,
+        "title": "New_Wayfarer_Sunglasses_(3).png",
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:44.755Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:44.755Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:58:44.755Z",
+                "version": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "urlPath": "/assets/blt64d32022e98a50d3",
+        "uid": "blt64d32022e98a50d3",
+        "content_type": "image/png",
+        "file_size": "35670",
+        "tags": [],
+        "filename": "Danner_Mountain_Light.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt64d32022e98a50d3/612f16ba70a3831078ba60f6/Danner_Mountain_Light.png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "Danner_Mountain_Light.png",
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:24.351Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:24.351Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:24.351Z",
+                "version": 1
+            }
+        ]
+    }
+]

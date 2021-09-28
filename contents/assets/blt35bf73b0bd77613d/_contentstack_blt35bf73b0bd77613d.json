@@ -1,0 +1,30 @@
+[
+    {
+        "urlPath": "/assets/blt35bf73b0bd77613d",
+        "uid": "blt35bf73b0bd77613d",
+        "content_type": "image/png",
+        "file_size": "64378",
+        "tags": [],
+        "filename": "shopinstagram_(3).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt35bf73b0bd77613d/612f162a327ed8143552714f/shopinstagram_(3).png",
+        "ACL": {},
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "shopinstagram_(3).png",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:00.794Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:57:00.795Z",
+                "version": 1
+            }
+        ]
+    }
+]

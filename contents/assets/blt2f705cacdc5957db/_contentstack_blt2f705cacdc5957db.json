@@ -1,0 +1,36 @@
+[
+    {
+        "urlPath": "/assets/blt2f705cacdc5957db",
+        "uid": "blt2f705cacdc5957db",
+        "content_type": "image/png",
+        "file_size": "19786",
+        "tags": [],
+        "filename": "MVMT_Rallye_Green_Sandstone_3.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt2f705cacdc5957db/612f161a932fbb12e7dc7519/MVMT_Rallye_Green_Sandstone_3.png",
+        "ACL": {},
+        "is_dir": false,
+        "parent_uid": null,
+        "_version": 1,
+        "title": "MVMT_Rallye_Green_Sandstone_3.png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:43.975Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:43.975Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:56:43.975Z",
+                "version": 1
+            }
+        ]
+    }
+]

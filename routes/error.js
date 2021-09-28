@@ -21,6 +21,7 @@ module.exports = (app) => {
   // error won't be propagated to the page
   if (app.get('env') === 'production') {
     app.use((err, req, res, next) => {
+      console.log(err)
       res.status(err.status || 500);
       res.render('error/404', {
         message: err.message,

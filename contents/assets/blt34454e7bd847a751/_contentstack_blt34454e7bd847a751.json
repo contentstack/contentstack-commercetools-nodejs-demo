@@ -1,0 +1,29 @@
+[
+    {
+        "urlPath": "/assets/blt34454e7bd847a751",
+        "uid": "blt34454e7bd847a751",
+        "content_type": "image/jpeg",
+        "file_size": "95624",
+        "tags": [],
+        "filename": "The_Great_Outdoor.jpg",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/blt34454e7bd847a751/612f16e814ce650ebf4559e0/The_Great_Outdoor.jpg",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "The_Great_Outdoor.jpg",
+        "publish_details": [
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T06:00:10.237Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T06:00:10.237Z",
+                "version": 1
+            }
+        ]
+    }
+]

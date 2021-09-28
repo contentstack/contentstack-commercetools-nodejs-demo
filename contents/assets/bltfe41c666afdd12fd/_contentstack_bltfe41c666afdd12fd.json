@@ -1,0 +1,35 @@
+[
+    {
+        "urlPath": "/assets/bltfe41c666afdd12fd",
+        "uid": "bltfe41c666afdd12fd",
+        "content_type": "image/png",
+        "file_size": "419640",
+        "tags": [],
+        "filename": "big_1.png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltfe41c666afdd12fd/612f16ca9a0ce123cd2a9133/big_1.png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "big_1.png",
+        "publish_details": [
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:40.914Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:40.914Z",
+                "version": 1
+            },
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:59:40.914Z",
+                "version": 1
+            }
+        ]
+    }
+]

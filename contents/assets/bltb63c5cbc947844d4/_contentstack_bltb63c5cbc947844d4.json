@@ -1,0 +1,35 @@
+[
+    {
+        "urlPath": "/assets/bltb63c5cbc947844d4",
+        "uid": "bltb63c5cbc947844d4",
+        "content_type": "image/png",
+        "file_size": "94313",
+        "tags": [],
+        "filename": "MVMT_Cloud_Silver_(2).png",
+        "url": "https://images.contentstack.io/v3/assets/bltc91ab68f0b5e7b84/bltb63c5cbc947844d4/612f15b3a0513b0d7a38ad1c/MVMT_Cloud_Silver_(2).png",
+        "ACL": {},
+        "is_dir": false,
+        "_version": 1,
+        "title": "MVMT_Cloud_Silver_(2).png",
+        "publish_details": [
+            {
+                "environment": "blt0677a9c52fcd5de1",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:01.380Z",
+                "version": 1
+            },
+            {
+                "environment": "bltf9d34c6dfb34d221",
+                "locale": "en-us",
+                "time": "2021-09-01T05:55:01.380Z",
+                "version": 1
+            },
+            {
+                "environment": "blt3e578964e5ba0afe",
+                "locale": "en-us",
+                "time": "2021-09-01T07:56:24.577Z",
+                "version": 1
+            }
+        ]
+    }
+]
