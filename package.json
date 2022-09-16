@@ -11,7 +11,7 @@
   "dependencies": {
     "@commercetools/sdk-client": "^2.1.0",
     "@commercetools/sdk-middleware-auth": "^5.1.3",
-    "@commercetools/sdk-middleware-http": "^5.2.1",
+    "@commercetools/sdk-middleware-http": "^7.0.0",
     "async": "2.1.4",
     "body-parser": "^1.18.3",
     "btoa": "^1.2.1",
