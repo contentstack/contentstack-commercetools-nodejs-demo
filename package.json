@@ -28,7 +28,7 @@
     "morgan": "^1.9.1",
     "node-fetch": "^2.6.11",
     "nunjucks": "^3.2.4",
-    "pusher": "^2.1.3",
+    "pusher": "^4.0.0",
     "request": "^2.88.0",
     "request-ip": "^2.1.3",
     "request-promise": "^4.2.4"
